@@ -53,21 +53,6 @@ Built a TextRank summarizer:
 - Sentence similarity graph construction
 - PageRank-style centrality scoring using power iteration
 
-## 7. Web Server & Routing
-**Replaced:** `Gin`, `Echo`, `Fiber`, `Express`
-**Implementation:** `mnemos/internal/server`
-Built a complete HTTP/1.1 JSON API and static file server using only `net/http` ServeMux.
-
-## 8. Frontend UI & Styling
-**Replaced:** `React`, `Vue`, `TailwindCSS`, `Bootstrap`
-**Implementation:** `mnemos/internal/server/server.go` (embedded)
-Built a responsive, dark-themed instrument panel UI using vanilla HTML/CSS/JS in a single embedded string, completely offline with no CDNs.
-
-## 8.1. Data Visualization
-**Replaced:** `D3.js`, `Chart.js`
-**Implementation:** `mnemos/internal/server/server.go` (embedded SVG)
-Built a live 2D vector-space visualizer using pure vanilla JS and inline SVG manipulation via the DOM API. Uses math computed natively on the backend (the first two dimensions of power-iteration SVD embeddings) to dynamically render points and traces.
-
 ## 9. Command Line Interface
 **Replaced:** `cobra`, `urfave/cli`
 **Implementation:** `mnemos/cmd/mnemos`

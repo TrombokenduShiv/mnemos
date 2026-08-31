@@ -62,3 +62,54 @@ func (b *Buffer) DrawBox(x, y, w, h int, color string) {
 func (b *Buffer) Render() string {
 	return b.buf.String()
 }
+// DrawLine draws a straight line between two points using Bresenham's algorithm.
+func (b *Buffer) DrawLine(x0, y0, x1, y1 int, ch string, color string) {
+	dx := x1 - x0
+	if dx < 0 { dx = -dx }
+	dy := y1 - y0
+	if dy < 0 { dy = -dy }
+	
+	sx := 1
+	if x0 > x1 { sx = -1 }
+	sy := 1
+	if y0 > y1 { sy = -1 }
+	
+	err := dx - dy
+	
+	for {
+		b.PrintAt(x0, y0, ch, color)
+		if x0 == x1 && y0 == y1 {
+			break
+		}
+		e2 := 2 * err
+		if e2 > -dy {
+			err -= dy
+			x0 += sx
+		}
+		if e2 < dx {
+			err += dx
+			y0 += sy
+		}
+	}
+}
+
+// WordWrap splits a string into multiple lines with a maximum width.
+func WordWrap(text string, maxWidth int) []string {
+	var lines []string
+	words := strings.Fields(text)
+	if len(words) == 0 {
+		return lines
+	}
+	
+	currentLine := words[0]
+	for _, word := range words[1:] {
+		if len(currentLine)+1+len(word) <= maxWidth {
+			currentLine += " " + word
+		} else {
+			lines = append(lines, currentLine)
+			currentLine = word
+		}
+	}
+	lines = append(lines, currentLine)
+	return lines
+}

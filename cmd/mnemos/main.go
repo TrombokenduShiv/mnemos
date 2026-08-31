@@ -23,7 +23,6 @@ import (
 	"mnemos/internal/index"
 	"mnemos/internal/ingest"
 	"mnemos/internal/rank"
-	"mnemos/internal/server"
 	"mnemos/internal/storage"
 	"mnemos/internal/summarize"
 	"mnemos/internal/tokenizer"
@@ -40,7 +39,7 @@ const (
 	defaultDimensions = 100
 )
 
-// MnemosEngine is the top-level application that implements server.Mnemos.
+// MnemosEngine is the top-level application that implements tui.Mnemos.
 type MnemosEngine struct {
 	store     *storage.Engine
 	tok       *tokenizer.BPE
@@ -68,8 +67,6 @@ func main() {
 		cmdIngest(args)
 	case "query":
 		cmdQuery(args)
-	case "serve":
-		cmdServe(args)
 	case "tui":
 		cmdTui(args)
 	case "stats":
@@ -91,7 +88,6 @@ func printUsage() {
 Usage:
   mnemos ingest <path>         Ingest documents from a directory
   mnemos query "<question>"    Search documents with a natural-language query
-  mnemos serve [--addr HOST]   Start the local HTTP interface
   mnemos tui                   Launch the cyberpunk Terminal User Interface
   mnemos stats                 Show corpus and engine statistics
   mnemos compact               Trigger SSTable compaction
@@ -100,8 +96,7 @@ Flags:
   --data-dir <path>    Data directory (default: .mnemos)
   --merges <n>         BPE merge count (default: 8000)
   --dimensions <n>     Embedding dimensions (default: 100)
-  --top-k <n>          Number of results (default: 10)
-  --addr <host:port>   HTTP server address (default: localhost:8080)`)
+  --top-k <n>          Number of results (default: 10)`)
 }
 
 // --- Commands ---
@@ -314,7 +309,7 @@ func cmdQuery(args []string) {
 	if *jsonOutput {
 		resp := struct {
 			Query     string                `json:"query"`
-			Results   []server.SearchResult `json:"results"`
+			Results   []tui.SearchResult `json:"results"`
 			Count     int                   `json:"count"`
 			LatencyMs float64               `json:"latency_ms"`
 		}{
@@ -344,29 +339,6 @@ func cmdQuery(args []string) {
 	}
 }
 
-func cmdServe(args []string) {
-	fs := flag.NewFlagSet("serve", flag.ExitOnError)
-	dataDir := fs.String("data-dir", defaultDataDir, "Data directory")
-	addr := fs.String("addr", defaultAddr, "Server address")
-	fs.Parse(args)
-
-	eng, err := loadMnemosEngine(*dataDir)
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
-		os.Exit(1)
-	}
-	defer eng.store.Close()
-
-	fmt.Fprintf(os.Stderr, "Mnemos: Starting server at http://%s\n", *addr)
-	fmt.Fprintf(os.Stderr, "  Documents indexed: %d\n", len(eng.docs))
-	fmt.Fprintf(os.Stderr, "  Press Ctrl+C to stop\n\n")
-
-	srv := server.New(eng, *addr)
-	if err := srv.Start(); err != nil {
-		fmt.Fprintf(os.Stderr, "Server error: %v\n", err)
-		os.Exit(1)
-	}
-}
 
 func cmdTui(args []string) {
 	fs := flag.NewFlagSet("tui", flag.ExitOnError)
@@ -569,8 +541,8 @@ func loadMnemosEngine(dataDir string) (*MnemosEngine, error) {
 	}, nil
 }
 
-// Search implements server.Mnemos interface.
-func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]float64, []server.DataPoint, error) {
+// Search implements tui.Mnemos interface.
+func (e *MnemosEngine) Search(query string, k int) ([]tui.SearchResult, [2]float64, []tui.DataPoint, error) {
 	// Tokenize the query
 	queryTokens := e.tok.EncodeToTokens(query)
 
@@ -607,7 +579,7 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 	}
 
 	// Build response with snippets
-	results := make([]server.SearchResult, 0, len(fusedResults))
+	results := make([]tui.SearchResult, 0, len(fusedResults))
 	for _, r := range fusedResults {
 		doc, ok := e.docs[r.DocID]
 		if !ok {
@@ -623,7 +595,7 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 			x, y = deq[0], deq[1]
 		}
 
-		results = append(results, server.SearchResult{
+		results = append(results, tui.SearchResult{
 			DocID:      r.DocID,
 			Title:      doc.Title,
 			Path:       doc.Path,
@@ -638,11 +610,11 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 	}
 
 	// Collect all document points for the visualizer
-	var allPoints []server.DataPoint
+	var allPoints []tui.DataPoint
 	for docID, emb := range e.docEmbeddings {
 		if len(emb) >= 2 {
 			deq := embed.Dequantize(emb)
-			allPoints = append(allPoints, server.DataPoint{
+			allPoints = append(allPoints, tui.DataPoint{
 				ID: docID,
 				X:  deq[0],
 				Y:  deq[1],
@@ -653,7 +625,7 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 	return results, queryPoint, allPoints, nil
 }
 
-// GetStats implements server.Mnemos interface.
+// GetStats implements tui.Mnemos interface.
 func (e *MnemosEngine) GetStats() map[string]interface{} {
 	storageStats := e.store.Stats()
 

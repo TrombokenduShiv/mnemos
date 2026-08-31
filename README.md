@@ -12,7 +12,7 @@ Mnemos provides fully offline, private semantic search over local documents with
 - **SimHash LSH Index**: Locality-sensitive hashing for approximate nearest-neighbor search.
 - **Hybrid Ranking**: BM25 keyword scoring fused with semantic similarity via Reciprocal Rank Fusion (RRF).
 - **TextRank Summarization**: Extractive snippets using PageRank-style graph algorithms.
-- **Embedded UI**: A sleek, dark-themed vanilla HTML/JS interface served over a native HTTP server.
+
 
 ## Installation
 
@@ -41,7 +41,7 @@ go build -o mnemos.exe ./cmd/mnemos
 ./mnemos.exe tui
 
 # 4. Or launch the web interface (http://localhost:8080)
-./mnemos.exe serve
+
 
 # 5. CLI Query (with JSON support)
 ./mnemos.exe query "how do LSM trees work?"

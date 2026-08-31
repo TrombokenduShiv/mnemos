@@ -2,17 +2,18 @@ package tui
 
 import (
 	"fmt"
+	"math"
 	"os"
 	"strings"
 	"sync"
 	"time"
 
-	"mnemos/internal/server"
+
 )
 
 // Mnemos interface matches the storage engine's Search and GetStats methods.
 type Mnemos interface {
-	Search(query string, k int) ([]server.SearchResult, [2]float64, []server.DataPoint, error)
+	Search(query string, k int) ([]SearchResult, [2]float64, []DataPoint, error)
 	GetStats() map[string]interface{}
 }
 
@@ -20,9 +21,9 @@ type appState struct {
 	mu           sync.Mutex
 	query        string
 	loading      bool
-	results      []server.SearchResult
+	results      []SearchResult
 	queryPoint   [2]float64
-	allPoints    []server.DataPoint
+	allPoints    []DataPoint
 	latency      string
 	stats        map[string]interface{}
 	frameCounter int
@@ -136,6 +137,15 @@ func Run(engine Mnemos) {
 			// Fill background void
 			buf.WriteString(BgVoid)
 			
+			// Background noise
+			for by := 1; by < 40; by++ {
+				for bx := 1; bx < 110; bx++ {
+					if (bx+by*7+state.frameCounter/3)%43 == 0 {
+						buf.PrintAt(bx, by, ".", FgBorder)
+					}
+				}
+			}
+			
 			drawHeader(buf)
 			drawSearchBar(buf, state)
 			drawResults(buf, state)
@@ -217,19 +227,21 @@ func drawResults(buf *Buffer, state *appState) {
 		// Rank and Title
 		buf.PrintAt(4, y, fmt.Sprintf("#%d %s", i+1, res.Title), FgInkHi+Bold)
 		// Path
-		buf.PrintAt(4, y+1, res.Path, FgInkLo)
+		// Path with OSC-8
+		osc8Path := fmt.Sprintf("\033]8;;%s\033\\%s\033]8;;\033\\", res.Path, res.Path)
+		buf.PrintAt(4, y+1, osc8Path, FgInkLo)
 		// Scores
 		scores := fmt.Sprintf("BM25: %.2f  Embed: %.2f  Fused: %.2f", res.BM25Score, res.EmbedScore, res.Score)
 		buf.PrintAt(4, y+2, scores, FgViolet)
 		
-		// Snippet (truncate to 50 chars for TUI)
-		snip := res.Snippet
-		if len(snip) > 55 {
-			snip = snip[:52] + "..."
+		// Snippet (word wrapped)
+		snipLines := WordWrap(res.Snippet, 55)
+		for j, line := range snipLines {
+			if y+3+j > 38 { break }
+			buf.PrintAt(4, y+3+j, line, FgInkMd)
 		}
-		buf.PrintAt(4, y+3, snip, FgInkMd)
 		
-		y += 5
+		y += 4 + len(snipLines)
 	}
 }
 
@@ -240,14 +252,29 @@ func drawVisualizer(buf *Buffer, state *appState) {
 	buf.DrawBox(vx, vy, vw, vh, FgBorder)
 	buf.PrintAt(vx+2, vy, " VECTOR SPACE ", FgInkHi+Bold)
 
-	if len(state.allPoints) == 0 {
-		buf.PrintAt(vx+(vw/2)-4, vy+(vh/2), "AWAITING", FgInkLo)
+	if state.results == nil {
+		frames := []string{`\(^.^)/`, `(>_<)`, `\(o_o)/`, `(^-^)`}
+		char := frames[(state.frameCounter/8)%len(frames)]
+		
+		t := float64(state.frameCounter)
+		cx := int(float64(vw-10)/2 + float64(vw-10)/2 * math.Sin(t/15.0))
+		cy := int(float64(vh-4)/2 + float64(vh-4)/2 * math.Cos(t/10.0))
+		
+		if cx < 1 { cx = 1 }
+		if cy < 1 { cy = 1 }
+		if cx >= vw-1 { cx = vw - 2 }
+		if cy >= vh-1 { cy = vh - 2 }
+		
+		buf.PrintAt(vx+cx, vy+cy, char, FgAccent)
+		
+		sayings := []string{"I am Mnemos!", "Indexing...", "Space is vast", "So empty here"}
+		saying := sayings[(state.frameCounter/60)%len(sayings)]
+		buf.PrintAt(vx+cx, vy+cy-1, saying, FgInkLo)
 		return
 	}
 
 	// Plot dots
 	for _, p := range state.allPoints {
-		// Map [-1, 1] to [1, vw-2]
 		cx := int(((p.X + 1.0) / 2.0) * float64(vw-2))
 		cy := int(((p.Y + 1.0) / 2.0) * float64(vh-2))
 		
@@ -256,29 +283,36 @@ func drawVisualizer(buf *Buffer, state *appState) {
 		}
 	}
 
-	// Plot results in Pink
-	for _, res := range state.results {
-		for _, p := range state.allPoints {
-			if p.ID == res.DocID {
-				cx := int(((p.X + 1.0) / 2.0) * float64(vw-2))
-				cy := int(((p.Y + 1.0) / 2.0) * float64(vh-2))
-				if cx > 0 && cx < vw-1 && cy > 0 && cy < vh-1 {
-					buf.PrintAt(vx+cx, vy+cy, "●", FgPink)
+	qcx := int(((state.queryPoint[0] + 1.0) / 2.0) * float64(vw-2))
+	qcy := int(((state.queryPoint[1] + 1.0) / 2.0) * float64(vh-2))
+
+	// Plot results and lines
+	if !state.loading && state.results != nil {
+		animFrame := state.frameCounter % 60
+		
+		for i, res := range state.results {
+			if i >= 3 { break }
+			
+			for _, p := range state.allPoints {
+				if p.ID == res.DocID {
+					cx := int(((p.X + 1.0) / 2.0) * float64(vw-2))
+					cy := int(((p.Y + 1.0) / 2.0) * float64(vh-2))
+					
+					if cx > 0 && cx < vw-1 && cy > 0 && cy < vh-1 {
+						if animFrame > i*15 {
+							buf.DrawLine(vx+qcx, vy+qcy, vx+cx, vy+cy, ".", FgViolet)
+						}
+						buf.PrintAt(vx+cx, vy+cy, "●", FgPink)
+					}
+					break
 				}
-				break
 			}
 		}
-	}
-
-	// Plot query point in Cyan
-	if !state.loading && state.results != nil {
-		cx := int(((state.queryPoint[0] + 1.0) / 2.0) * float64(vw-2))
-		cy := int(((state.queryPoint[1] + 1.0) / 2.0) * float64(vh-2))
-		if cx > 0 && cx < vw-1 && cy > 0 && cy < vh-1 {
-			// Pulse effect
+		
+		if qcx > 0 && qcx < vw-1 && qcy > 0 && qcy < vh-1 {
 			char := "O"
 			if state.frameCounter%10 < 5 { char = "o" }
-			buf.PrintAt(vx+cx, vy+cy, char, FgAccent)
+			buf.PrintAt(vx+qcx, vy+qcy, char, FgAccent)
 		}
 	}
 }
