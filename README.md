@@ -31,31 +31,20 @@ Building the exact same commit twice yields a byte-identical binary.
 
 ## Usage
 
-### 1. Ingest Documents
+# 1. Build the engine
+go build -o mnemos.exe ./cmd/mnemos
 
-Point Mnemos at a directory containing text files (`.txt`, `.md`, etc.). It will index them, train the tokenizer, compute embeddings, and build the search indices.
+# 2. Ingest documents (PDFs, Markdown, TXT)
+./mnemos.exe ingest testdata/corpus
 
-```bash
-./mnemos.exe ingest path/to/your/documents
-```
+# 3. Launch the cyberpunk Terminal User Interface!
+./mnemos.exe tui
 
-### 2. Start the Server
-
-Launch the local HTTP interface.
-
-```bash
+# 4. Or launch the web interface (http://localhost:8080)
 ./mnemos.exe serve
-```
 
-Then open `http://localhost:8080` in your browser.
-
-### 3. Command Line Query
-
-You can also query directly from the terminal.
-
-```bash
-./mnemos.exe query "How does cryptography work?"
-```
+# 5. CLI Query (with JSON support)
+./mnemos.exe query "how do LSM trees work?"
 
 ## Zero-Dependency Architecture
 

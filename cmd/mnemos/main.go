@@ -27,6 +27,7 @@ import (
 	"mnemos/internal/storage"
 	"mnemos/internal/summarize"
 	"mnemos/internal/tokenizer"
+	"mnemos/internal/tui"
 )
 
 const (
@@ -69,6 +70,8 @@ func main() {
 		cmdQuery(args)
 	case "serve":
 		cmdServe(args)
+	case "tui":
+		cmdTui(args)
 	case "stats":
 		cmdStats(args)
 	case "compact":
@@ -89,6 +92,7 @@ Usage:
   mnemos ingest <path>         Ingest documents from a directory
   mnemos query "<question>"    Search documents with a natural-language query
   mnemos serve [--addr HOST]   Start the local HTTP interface
+  mnemos tui                   Launch the cyberpunk Terminal User Interface
   mnemos stats                 Show corpus and engine statistics
   mnemos compact               Trigger SSTable compaction
 
@@ -362,6 +366,21 @@ func cmdServe(args []string) {
 		fmt.Fprintf(os.Stderr, "Server error: %v\n", err)
 		os.Exit(1)
 	}
+}
+
+func cmdTui(args []string) {
+	fs := flag.NewFlagSet("tui", flag.ExitOnError)
+	dataDir := fs.String("data-dir", defaultDataDir, "Data directory")
+	fs.Parse(args)
+
+	eng, err := loadMnemosEngine(*dataDir)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+		os.Exit(1)
+	}
+	defer eng.store.Close()
+
+	tui.Run(eng)
 }
 
 func cmdStats(args []string) {

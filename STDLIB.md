@@ -73,7 +73,15 @@ Built a live 2D vector-space visualizer using pure vanilla JS and inline SVG man
 **Implementation:** `mnemos/cmd/mnemos`
 Built a multi-command CLI using only the standard `flag` package.
 
-## 10. Configuration Management
+## 10. Terminal User Interface (TUI)
+**Replaced:** `charmbracelet/bubbletea`, `tcell`, `ncurses`
+**Implementation:** `mnemos/internal/tui`
+Built a 30 FPS double-buffered TUI from scratch using:
+- Raw ANSI True Color (24-bit RGB) escape sequences for styling and drawing.
+- Standard `bytes.Buffer` for atomic frame rendering to eliminate flicker.
+- Direct `syscall` API calls to set the Windows console to raw mode (`stty` via `os/exec` on Unix) to capture realtime keystrokes without `x/sys` or `x/term`.
+
+## 11. Configuration Management
 **Replaced:** `viper`, `godotenv`
 **Implementation:** Native JSON unmarshaling and struct defaults.
 
