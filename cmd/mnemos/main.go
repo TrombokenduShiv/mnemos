@@ -19,14 +19,14 @@ import (
 	"strings"
 	"time"
 
-	"mnemos/internal/embed"
-	"mnemos/internal/index"
-	"mnemos/internal/ingest"
-	"mnemos/internal/rank"
-	"mnemos/internal/storage"
-	"mnemos/internal/summarize"
-	"mnemos/internal/tokenizer"
-	"mnemos/internal/tui"
+	"github.com/TrombokenduShiv/mnemos/internal/embed"
+	"github.com/TrombokenduShiv/mnemos/internal/index"
+	"github.com/TrombokenduShiv/mnemos/internal/ingest"
+	"github.com/TrombokenduShiv/mnemos/internal/rank"
+	"github.com/TrombokenduShiv/mnemos/internal/storage"
+	"github.com/TrombokenduShiv/mnemos/internal/summarize"
+	"github.com/TrombokenduShiv/mnemos/internal/tokenizer"
+	"github.com/TrombokenduShiv/mnemos/internal/tui"
 )
 
 const (
