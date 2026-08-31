@@ -30,7 +30,7 @@ type LSHIndex struct {
 	Buckets     map[uint64][]int    // bucket hash → list of document indices
 	Signatures  []uint64            // per-document SimHash signatures (first 64 bits)
 	FullSigs    [][]bool            // per-document full boolean signatures
-	Embeddings  [][]float64         // stored document embeddings
+	Embeddings  [][]int8            // stored quantized document embeddings
 	DocIDs      []string            // document ID for each index position
 }
 
@@ -65,13 +65,13 @@ func NewLSHIndex(config LSHConfig, dimensions int) *LSHIndex {
 		Buckets:     make(map[uint64][]int),
 		Signatures:  make([]uint64, 0),
 		FullSigs:    make([][]bool, 0),
-		Embeddings:  make([][]float64, 0),
+		Embeddings:  make([][]int8, 0),
 		DocIDs:      make([]string, 0),
 	}
 }
 
 // Add indexes a document embedding with its ID.
-func (idx *LSHIndex) Add(docID string, embedding []float64) {
+func (idx *LSHIndex) Add(docID string, embedding []int8) {
 	pos := len(idx.Embeddings)
 
 	// Compute SimHash signature
@@ -91,7 +91,7 @@ func (idx *LSHIndex) Add(docID string, embedding []float64) {
 
 // Query finds the k most similar documents to the query embedding.
 // Uses LSH for candidate selection, then exact cosine similarity for ranking.
-func (idx *LSHIndex) Query(queryEmbedding []float64, k int) []SearchResult {
+func (idx *LSHIndex) Query(queryEmbedding []int8, k int) []SearchResult {
 	if len(idx.Embeddings) == 0 {
 		return nil
 	}
@@ -150,7 +150,7 @@ func (idx *LSHIndex) Query(queryEmbedding []float64, k int) []SearchResult {
 }
 
 // BruteForceQuery performs an exact nearest-neighbor search (for benchmarking).
-func (idx *LSHIndex) BruteForceQuery(queryEmbedding []float64, k int) []SearchResult {
+func (idx *LSHIndex) BruteForceQuery(queryEmbedding []int8, k int) []SearchResult {
 	results := make([]SearchResult, 0, len(idx.Embeddings))
 	for i, emb := range idx.Embeddings {
 		sim := cosineSim(queryEmbedding, emb)
@@ -180,7 +180,7 @@ type SearchResult struct {
 }
 
 // computeSignature computes a 64-bit SimHash signature.
-func (idx *LSHIndex) computeSignature(embedding []float64) uint64 {
+func (idx *LSHIndex) computeSignature(embedding []int8) uint64 {
 	var sig uint64
 	bits := 64
 	if idx.Config.NumHyperplanes < bits {
@@ -190,7 +190,7 @@ func (idx *LSHIndex) computeSignature(embedding []float64) uint64 {
 	for i := 0; i < bits; i++ {
 		dot := 0.0
 		for j := 0; j < len(embedding) && j < len(idx.Hyperplanes[i]); j++ {
-			dot += embedding[j] * idx.Hyperplanes[i][j]
+			dot += float64(embedding[j]) * idx.Hyperplanes[i][j]
 		}
 		if dot >= 0 {
 			sig |= (1 << uint(i))
@@ -200,12 +200,12 @@ func (idx *LSHIndex) computeSignature(embedding []float64) uint64 {
 }
 
 // computeFullSignature computes the full boolean signature.
-func (idx *LSHIndex) computeFullSignature(embedding []float64) []bool {
+func (idx *LSHIndex) computeFullSignature(embedding []int8) []bool {
 	sig := make([]bool, idx.Config.NumHyperplanes)
 	for i := 0; i < idx.Config.NumHyperplanes; i++ {
 		dot := 0.0
 		for j := 0; j < len(embedding) && j < len(idx.Hyperplanes[i]); j++ {
-			dot += embedding[j] * idx.Hyperplanes[i][j]
+			dot += float64(embedding[j]) * idx.Hyperplanes[i][j]
 		}
 		sig[i] = dot >= 0
 	}
@@ -234,7 +234,7 @@ func HammingDistance(a, b []bool) int {
 	return dist
 }
 
-func cosineSim(a, b []float64) float64 {
+func cosineSim(a, b []int8) float64 {
 	if len(a) != len(b) || len(a) == 0 {
 		return 0
 	}
@@ -242,9 +242,11 @@ func cosineSim(a, b []float64) float64 {
 	normA := 0.0
 	normB := 0.0
 	for i := range a {
-		dot += a[i] * b[i]
-		normA += a[i] * a[i]
-		normB += b[i] * b[i]
+		va := float64(a[i])
+		vb := float64(b[i])
+		dot += va * vb
+		normA += va * va
+		normB += vb * vb
 	}
 	denom := math.Sqrt(normA) * math.Sqrt(normB)
 	if denom < 1e-10 {

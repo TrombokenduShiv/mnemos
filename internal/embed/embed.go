@@ -314,6 +314,62 @@ func CosineSimilarity(a, b []float64) float64 {
 	return dot / (normA * normB)
 }
 
+// --- Quantization (INT8) ---
+
+// Quantize compresses a length-normalized float64 vector into an int8 vector.
+// This reduces memory and storage footprint by 87.5% (8 bytes to 1 byte per dimension).
+func Quantize(v []float64) []int8 {
+	if len(v) == 0 {
+		return nil
+	}
+	// Since vectors are typically length normalized, values are in [-1, 1]
+	q := make([]int8, len(v))
+	for i, val := range v {
+		// Clamp to [-1, 1] just in case
+		if val > 1.0 { val = 1.0 }
+		if val < -1.0 { val = -1.0 }
+		q[i] = int8(math.Round(val * 127.0))
+	}
+	return q
+}
+
+// Dequantize inflates an int8 vector back to float64.
+func Dequantize(v []int8) []float64 {
+	if len(v) == 0 {
+		return nil
+	}
+	f := make([]float64, len(v))
+	for i, val := range v {
+		f[i] = float64(val) / 127.0
+	}
+	return f
+}
+
+// QuantizedCosineSimilarity computes the cosine similarity directly on int8 vectors.
+func QuantizedCosineSimilarity(a, b []int8) float64 {
+	if len(a) != len(b) || len(a) == 0 {
+		return 0
+	}
+
+	dot := 0.0
+	normA := 0.0
+	normB := 0.0
+
+	for i := range a {
+		va := float64(a[i])
+		vb := float64(b[i])
+		dot += va * vb
+		normA += va * va
+		normB += vb * vb
+	}
+
+	if normA < 1e-10 || normB < 1e-10 {
+		return 0
+	}
+
+	return dot / (math.Sqrt(normA) * math.Sqrt(normB))
+}
+
 // --- Linear algebra utilities (pure math, no library) ---
 
 func dotProduct(a, b []float64) float64 {

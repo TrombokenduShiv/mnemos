@@ -46,7 +46,7 @@ type MnemosEngine struct {
 	bm25Index *rank.BM25Index
 	docs          map[string]ingest.Document // docID → document
 	docTokens     map[string][]string        // docID → tokens
-	docEmbeddings map[string][]float64       // docID → embedding
+	docEmbeddings map[string][]int8          // docID → quantized embedding
 	dataDir       string
 }
 
@@ -223,10 +223,11 @@ func cmdIngest(args []string) {
 
 	for i, doc := range docs {
 		docEmbed := embedEng.DocumentEmbedding(allDocTokens[i])
-		lshIdx.Add(doc.ID, docEmbed)
+		quantized := embed.Quantize(docEmbed)
+		lshIdx.Add(doc.ID, quantized)
 
 		// Store embedding
-		embedJSON, _ := json.Marshal(docEmbed)
+		embedJSON, _ := json.Marshal(quantized)
 		engine.Put([]byte("embed:"+doc.ID), embedJSON)
 	}
 
@@ -427,7 +428,7 @@ func loadMnemosEngine(dataDir string) (*MnemosEngine, error) {
 	// Load all documents
 	docs := make(map[string]ingest.Document)
 	docTokens := make(map[string][]string)
-	docEmbeddings := make(map[string][]float64)
+	docEmbeddings := make(map[string][]int8)
 
 	keys, err := store.AllKeys()
 	if err != nil {
@@ -474,7 +475,7 @@ func loadMnemosEngine(dataDir string) (*MnemosEngine, error) {
 			if err != nil || !found {
 				continue
 			}
-			var emb []float64
+			var emb []int8
 			if err := json.Unmarshal(data, &emb); err != nil {
 				continue
 			}
@@ -532,6 +533,7 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 
 	// Embedding-based ranking
 	queryEmbed := e.embedEng.DocumentEmbedding(queryTokens)
+	quantizedQuery := embed.Quantize(queryEmbed)
 	var embedResults []rank.RankedResult
 	
 	var queryPoint [2]float64
@@ -540,8 +542,8 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 		queryPoint[1] = queryEmbed[1]
 	}
 
-	if queryEmbed != nil && e.lshIndex.Size() > 0 {
-		lshResults := e.lshIndex.Query(queryEmbed, k*2)
+	if quantizedQuery != nil && e.lshIndex.Size() > 0 {
+		lshResults := e.lshIndex.Query(quantizedQuery, k*2)
 		for _, r := range lshResults {
 			embedResults = append(embedResults, rank.RankedResult{
 				DocID: r.DocID,
@@ -566,7 +568,8 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 
 		var x, y float64
 		if emb, ok := e.docEmbeddings[r.DocID]; ok && len(emb) >= 2 {
-			x, y = emb[0], emb[1]
+			deq := embed.Dequantize(emb)
+			x, y = deq[0], deq[1]
 		}
 
 		results = append(results, server.SearchResult{
@@ -587,10 +590,11 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 	var allPoints []server.DataPoint
 	for docID, emb := range e.docEmbeddings {
 		if len(emb) >= 2 {
+			deq := embed.Dequantize(emb)
 			allPoints = append(allPoints, server.DataPoint{
 				ID: docID,
-				X:  emb[0],
-				Y:  emb[1],
+				X:  deq[0],
+				Y:  deq[1],
 			})
 		}
 	}
