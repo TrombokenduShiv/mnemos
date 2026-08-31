@@ -1,11 +1,30 @@
 // Mnemos — A Zero-Dependency Local Semantic Memory Engine
 //
-// This is the CLI entry point that orchestrates all components:
-// Storage Engine (WAL/SSTable), BPE Tokenizer, PPMI/SVD Embeddings,
-// SimHash LSH Index, BM25+RRF Ranking, TextRank Summarization,
-// and the local HTTP interface.
+// Mnemos provides fully offline, private semantic search over local documents without
+// relying on a single external library or framework. Every single component—from
+// the storage engine and data structures to the word embeddings and machine learning
+// algorithms—is built from first principles using solely the Go standard library.
 //
-// Commands: ingest, query, serve, stats, compact
+// Features & Architecture:
+//   - LSM-Tree Storage Engine: A custom implementation of a Log-Structured Merge-Tree.
+//   - BPE Tokenizer: A Byte-Pair Encoding tokenizer trained from scratch.
+//   - PPMI + SVD Embeddings: Distributional semantics using pure linear algebra.
+//   - SimHash LSH Index: Locality-sensitive hashing for approximate nearest-neighbor search.
+//   - Hybrid Ranking & Machine Learning: BM25 fused with vector similarity via Reciprocal
+//     Rank Fusion (RRF), re-ranked by a Deep Learning MLP Ranker.
+//   - TextRank Summarization: Extractive text summarization powered by graph algorithms.
+//
+// This is the CLI entry point that orchestrates all components and provides the
+// custom cyberpunk Terminal User Interface (TUI) as well as the local HTTP interface.
+//
+// Ingesting Your Own Documents:
+// To make the engine work with your own documents on your device:
+//  1. Create a new folder (e.g., my_documents/).
+//  2. Drop your personal .txt, .md, or .pdf files into that folder.
+//  3. Run the ingest command pointing to your folder:
+//     ./mnemos.exe ingest my_documents --data-dir .mnemos --merges 8000 --dimensions 100
+//
+// Commands: ingest, query, serve, stats, compact, tui
 package main
 
 import (
