@@ -42,7 +42,9 @@ func (b *Buffer) DrawBox(x, y, w, h int, color string) {
 	
 	// Top border
 	b.buf.WriteString(MoveCursor(x, y))
-	b.buf.WriteString("┌" + strings.Repeat("─", w-2) + "┐")
+	b.buf.WriteString("┌")
+	b.buf.WriteString(strings.Repeat("─", w-2))
+	b.buf.WriteString("┐")
 
 	// Side borders
 	for i := 1; i < h-1; i++ {
@@ -54,7 +56,9 @@ func (b *Buffer) DrawBox(x, y, w, h int, color string) {
 
 	// Bottom border
 	b.buf.WriteString(MoveCursor(x, y+h-1))
-	b.buf.WriteString("└" + strings.Repeat("─", w-2) + "┘")
+	b.buf.WriteString("└")
+	b.buf.WriteString(strings.Repeat("─", w-2))
+	b.buf.WriteString("┘")
 	b.buf.WriteString(Reset)
 }
 
