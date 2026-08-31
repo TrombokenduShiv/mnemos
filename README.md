@@ -54,9 +54,22 @@ go build -o mnemos.exe ./cmd/mnemos
 
 ### 2. Ingest Documents
 Point the engine to your corpus (Markdown, TXT, PDFs). The engine will read, tokenize, embed, and index your data from scratch.
+
+By default, you can test with the provided sample data:
 ```bash
 ./mnemos.exe ingest testdata/corpus --data-dir .mnemos --merges 8000 --dimensions 100
 ```
+
+**Using Your Own Data (Bring Your Own Corpus):**
+To make the engine work with your own documents on your device:
+1. Create a new folder (e.g., `my_documents/`).
+2. Drop your personal `.txt`, `.md`, or `.pdf` files into that folder.
+3. Run the ingest command pointing to your folder:
+   ```bash
+   ./mnemos.exe ingest my_documents --data-dir .mnemos --merges 8000 --dimensions 100
+   ```
+*(Note: You only need to ingest once, or whenever you add new files to the directory!)*
+
 *During ingestion, the engine natively trains the BPE tokenizer, builds the BM25 index, computes PPMI/SVD embeddings, builds the SimHash LSH index, and trains the Deep Learning MLP ranker.*
 
 ![Ingestion CLI Output](./demo%20images/cli_ingest.png)
