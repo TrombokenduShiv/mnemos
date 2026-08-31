@@ -33,7 +33,12 @@ type compactHeapItem struct {
 type compactHeap []compactHeapItem
 
 func (h compactHeap) Len() int           { return len(h) }
-func (h compactHeap) Less(i, j int) bool { return h[i].key < h[j].key }
+func (h compactHeap) Less(i, j int) bool {
+	if h[i].key == h[j].key {
+		return h[i].tableID < h[j].tableID
+	}
+	return h[i].key < h[j].key
+}
 func (h compactHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 
 func (h *compactHeap) Push(x interface{}) {

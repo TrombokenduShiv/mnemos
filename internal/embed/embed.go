@@ -4,8 +4,11 @@
 package embed
 
 import (
+	"encoding/json"
+	"fmt"
 	"math"
 	"math/rand"
+	"os"
 	"sort"
 )
 
@@ -333,4 +336,29 @@ func normalizeVec(v []float64) {
 	for i := range v {
 		v[i] /= norm
 	}
+}
+
+// Save serializes the EmbeddingEngine to a file.
+func (e *EmbeddingEngine) Save(path string) error {
+	data, err := json.Marshal(e)
+	if err != nil {
+		return fmt.Errorf("embed: marshal: %w", err)
+	}
+	if err := os.WriteFile(path, data, 0644); err != nil {
+		return fmt.Errorf("embed: save: %w", err)
+	}
+	return nil
+}
+
+// LoadEmbeddingEngine deserializes an EmbeddingEngine from a file.
+func LoadEmbeddingEngine(path string) (*EmbeddingEngine, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, fmt.Errorf("embed: read: %w", err)
+	}
+	var e EmbeddingEngine
+	if err := json.Unmarshal(data, &e); err != nil {
+		return nil, fmt.Errorf("embed: unmarshal: %w", err)
+	}
+	return &e, nil
 }

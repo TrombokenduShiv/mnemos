@@ -211,6 +211,12 @@ func cmdIngest(args []string) {
 	embedEng.Train(allDocTokens)
 	fmt.Fprintf(os.Stderr, "  Embedding vocabulary: %d tokens\n", len(embedEng.Vocab))
 
+	// Save embeddings
+	embedPath := filepath.Join(*dataDir, "embeddings.json")
+	if err := embedEng.Save(embedPath); err != nil {
+		fmt.Fprintf(os.Stderr, "  Warning: failed to save embeddings: %v\n", err)
+	}
+
 	// Compute document embeddings and build LSH index
 	fmt.Fprintf(os.Stderr, "  Building SimHash LSH index...\n")
 	lshIdx := index.NewLSHIndex(index.DefaultLSHConfig(), *dims)
@@ -495,14 +501,12 @@ func loadMnemosEngine(dataDir string) (*MnemosEngine, error) {
 		lshIdx.Add(docID, emb)
 	}
 
-	// Rebuild embedding engine
-	embedEng := embed.NewEmbeddingEngine(embed.DefaultEmbedConfig())
-	if len(docTokens) > 0 {
-		allTokens := make([][]string, 0, len(docTokens))
-		for _, tokens := range docTokens {
-			allTokens = append(allTokens, tokens)
-		}
-		embedEng.Train(allTokens)
+	// Load embedding engine
+	embedPath := filepath.Join(absDir, "embeddings.json")
+	embedEng, err := embed.LoadEmbeddingEngine(embedPath)
+	if err != nil {
+		// Fallback to empty engine if missing (e.g. fresh start)
+		embedEng = embed.NewEmbeddingEngine(embed.DefaultEmbedConfig())
 	}
 
 	return &MnemosEngine{

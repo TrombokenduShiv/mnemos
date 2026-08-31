@@ -68,20 +68,15 @@ Built a responsive, dark-themed instrument panel UI using vanilla HTML/CSS/JS in
 **Implementation:** `mnemos/internal/server/server.go` (embedded SVG)
 Built a live 2D vector-space visualizer using pure vanilla JS and inline SVG manipulation via the DOM API. Uses math computed natively on the backend (the first two dimensions of power-iteration SVD embeddings) to dynamically render points and traces.
 
-## 9. Cryptography & Key Derivation
-**Replaced:** `golang.org/x/crypto/pbkdf2`
-**Implementation:** `mnemos/internal/crypto`
-Hand-composed PBKDF2 using only `crypto/hmac` and `crypto/sha256` primitives, driving AES-GCM encryption for data at rest.
-
-## 10. Command Line Interface
+## 9. Command Line Interface
 **Replaced:** `cobra`, `urfave/cli`
 **Implementation:** `mnemos/cmd/mnemos`
 Built a multi-command CLI using only the standard `flag` package.
 
-## 11. Configuration Management
+## 10. Configuration Management
 **Replaced:** `viper`, `godotenv`
 **Implementation:** Native JSON unmarshaling and struct defaults.
 
-## 12. Logging & Telemetry
+## 11. Logging & Telemetry
 **Replaced:** `zap`, `logrus`, `zerolog`
 **Implementation:** Standard `log` and `fmt` printing to `os.Stderr`.

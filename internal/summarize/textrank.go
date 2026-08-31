@@ -1,6 +1,6 @@
 // Package summarize implements TextRank extractive summarization
-// (Mihalcea & Tarau, 2004), reusing the power-iteration linear algebra
-// from the embed package. Replaces sumy and other summarization libraries.
+// (Mihalcea & Tarau, 2004) to provide concise document snippets.
+// Replaces sumy and other summarization libraries.
 package summarize
 
 import (
@@ -139,7 +139,6 @@ func SummarizeToString(text string, config TextRankConfig) string {
 }
 
 // powerIterationRank computes PageRank-style centrality using power iteration.
-// This reuses the same mathematical approach as embed.powerIterationSVD.
 func powerIterationRank(adj [][]float64, n int, damping float64, maxIter int, tol float64) []float64 {
 	// Initialize scores uniformly
 	scores := make([]float64, n)

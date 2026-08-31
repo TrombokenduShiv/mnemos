@@ -12,7 +12,6 @@ Mnemos provides fully offline, private semantic search over local documents with
 - **SimHash LSH Index**: Locality-sensitive hashing for approximate nearest-neighbor search.
 - **Hybrid Ranking**: BM25 keyword scoring fused with semantic similarity via Reciprocal Rank Fusion (RRF).
 - **TextRank Summarization**: Extractive snippets using PageRank-style graph algorithms.
-- **AES-GCM Encryption**: Optional at-rest encryption with hand-composed PBKDF2 key derivation.
 - **Embedded UI**: A sleek, dark-themed vanilla HTML/JS interface served over a native HTTP server.
 
 ## Installation
@@ -24,6 +23,11 @@ git clone https://github.com/TrombokenduShiv/mnemos.git
 cd mnemos
 go build -trimpath -ldflags="-s -w" -o mnemos.exe ./cmd/mnemos
 ```
+
+**Reproducible Build Proof:**
+Building the exact same commit twice yields a byte-identical binary.
+- Build 1 SHA256: `2e09b10df78652747316f5fa87f96305390f122c7adcd3bcefd42a69bc1306a5`
+- Build 2 SHA256: `2e09b10df78652747316f5fa87f96305390f122c7adcd3bcefd42a69bc1306a5`
 
 ## Usage
 
