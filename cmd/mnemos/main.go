@@ -257,7 +257,7 @@ func cmdIngest(args []string) {
 	}
 
 	// Store document count
-	engine.Put([]byte("meta:doc_count"), []byte(fmt.Sprintf("%d", len(docs)+len(existingHashes))))
+	engine.Put([]byte("meta:doc_count"), fmt.Appendf(nil, "%d", len(docs)+len(existingHashes)))
 
 	// Flush to disk
 	if err := engine.Flush(); err != nil {
