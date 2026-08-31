@@ -64,9 +64,11 @@ func NewSSTableWriter(path string) (*SSTableWriter, error) {
 // Add writes a key-value pair (or tombstone) to the SSTable.
 // Keys MUST be added in sorted order.
 func (w *SSTableWriter) Add(key string, value []byte, deleted bool) error {
-	// Record this key's offset in the sparse index (every entry for now;
-	// could be every Nth for larger files, but correctness first)
-	w.index = append(w.index, indexEntry{Key: key, Offset: w.offset})
+	// Record this key's offset in the sparse index (every 64th entry)
+	if w.count%64 == 0 {
+		w.index = append(w.index, indexEntry{Key: key, Offset: w.offset})
+	}
+	w.count++
 
 	keyBytes := []byte(key)
 

@@ -25,6 +25,7 @@ type EmbedConfig struct {
 	MaxIterations int     // power iteration max iterations (default 50)
 	Tolerance     float64 // convergence tolerance (default 1e-6)
 	MinFrequency  int     // minimum token frequency to include (default 2)
+	MaxVocab      int     // max vocabulary size (default 10000, 0 for unlimited)
 }
 
 // DefaultEmbedConfig returns sensible defaults.
@@ -35,6 +36,7 @@ func DefaultEmbedConfig() EmbedConfig {
 		MaxIterations: 50,
 		Tolerance:     1e-6,
 		MinFrequency:  2,
+		MaxVocab:      10000,
 	}
 }
 
@@ -82,8 +84,8 @@ func (e *EmbeddingEngine) Train(documents [][]string) {
 	}
 
 	// Cap vocabulary for computational tractability
-	maxVocab := 10000
-	if vocabSize > maxVocab {
+	maxVocab := e.Config.MaxVocab
+	if maxVocab > 0 && vocabSize > maxVocab {
 		// Keep the most frequent tokens
 		type tokenFreq struct {
 			token string
@@ -107,7 +109,7 @@ func (e *EmbeddingEngine) Train(documents [][]string) {
 	}
 
 	// Step 2: Build co-occurrence matrix (sparse)
-	cooccur := make(map[[2]int]float64)
+	cooccur := make(map[uint64]float32)
 	totalCooccur := 0.0
 	rowSum := make([]float64, vocabSize)
 	colSum := make([]float64, vocabSize)
@@ -142,8 +144,8 @@ func (e *EmbeddingEngine) Train(documents [][]string) {
 				dist := math.Abs(float64(i - j))
 				weight := 1.0 / dist
 
-				pair := [2]int{idx1, idx2}
-				cooccur[pair] += weight
+				pair := (uint64(idx1) << 32) | uint64(idx2)
+				cooccur[pair] += float32(weight)
 				rowSum[idx1] += weight
 				colSum[idx2] += weight
 				totalCooccur += weight
@@ -155,8 +157,8 @@ func (e *EmbeddingEngine) Train(documents [][]string) {
 	var ppmiEntries []ppmiEntry
 
 	for pair, count := range cooccur {
-		i, j := pair[0], pair[1]
-		pmi := math.Log2((count * totalCooccur) / (rowSum[i] * colSum[j] + 1e-10))
+		i, j := int(pair>>32), int(pair&0xFFFFFFFF)
+		pmi := math.Log2((float64(count) * totalCooccur) / (rowSum[i] * colSum[j] + 1e-10))
 		if pmi > 0 {
 			ppmiEntries = append(ppmiEntries, ppmiEntry{i, j, pmi})
 		}
