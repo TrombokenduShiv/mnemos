@@ -49,7 +49,10 @@ type WAL struct {
 
 // NewWAL creates or opens a WAL file at the given path.
 func NewWAL(path string) (*WAL, error) {
-	file, err := os.OpenFile(path, os.O_CREATE|os.O_RDWR|os.O_APPEND, 0644)
+	// We do NOT use os.O_APPEND because on Windows, it prevents File.Truncate() 
+	// from working (resulting in Access is denied). Since we use a Mutex for writes,
+	// we manually manage the append offset.
+	file, err := os.OpenFile(path, os.O_CREATE|os.O_RDWR, 0644)
 	if err != nil {
 		return nil, fmt.Errorf("wal: open %s: %w", path, err)
 	}
