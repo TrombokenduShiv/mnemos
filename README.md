@@ -22,8 +22,8 @@ Mnemos features a stunning, custom-built cyberpunk-themed Terminal User Interfac
 
 *(Replace the paths below with your actual uploaded image files, e.g., `assets/tui_ready.png`)*
 
-![TUI Interface - Ready to Search](tui_ready.png)
-![TUI Interface - Query Results & Vector Space](tui_results.png)
+![TUI Interface - Ready to Search](./demo%20images/tui_ready.png)
+![TUI Interface - Query Results & Vector Space](./demo%20images/tui_results.png)
 
 **TUI Features include:**
 - **Vector Space Visualization**: Watch your query and document embeddings dynamically plotted in a 2D space right in your terminal.
@@ -59,7 +59,7 @@ Point the engine to your corpus (Markdown, TXT, PDFs). The engine will read, tok
 ```
 *During ingestion, the engine natively trains the BPE tokenizer, builds the BM25 index, computes PPMI/SVD embeddings, builds the SimHash LSH index, and trains the Deep Learning MLP ranker.*
 
-![Ingestion CLI Output](cli_ingest.png)
+![Ingestion CLI Output](./demo%20images/cli_ingest.png)
 
 ### 3. Engine Statistics
 View detailed metrics and storage telemetry.
@@ -67,7 +67,7 @@ View detailed metrics and storage telemetry.
 ./mnemos.exe stats
 ```
 
-![Engine Statistics Output](cli_stats.png)
+![Engine Statistics Output](./demo%20images/cli_stats.png)
 
 ### 4. Search and Retrieve
 Launch the cyberpunk TUI for an interactive experience:
