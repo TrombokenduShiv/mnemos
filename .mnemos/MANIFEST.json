@@ -1,6 +1,7 @@
 {
   "sstables": [
-    "C:\\Users\\HP\\Downloads\\Telegram Desktop\\mnemos\\.mnemos\\L0_000000.sst"
+    "C:\\Users\\HP\\Downloads\\Telegram Desktop\\mnemos\\.mnemos\\L0_000000.sst",
+    "C:\\Users\\HP\\Downloads\\Telegram Desktop\\mnemos\\.mnemos\\L0_000001.sst"
   ],
-  "seq_num": 1
+  "seq_num": 2
 }

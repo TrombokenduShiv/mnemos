@@ -210,3 +210,63 @@ func FuseRankings(bm25Results, embedResults []RankedResult, k int) []RankedResul
 
 	return results
 }
+
+// FuseRankingsMLP combines rankings using a trained Multi-Layer Perceptron.
+func FuseRankingsMLP(bm25Results, embedResults []RankedResult, mlp *MLP, k int) []RankedResult {
+	bm25Score := make(map[string]float64)
+	for _, r := range bm25Results {
+		bm25Score[r.DocID] = r.Score
+	}
+
+	embedScore := make(map[string]float64)
+	for _, r := range embedResults {
+		embedScore[r.DocID] = r.Score
+	}
+
+	allDocs := make(map[string]bool)
+	for _, r := range bm25Results {
+		allDocs[r.DocID] = true
+	}
+	for _, r := range embedResults {
+		allDocs[r.DocID] = true
+	}
+
+	// First compute RRF for the third feature
+	rrfResults := FuseRankings(bm25Results, embedResults, len(allDocs))
+	rrfScoreMap := make(map[string]float64)
+	for _, r := range rrfResults {
+		rrfScoreMap[r.DocID] = r.Score
+	}
+
+	results := make([]RankedResult, 0, len(allDocs))
+	for docID := range allDocs {
+		bScore := bm25Score[docID]
+		eScore := embedScore[docID]
+		rScore := rrfScoreMap[docID]
+
+		// Forward pass
+		mlpScore := mlp.Forward([]float64{bScore, eScore, rScore})
+
+		results = append(results, RankedResult{
+			DocID:      docID,
+			Score:      mlpScore,
+			BM25Score:  bScore,
+			EmbedScore: eScore,
+		})
+	}
+
+	sort.Slice(results, func(i, j int) bool {
+		return results[i].Score > results[j].Score
+	})
+
+	for i := range results {
+		results[i].Rank = i + 1
+	}
+
+	if len(results) > k {
+		results = results[:k]
+	}
+
+	return results
+}
+

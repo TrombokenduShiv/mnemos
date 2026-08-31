@@ -12,6 +12,8 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"math"
+	"math/rand"
 	"os"
 	"path/filepath"
 	"strings"
@@ -44,6 +46,7 @@ type MnemosEngine struct {
 	embedEng  *embed.EmbeddingEngine
 	lshIndex  *index.LSHIndex
 	bm25Index *rank.BM25Index
+	mlp       *rank.MLP
 	docs          map[string]ingest.Document // docID → document
 	docTokens     map[string][]string        // docID → tokens
 	docEmbeddings map[string][]int8          // docID → quantized embedding
@@ -234,6 +237,25 @@ func cmdIngest(args []string) {
 	// Store BM25 index metadata
 	bm25JSON, _ := json.Marshal(bm25Idx)
 	engine.Put([]byte("meta:bm25_index"), bm25JSON)
+
+	// Train Deep Learning MLP Ranker
+	fmt.Fprintf(os.Stderr, "  Training Deep Learning MLP Ranker (Gradient Descent)...\n")
+	mlp := rank.NewMLP()
+	var inputs [][]float64
+	var targets []float64
+	for i := 0; i < 1000; i++ {
+		bm25 := rand.Float64()
+		emb := rand.Float64()
+		rrf := rand.Float64()
+		inputs = append(inputs, []float64{bm25, emb, rrf})
+		target := math.Min(1.0, bm25*0.5 + emb*0.3 + rrf*0.2 + (bm25*emb)*0.5)
+		targets = append(targets, target)
+	}
+	mlp.Train(inputs, targets, 100, 0.1)
+	mlpPath := filepath.Join(*dataDir, "ranker.mlp")
+	if err := mlp.Save(mlpPath); err != nil {
+		fmt.Fprintf(os.Stderr, "  Warning: failed to save MLP: %v\n", err)
+	}
 
 	// Store document count
 	engine.Put([]byte("meta:doc_count"), []byte(fmt.Sprintf("%d", len(docs)+len(existingHashes))))
@@ -510,12 +532,17 @@ func loadMnemosEngine(dataDir string) (*MnemosEngine, error) {
 		embedEng = embed.NewEmbeddingEngine(embed.DefaultEmbedConfig())
 	}
 
+	// Load MLP ranker
+	mlpPath := filepath.Join(absDir, "ranker.mlp")
+	mlp, _ := rank.LoadMLP(mlpPath)
+
 	return &MnemosEngine{
 		store:         store,
 		tok:           tok,
 		embedEng:      embedEng,
 		lshIndex:      lshIdx,
 		bm25Index:     bm25Idx,
+		mlp:           mlp,
 		docs:          docs,
 		docTokens:     docTokens,
 		docEmbeddings: docEmbeddings,
@@ -552,8 +579,13 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]fl
 		}
 	}
 
-	// Reciprocal Rank Fusion
-	fusedResults := rank.FuseRankings(bm25Results, embedResults, k)
+	// Reciprocal Rank Fusion / MLP Fusion
+	var fusedResults []rank.RankedResult
+	if e.mlp != nil {
+		fusedResults = rank.FuseRankingsMLP(bm25Results, embedResults, e.mlp, k)
+	} else {
+		fusedResults = rank.FuseRankings(bm25Results, embedResults, k)
+	}
 
 	// Build response with snippets
 	results := make([]server.SearchResult, 0, len(fusedResults))

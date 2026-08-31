@@ -26,8 +26,8 @@ go build -trimpath -ldflags="-s -w" -o mnemos.exe ./cmd/mnemos
 
 **Reproducible Build Proof:**
 Building the exact same commit twice yields a byte-identical binary.
-- Build 1 SHA256: `2e09b10df78652747316f5fa87f96305390f122c7adcd3bcefd42a69bc1306a5`
-- Build 2 SHA256: `2e09b10df78652747316f5fa87f96305390f122c7adcd3bcefd42a69bc1306a5`
+- Build 1 SHA256: `14c43d720a0a1c51b2db226ea62b57e209550bc549cb7e83dd2a383c39080691`
+- Build 2 SHA256: `14c43d720a0a1c51b2db226ea62b57e209550bc549cb7e83dd2a383c39080691`
 
 ## Usage
 
