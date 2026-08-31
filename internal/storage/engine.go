@@ -108,15 +108,19 @@ func NewEngine(config EngineConfig) (*Engine, error) {
 	}
 
 	// Open existing SSTables
-	for _, path := range e.manifest.SSTables {
+	var validSSTables []string
+	for _, name := range e.manifest.SSTables {
+		path := filepath.Join(config.DataDir, filepath.Base(name))
 		reader, err := OpenSSTable(path)
 		if err != nil {
-			// Log warning but continue — the SSTable may have been partially written
+			// Log warning but continue — the SSTable may have been partially written or deleted
 			fmt.Fprintf(os.Stderr, "warning: could not open SSTable %s: %v\n", path, err)
 			continue
 		}
 		e.sstables = append(e.sstables, reader)
+		validSSTables = append(validSSTables, filepath.Base(name))
 	}
+	e.manifest.SSTables = validSSTables
 
 	// Open or create WAL
 	walPath := filepath.Join(config.DataDir, "wal.log")
@@ -322,7 +326,7 @@ func (e *Engine) flushMemtable(mem *Memtable) error {
 	e.sstables = append(e.sstables, reader)
 
 	// Update manifest
-	e.manifest.SSTables = append(e.manifest.SSTables, sstPath)
+	e.manifest.SSTables = append(e.manifest.SSTables, filepath.Base(sstPath))
 
 	// Remove the frozen memtable
 	newFrozen := make([]*Memtable, 0, len(e.frozen))
@@ -360,7 +364,9 @@ func (e *Engine) triggerCompaction() {
 
 	// Collect paths and readers for all current SSTables
 	paths := make([]string, len(e.manifest.SSTables))
-	copy(paths, e.manifest.SSTables)
+	for i, name := range e.manifest.SSTables {
+		paths[i] = filepath.Join(e.config.DataDir, name)
+	}
 	e.mu.RUnlock()
 
 	// Generate output path
@@ -405,7 +411,7 @@ func (e *Engine) triggerCompaction() {
 	// Atomic manifest swap
 	e.mu.Lock()
 	e.sstables = []*SSTableReader{newReader}
-	e.manifest.SSTables = []string{compactedPath}
+	e.manifest.SSTables = []string{filepath.Base(compactedPath)}
 	e.mu.Unlock()
 
 	if err := e.saveManifest(); err != nil {
