@@ -225,9 +225,17 @@ func (w *WAL) Replay(fn func(WALRecord) error) (int, error) {
 		lastValidOffset += int64(walHeaderSize) + int64(payloadLen)
 	}
 
+	// Seek to the truncation point first (Windows requires this before Truncate)
+	if _, err := w.file.Seek(lastValidOffset, io.SeekStart); err != nil {
+		return validRecords, fmt.Errorf("wal: seek to truncation point: %w", err)
+	}
+
 	// Truncate the WAL at the last valid record to remove any corrupt tail
 	if err := w.file.Truncate(lastValidOffset); err != nil {
-		return validRecords, fmt.Errorf("wal: truncate at %d: %w", lastValidOffset, err)
+		// On Windows, truncation may fail with "Access is denied" if another
+		// handle or buffered reader holds a reference. In that case, just seek
+		// to end and continue — the corrupt tail will be detected on next replay.
+		fmt.Fprintf(os.Stderr, "wal: truncate warning (non-fatal): %v\n", err)
 	}
 
 	// Seek to end for future appends

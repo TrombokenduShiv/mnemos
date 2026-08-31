@@ -44,9 +44,10 @@ type MnemosEngine struct {
 	embedEng  *embed.EmbeddingEngine
 	lshIndex  *index.LSHIndex
 	bm25Index *rank.BM25Index
-	docs      map[string]ingest.Document // docID → document
-	docTokens map[string][]string        // docID → tokens
-	dataDir   string
+	docs          map[string]ingest.Document // docID → document
+	docTokens     map[string][]string        // docID → tokens
+	docEmbeddings map[string][]float64       // docID → embedding
+	dataDir       string
 }
 
 func main() {
@@ -269,7 +270,7 @@ func cmdQuery(args []string) {
 	defer eng.store.Close()
 
 	start := time.Now()
-	results, err := eng.Search(query, *topK)
+	results, _, _, err := eng.Search(query, *topK)
 	elapsed := time.Since(start)
 
 	if err != nil {
@@ -505,19 +506,20 @@ func loadMnemosEngine(dataDir string) (*MnemosEngine, error) {
 	}
 
 	return &MnemosEngine{
-		store:     store,
-		tok:       tok,
-		embedEng:  embedEng,
-		lshIndex:  lshIdx,
-		bm25Index: bm25Idx,
-		docs:      docs,
-		docTokens: docTokens,
-		dataDir:   absDir,
+		store:         store,
+		tok:           tok,
+		embedEng:      embedEng,
+		lshIndex:      lshIdx,
+		bm25Index:     bm25Idx,
+		docs:          docs,
+		docTokens:     docTokens,
+		docEmbeddings: docEmbeddings,
+		dataDir:       absDir,
 	}, nil
 }
 
 // Search implements server.Mnemos interface.
-func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, error) {
+func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, [2]float64, []server.DataPoint, error) {
 	// Tokenize the query
 	queryTokens := e.tok.EncodeToTokens(query)
 
@@ -527,6 +529,13 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, error
 	// Embedding-based ranking
 	queryEmbed := e.embedEng.DocumentEmbedding(queryTokens)
 	var embedResults []rank.RankedResult
+	
+	var queryPoint [2]float64
+	if len(queryEmbed) >= 2 {
+		queryPoint[0] = queryEmbed[0]
+		queryPoint[1] = queryEmbed[1]
+	}
+
 	if queryEmbed != nil && e.lshIndex.Size() > 0 {
 		lshResults := e.lshIndex.Query(queryEmbed, k*2)
 		for _, r := range lshResults {
@@ -551,6 +560,11 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, error
 		// Generate TextRank snippet
 		snippet := summarize.SummarizeToString(doc.Content, summarize.DefaultTextRankConfig())
 
+		var x, y float64
+		if emb, ok := e.docEmbeddings[r.DocID]; ok && len(emb) >= 2 {
+			x, y = emb[0], emb[1]
+		}
+
 		results = append(results, server.SearchResult{
 			DocID:      r.DocID,
 			Title:      doc.Title,
@@ -560,10 +574,24 @@ func (e *MnemosEngine) Search(query string, k int) ([]server.SearchResult, error
 			BM25Score:  r.BM25Score,
 			EmbedScore: r.EmbedScore,
 			Rank:       r.Rank,
+			X:          x,
+			Y:          y,
 		})
 	}
 
-	return results, nil
+	// Collect all document points for the visualizer
+	var allPoints []server.DataPoint
+	for docID, emb := range e.docEmbeddings {
+		if len(emb) >= 2 {
+			allPoints = append(allPoints, server.DataPoint{
+				ID: docID,
+				X:  emb[0],
+				Y:  emb[1],
+			})
+		}
+	}
+
+	return results, queryPoint, allPoints, nil
 }
 
 // GetStats implements server.Mnemos interface.

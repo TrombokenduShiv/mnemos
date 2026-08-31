@@ -1,0 +1,10006 @@
+{
+  "merge_rules": [
+    {
+      "left": "i",
+      "right": "n",
+      "new": "in"
+    },
+    {
+      "left": "r",
+      "right": "e",
+      "new": "re"
+    },
+    {
+      "left": "t",
+      "right": "h",
+      "new": "th"
+    },
+    {
+      "left": "o",
+      "right": "n",
+      "new": "on"
+    },
+    {
+      "left": "a",
+      "right": "t",
+      "new": "at"
+    },
+    {
+      "left": "a",
+      "right": "n",
+      "new": "an"
+    },
+    {
+      "left": "e",
+      "right": "n",
+      "new": "en"
+    },
+    {
+      "left": "e",
+      "right": "r",
+      "new": "er"
+    },
+    {
+      "left": "e",
+      "right": "s",
+      "new": "es"
+    },
+    {
+      "left": "o",
+      "right": "r",
+      "new": "or"
+    },
+    {
+      "left": "a",
+      "right": "l",
+      "new": "al"
+    },
+    {
+      "left": "s",
+      "right": "t",
+      "new": "st"
+    },
+    {
+      "left": "i",
+      "right": "on",
+      "new": "ion"
+    },
+    {
+      "left": "th",
+      "right": "e",
+      "new": "the"
+    },
+    {
+      "left": "in",
+      "right": "g",
+      "new": "ing"
+    },
+    {
+      "left": "a",
+      "right": "r",
+      "new": "ar"
+    },
+    {
+      "left": "e",
+      "right": "d",
+      "new": "ed"
+    },
+    {
+      "left": "i",
+      "right": "c",
+      "new": "ic"
+    },
+    {
+      "left": "i",
+      "right": "t",
+      "new": "it"
+    },
+    {
+      "left": "an",
+      "right": "d",
+      "new": "and"
+    },
+    {
+      "left": "t",
+      "right": "o",
+      "new": "to"
+    },
+    {
+      "left": "r",
+      "right": "o",
+      "new": "ro"
+    },
+    {
+      "left": "i",
+      "right": "s",
+      "new": "is"
+    },
+    {
+      "left": "l",
+      "right": "e",
+      "new": "le"
+    },
+    {
+      "left": "en",
+      "right": "t",
+      "new": "ent"
+    },
+    {
+      "left": "a",
+      "right": "c",
+      "new": "ac"
+    },
+    {
+      "left": "a",
+      "right": "s",
+      "new": "as"
+    },
+    {
+      "left": "e",
+      "right": "l",
+      "new": "el"
+    },
+    {
+      "left": "e",
+      "right": "c",
+      "new": "ec"
+    },
+    {
+      "left": "o",
+      "right": "f",
+      "new": "of"
+    },
+    {
+      "left": "at",
+      "right": "ion",
+      "new": "ation"
+    },
+    {
+      "left": "c",
+      "right": "o",
+      "new": "co"
+    },
+    {
+      "left": "e",
+      "right": "m",
+      "new": "em"
+    },
+    {
+      "left": "f",
+      "right": "or",
+      "new": "for"
+    },
+    {
+      "left": "u",
+      "right": "n",
+      "new": "un"
+    },
+    {
+      "left": "i",
+      "right": "m",
+      "new": "im"
+    },
+    {
+      "left": "u",
+      "right": "s",
+      "new": "us"
+    },
+    {
+      "left": "a",
+      "right": "b",
+      "new": "ab"
+    },
+    {
+      "left": "l",
+      "right": "i",
+      "new": "li"
+    },
+    {
+      "left": "c",
+      "right": "on",
+      "new": "con"
+    },
+    {
+      "left": "i",
+      "right": "v",
+      "new": "iv"
+    },
+    {
+      "left": "l",
+      "right": "o",
+      "new": "lo"
+    },
+    {
+      "left": "p",
+      "right": "ro",
+      "new": "pro"
+    },
+    {
+      "left": "c",
+      "right": "h",
+      "new": "ch"
+    },
+    {
+      "left": "d",
+      "right": "at",
+      "new": "dat"
+    },
+    {
+      "left": "i",
+      "right": "l",
+      "new": "il"
+    },
+    {
+      "left": "t",
+      "right": "ion",
+      "new": "tion"
+    },
+    {
+      "left": "q",
+      "right": "u",
+      "new": "qu"
+    },
+    {
+      "left": "s",
+      "right": "e",
+      "new": "se"
+    },
+    {
+      "left": "c",
+      "right": "e",
+      "new": "ce"
+    },
+    {
+      "left": "d",
+      "right": "e",
+      "new": "de"
+    },
+    {
+      "left": "a",
+      "right": "p",
+      "new": "ap"
+    },
+    {
+      "left": "s",
+      "right": "u",
+      "new": "su"
+    },
+    {
+      "left": "g",
+      "right": "e",
+      "new": "ge"
+    },
+    {
+      "left": "m",
+      "right": "o",
+      "new": "mo"
+    },
+    {
+      "left": "l",
+      "right": "y",
+      "new": "ly"
+    },
+    {
+      "left": "re",
+      "right": "s",
+      "new": "res"
+    },
+    {
+      "left": "t",
+      "right": "r",
+      "new": "tr"
+    },
+    {
+      "left": "u",
+      "right": "r",
+      "new": "ur"
+    },
+    {
+      "left": "a",
+      "right": "d",
+      "new": "ad"
+    },
+    {
+      "left": "s",
+      "right": "y",
+      "new": "sy"
+    },
+    {
+      "left": "i",
+      "right": "th",
+      "new": "ith"
+    },
+    {
+      "left": "at",
+      "right": "e",
+      "new": "ate"
+    },
+    {
+      "left": "co",
+      "right": "m",
+      "new": "com"
+    },
+    {
+      "left": "dat",
+      "right": "a",
+      "new": "data"
+    },
+    {
+      "left": "i",
+      "right": "g",
+      "new": "ig"
+    },
+    {
+      "left": "k",
+      "right": "e",
+      "new": "ke"
+    },
+    {
+      "left": "i",
+      "right": "st",
+      "new": "ist"
+    },
+    {
+      "left": "m",
+      "right": "a",
+      "new": "ma"
+    },
+    {
+      "left": "st",
+      "right": "em",
+      "new": "stem"
+    },
+    {
+      "left": "sy",
+      "right": "stem",
+      "new": "system"
+    },
+    {
+      "left": "w",
+      "right": "or",
+      "new": "wor"
+    },
+    {
+      "left": "i",
+      "right": "d",
+      "new": "id"
+    },
+    {
+      "left": "p",
+      "right": "er",
+      "new": "per"
+    },
+    {
+      "left": "u",
+      "right": "t",
+      "new": "ut"
+    },
+    {
+      "left": "e",
+      "right": "v",
+      "new": "ev"
+    },
+    {
+      "left": "n",
+      "right": "e",
+      "new": "ne"
+    },
+    {
+      "left": "it",
+      "right": "y",
+      "new": "ity"
+    },
+    {
+      "left": "m",
+      "right": "e",
+      "new": "me"
+    },
+    {
+      "left": "c",
+      "right": "i",
+      "new": "ci"
+    },
+    {
+      "left": "e",
+      "right": "x",
+      "new": "ex"
+    },
+    {
+      "left": "st",
+      "right": "r",
+      "new": "str"
+    },
+    {
+      "left": "i",
+      "right": "f",
+      "new": "if"
+    },
+    {
+      "left": "u",
+      "right": "l",
+      "new": "ul"
+    },
+    {
+      "left": "u",
+      "right": "m",
+      "new": "um"
+    },
+    {
+      "left": "w",
+      "right": "h",
+      "new": "wh"
+    },
+    {
+      "left": "a",
+      "right": "re",
+      "new": "are"
+    },
+    {
+      "left": "c",
+      "right": "r",
+      "new": "cr"
+    },
+    {
+      "left": "ec",
+      "right": "t",
+      "new": "ect"
+    },
+    {
+      "left": "an",
+      "right": "t",
+      "new": "ant"
+    },
+    {
+      "left": "in",
+      "right": "t",
+      "new": "int"
+    },
+    {
+      "left": "o",
+      "right": "p",
+      "new": "op"
+    },
+    {
+      "left": "th",
+      "right": "at",
+      "new": "that"
+    },
+    {
+      "left": "a",
+      "right": "v",
+      "new": "av"
+    },
+    {
+      "left": "b",
+      "right": "e",
+      "new": "be"
+    },
+    {
+      "left": "c",
+      "right": "es",
+      "new": "ces"
+    },
+    {
+      "left": "er",
+      "right": "s",
+      "new": "ers"
+    },
+    {
+      "left": "in",
+      "right": "d",
+      "new": "ind"
+    },
+    {
+      "left": "l",
+      "right": "u",
+      "new": "lu"
+    },
+    {
+      "left": "iv",
+      "right": "e",
+      "new": "ive"
+    },
+    {
+      "left": "i",
+      "right": "z",
+      "new": "iz"
+    },
+    {
+      "left": "p",
+      "right": "o",
+      "new": "po"
+    },
+    {
+      "left": "b",
+      "right": "y",
+      "new": "by"
+    },
+    {
+      "left": "i",
+      "right": "r",
+      "new": "ir"
+    },
+    {
+      "left": "n",
+      "right": "o",
+      "new": "no"
+    },
+    {
+      "left": "a",
+      "right": "ge",
+      "new": "age"
+    },
+    {
+      "left": "com",
+      "right": "p",
+      "new": "comp"
+    },
+    {
+      "left": "p",
+      "right": "r",
+      "new": "pr"
+    },
+    {
+      "left": "w",
+      "right": "ith",
+      "new": "with"
+    },
+    {
+      "left": "g",
+      "right": "r",
+      "new": "gr"
+    },
+    {
+      "left": "ic",
+      "right": "al",
+      "new": "ical"
+    },
+    {
+      "left": "i",
+      "right": "es",
+      "new": "ies"
+    },
+    {
+      "left": "m",
+      "right": "un",
+      "new": "mun"
+    },
+    {
+      "left": "p",
+      "right": "h",
+      "new": "ph"
+    },
+    {
+      "left": "p",
+      "right": "l",
+      "new": "pl"
+    },
+    {
+      "left": "i",
+      "right": "al",
+      "new": "ial"
+    },
+    {
+      "left": "a",
+      "right": "in",
+      "new": "ain"
+    },
+    {
+      "left": "a",
+      "right": "m",
+      "new": "am"
+    },
+    {
+      "left": "ces",
+      "right": "s",
+      "new": "cess"
+    },
+    {
+      "left": "en",
+      "right": "s",
+      "new": "ens"
+    },
+    {
+      "left": "for",
+      "right": "m",
+      "new": "form"
+    },
+    {
+      "left": "ic",
+      "right": "ation",
+      "new": "ication"
+    },
+    {
+      "left": "li",
+      "right": "ke",
+      "new": "like"
+    },
+    {
+      "left": "l",
+      "right": "s",
+      "new": "ls"
+    },
+    {
+      "left": "un",
+      "right": "d",
+      "new": "und"
+    },
+    {
+      "left": "y",
+      "right": "p",
+      "new": "yp"
+    },
+    {
+      "left": "con",
+      "right": "s",
+      "new": "cons"
+    },
+    {
+      "left": "c",
+      "right": "y",
+      "new": "cy"
+    },
+    {
+      "left": "d",
+      "right": "s",
+      "new": "ds"
+    },
+    {
+      "left": "en",
+      "right": "er",
+      "new": "ener"
+    },
+    {
+      "left": "im",
+      "right": "mun",
+      "new": "immun"
+    },
+    {
+      "left": "in",
+      "right": "c",
+      "new": "inc"
+    },
+    {
+      "left": "k",
+      "right": "ing",
+      "new": "king"
+    },
+    {
+      "left": "mo",
+      "right": "d",
+      "new": "mod"
+    },
+    {
+      "left": "v",
+      "right": "er",
+      "new": "ver"
+    },
+    {
+      "left": "ab",
+      "right": "le",
+      "new": "able"
+    },
+    {
+      "left": "ac",
+      "right": "t",
+      "new": "act"
+    },
+    {
+      "left": "al",
+      "right": "l",
+      "new": "all"
+    },
+    {
+      "left": "ar",
+      "right": "ch",
+      "new": "arch"
+    },
+    {
+      "left": "ar",
+      "right": "n",
+      "new": "arn"
+    },
+    {
+      "left": "d",
+      "right": "is",
+      "new": "dis"
+    },
+    {
+      "left": "e",
+      "right": "f",
+      "new": "ef"
+    },
+    {
+      "left": "le",
+      "right": "arn",
+      "new": "learn"
+    },
+    {
+      "left": "r",
+      "right": "it",
+      "new": "rit"
+    },
+    {
+      "left": "s",
+      "right": "o",
+      "new": "so"
+    },
+    {
+      "left": "system",
+      "right": "s",
+      "new": "systems"
+    },
+    {
+      "left": "t",
+      "right": "ec",
+      "new": "tec"
+    },
+    {
+      "left": "u",
+      "right": "re",
+      "new": "ure"
+    },
+    {
+      "left": "ac",
+      "right": "h",
+      "new": "ach"
+    },
+    {
+      "left": "an",
+      "right": "s",
+      "new": "ans"
+    },
+    {
+      "left": "b",
+      "right": "ut",
+      "new": "but"
+    },
+    {
+      "left": "c",
+      "right": "an",
+      "new": "can"
+    },
+    {
+      "left": "c",
+      "right": "el",
+      "new": "cel"
+    },
+    {
+      "left": "c",
+      "right": "t",
+      "new": "ct"
+    },
+    {
+      "left": "d",
+      "right": "ec",
+      "new": "dec"
+    },
+    {
+      "left": "ent",
+      "right": "s",
+      "new": "ents"
+    },
+    {
+      "left": "e",
+      "right": "re",
+      "new": "ere"
+    },
+    {
+      "left": "f",
+      "right": "ro",
+      "new": "fro"
+    },
+    {
+      "left": "fro",
+      "right": "m",
+      "new": "from"
+    },
+    {
+      "left": "g",
+      "right": "y",
+      "new": "gy"
+    },
+    {
+      "left": "k",
+      "right": "s",
+      "new": "ks"
+    },
+    {
+      "left": "m",
+      "right": "s",
+      "new": "ms"
+    },
+    {
+      "left": "p",
+      "right": "ar",
+      "new": "par"
+    },
+    {
+      "left": "p",
+      "right": "re",
+      "new": "pre"
+    },
+    {
+      "left": "tion",
+      "right": "s",
+      "new": "tions"
+    },
+    {
+      "left": "w",
+      "right": "rit",
+      "new": "writ"
+    },
+    {
+      "left": "an",
+      "right": "ce",
+      "new": "ance"
+    },
+    {
+      "left": "at",
+      "right": "t",
+      "new": "att"
+    },
+    {
+      "left": "cr",
+      "right": "yp",
+      "new": "cryp"
+    },
+    {
+      "left": "d",
+      "right": "ing",
+      "new": "ding"
+    },
+    {
+      "left": "en",
+      "right": "cy",
+      "new": "ency"
+    },
+    {
+      "left": "g",
+      "right": "or",
+      "new": "gor"
+    },
+    {
+      "left": "h",
+      "right": "as",
+      "new": "has"
+    },
+    {
+      "left": "inc",
+      "right": "lu",
+      "new": "inclu"
+    },
+    {
+      "left": "in",
+      "right": "es",
+      "new": "ines"
+    },
+    {
+      "left": "o",
+      "right": "c",
+      "new": "oc"
+    },
+    {
+      "left": "p",
+      "right": "a",
+      "new": "pa"
+    },
+    {
+      "left": "pro",
+      "right": "cess",
+      "new": "process"
+    },
+    {
+      "left": "re",
+      "right": "qu",
+      "new": "requ"
+    },
+    {
+      "left": "al",
+      "right": "gor",
+      "new": "algor"
+    },
+    {
+      "left": "algor",
+      "right": "ith",
+      "new": "algorith"
+    },
+    {
+      "left": "cel",
+      "right": "ls",
+      "new": "cells"
+    },
+    {
+      "left": "d",
+      "right": "u",
+      "new": "du"
+    },
+    {
+      "left": "en",
+      "right": "ce",
+      "new": "ence"
+    },
+    {
+      "left": "en",
+      "right": "g",
+      "new": "eng"
+    },
+    {
+      "left": "ig",
+      "right": "h",
+      "new": "igh"
+    },
+    {
+      "left": "or",
+      "right": "age",
+      "new": "orage"
+    },
+    {
+      "left": "se",
+      "right": "arch",
+      "new": "search"
+    },
+    {
+      "left": "st",
+      "right": "orage",
+      "new": "storage"
+    },
+    {
+      "left": "th",
+      "right": "o",
+      "new": "tho"
+    },
+    {
+      "left": "t",
+      "right": "re",
+      "new": "tre"
+    },
+    {
+      "left": "u",
+      "right": "p",
+      "new": "up"
+    },
+    {
+      "left": "v",
+      "right": "el",
+      "new": "vel"
+    },
+    {
+      "left": "ap",
+      "right": "h",
+      "new": "aph"
+    },
+    {
+      "left": "d",
+      "right": "es",
+      "new": "des"
+    },
+    {
+      "left": "er",
+      "right": "n",
+      "new": "ern"
+    },
+    {
+      "left": "gr",
+      "right": "aph",
+      "new": "graph"
+    },
+    {
+      "left": "ig",
+      "right": "n",
+      "new": "ign"
+    },
+    {
+      "left": "i",
+      "right": "o",
+      "new": "io"
+    },
+    {
+      "left": "it",
+      "right": "ion",
+      "new": "ition"
+    },
+    {
+      "left": "iz",
+      "right": "ation",
+      "new": "ization"
+    },
+    {
+      "left": "or",
+      "right": "y",
+      "new": "ory"
+    },
+    {
+      "left": "p",
+      "right": "le",
+      "new": "ple"
+    },
+    {
+      "left": "p",
+      "right": "res",
+      "new": "pres"
+    },
+    {
+      "left": "s",
+      "right": "im",
+      "new": "sim"
+    },
+    {
+      "left": "s",
+      "right": "p",
+      "new": "sp"
+    },
+    {
+      "left": "s",
+      "right": "s",
+      "new": "ss"
+    },
+    {
+      "left": "ab",
+      "right": "il",
+      "new": "abil"
+    },
+    {
+      "left": "abil",
+      "right": "ity",
+      "new": "ability"
+    },
+    {
+      "left": "an",
+      "right": "y",
+      "new": "any"
+    },
+    {
+      "left": "con",
+      "right": "t",
+      "new": "cont"
+    },
+    {
+      "left": "cryp",
+      "right": "to",
+      "new": "crypto"
+    },
+    {
+      "left": "crypto",
+      "right": "graph",
+      "new": "cryptograph"
+    },
+    {
+      "left": "ef",
+      "right": "f",
+      "new": "eff"
+    },
+    {
+      "left": "ic",
+      "right": "e",
+      "new": "ice"
+    },
+    {
+      "left": "is",
+      "right": "ion",
+      "new": "ision"
+    },
+    {
+      "left": "mo",
+      "right": "st",
+      "new": "most"
+    },
+    {
+      "left": "re",
+      "right": "g",
+      "new": "reg"
+    },
+    {
+      "left": "tec",
+      "right": "h",
+      "new": "tech"
+    },
+    {
+      "left": "tr",
+      "right": "ans",
+      "new": "trans"
+    },
+    {
+      "left": "us",
+      "right": "e",
+      "new": "use"
+    },
+    {
+      "left": "us",
+      "right": "ed",
+      "new": "used"
+    },
+    {
+      "left": "ac",
+      "right": "e",
+      "new": "ace"
+    },
+    {
+      "left": "b",
+      "right": "o",
+      "new": "bo"
+    },
+    {
+      "left": "ch",
+      "right": "o",
+      "new": "cho"
+    },
+    {
+      "left": "cons",
+      "right": "ist",
+      "new": "consist"
+    },
+    {
+      "left": "c",
+      "right": "ur",
+      "new": "cur"
+    },
+    {
+      "left": "dec",
+      "right": "ision",
+      "new": "decision"
+    },
+    {
+      "left": "e",
+      "right": "ar",
+      "new": "ear"
+    },
+    {
+      "left": "ener",
+      "right": "gy",
+      "new": "energy"
+    },
+    {
+      "left": "f",
+      "right": "e",
+      "new": "fe"
+    },
+    {
+      "left": "h",
+      "right": "o",
+      "new": "ho"
+    },
+    {
+      "left": "immun",
+      "right": "e",
+      "new": "immune"
+    },
+    {
+      "left": "in",
+      "right": "f",
+      "new": "inf"
+    },
+    {
+      "left": "i",
+      "right": "re",
+      "new": "ire"
+    },
+    {
+      "left": "learn",
+      "right": "ing",
+      "new": "learning"
+    },
+    {
+      "left": "lo",
+      "right": "c",
+      "new": "loc"
+    },
+    {
+      "left": "lo",
+      "right": "g",
+      "new": "log"
+    },
+    {
+      "left": "n",
+      "right": "i",
+      "new": "ni"
+    },
+    {
+      "left": "or",
+      "right": "t",
+      "new": "ort"
+    },
+    {
+      "left": "re",
+      "right": "n",
+      "new": "ren"
+    },
+    {
+      "left": "su",
+      "right": "b",
+      "new": "sub"
+    },
+    {
+      "left": "th",
+      "right": "is",
+      "new": "this"
+    },
+    {
+      "left": "t",
+      "right": "i",
+      "new": "ti"
+    },
+    {
+      "left": "t",
+      "right": "s",
+      "new": "ts"
+    },
+    {
+      "left": "u",
+      "right": "al",
+      "new": "ual"
+    },
+    {
+      "left": "wor",
+      "right": "d",
+      "new": "word"
+    },
+    {
+      "left": "y",
+      "right": "s",
+      "new": "ys"
+    },
+    {
+      "left": "as",
+      "right": "ed",
+      "new": "ased"
+    },
+    {
+      "left": "cryptograph",
+      "right": "y",
+      "new": "cryptography"
+    },
+    {
+      "left": "el",
+      "right": "y",
+      "new": "ely"
+    },
+    {
+      "left": "g",
+      "right": "u",
+      "new": "gu"
+    },
+    {
+      "left": "h",
+      "right": "av",
+      "new": "hav"
+    },
+    {
+      "left": "h",
+      "right": "e",
+      "new": "he"
+    },
+    {
+      "left": "ic",
+      "right": "h",
+      "new": "ich"
+    },
+    {
+      "left": "if",
+      "right": "ic",
+      "new": "ific"
+    },
+    {
+      "left": "it",
+      "right": "s",
+      "new": "its"
+    },
+    {
+      "left": "l",
+      "right": "ar",
+      "new": "lar"
+    },
+    {
+      "left": "m",
+      "right": "ar",
+      "new": "mar"
+    },
+    {
+      "left": "o",
+      "right": "ut",
+      "new": "out"
+    },
+    {
+      "left": "t",
+      "right": "en",
+      "new": "ten"
+    },
+    {
+      "left": "t",
+      "right": "w",
+      "new": "tw"
+    },
+    {
+      "left": "ur",
+      "right": "al",
+      "new": "ural"
+    },
+    {
+      "left": "wor",
+      "right": "k",
+      "new": "work"
+    },
+    {
+      "left": "algorith",
+      "right": "ms",
+      "new": "algorithms"
+    },
+    {
+      "left": "ap",
+      "right": "p",
+      "new": "app"
+    },
+    {
+      "left": "as",
+      "right": "es",
+      "new": "ases"
+    },
+    {
+      "left": "at",
+      "right": "er",
+      "new": "ater"
+    },
+    {
+      "left": "b",
+      "right": "er",
+      "new": "ber"
+    },
+    {
+      "left": "cur",
+      "right": "ren",
+      "new": "curren"
+    },
+    {
+      "left": "ect",
+      "right": "or",
+      "new": "ector"
+    },
+    {
+      "left": "e",
+      "right": "t",
+      "new": "et"
+    },
+    {
+      "left": "ev",
+      "right": "er",
+      "new": "ever"
+    },
+    {
+      "left": "form",
+      "right": "ation",
+      "new": "formation"
+    },
+    {
+      "left": "g",
+      "right": "ro",
+      "new": "gro"
+    },
+    {
+      "left": "i",
+      "right": "ev",
+      "new": "iev"
+    },
+    {
+      "left": "in",
+      "right": "e",
+      "new": "ine"
+    },
+    {
+      "left": "le",
+      "right": "c",
+      "new": "lec"
+    },
+    {
+      "left": "lo",
+      "right": "w",
+      "new": "low"
+    },
+    {
+      "left": "m",
+      "right": "at",
+      "new": "mat"
+    },
+    {
+      "left": "mod",
+      "right": "el",
+      "new": "model"
+    },
+    {
+      "left": "ne",
+      "right": "t",
+      "new": "net"
+    },
+    {
+      "left": "ne",
+      "right": "w",
+      "new": "new"
+    },
+    {
+      "left": "o",
+      "right": "ver",
+      "new": "over"
+    },
+    {
+      "left": "r",
+      "right": "a",
+      "new": "ra"
+    },
+    {
+      "left": "re",
+      "right": "pl",
+      "new": "repl"
+    },
+    {
+      "left": "r",
+      "right": "i",
+      "new": "ri"
+    },
+    {
+      "left": "th",
+      "right": "er",
+      "new": "ther"
+    },
+    {
+      "left": "u",
+      "right": "d",
+      "new": "ud"
+    },
+    {
+      "left": "wh",
+      "right": "ich",
+      "new": "which"
+    },
+    {
+      "left": "ab",
+      "right": "l",
+      "new": "abl"
+    },
+    {
+      "left": "ac",
+      "right": "y",
+      "new": "acy"
+    },
+    {
+      "left": "a",
+      "right": "il",
+      "new": "ail"
+    },
+    {
+      "left": "ain",
+      "right": "ing",
+      "new": "aining"
+    },
+    {
+      "left": "an",
+      "right": "al",
+      "new": "anal"
+    },
+    {
+      "left": "ap",
+      "right": "pro",
+      "new": "appro"
+    },
+    {
+      "left": "ation",
+      "right": "s",
+      "new": "ations"
+    },
+    {
+      "left": "b",
+      "right": "ased",
+      "new": "based"
+    },
+    {
+      "left": "c",
+      "right": "a",
+      "new": "ca"
+    },
+    {
+      "left": "c",
+      "right": "ent",
+      "new": "cent"
+    },
+    {
+      "left": "co",
+      "right": "l",
+      "new": "col"
+    },
+    {
+      "left": "de",
+      "right": "vel",
+      "new": "devel"
+    },
+    {
+      "left": "devel",
+      "right": "op",
+      "new": "develop"
+    },
+    {
+      "left": "d",
+      "right": "oc",
+      "new": "doc"
+    },
+    {
+      "left": "doc",
+      "right": "um",
+      "new": "docum"
+    },
+    {
+      "left": "eng",
+      "right": "ines",
+      "new": "engines"
+    },
+    {
+      "left": "ex",
+      "right": "tr",
+      "new": "extr"
+    },
+    {
+      "left": "f",
+      "right": "i",
+      "new": "fi"
+    },
+    {
+      "left": "g",
+      "right": "ener",
+      "new": "gener"
+    },
+    {
+      "left": "g",
+      "right": "lo",
+      "new": "glo"
+    },
+    {
+      "left": "ical",
+      "right": "ly",
+      "new": "ically"
+    },
+    {
+      "left": "ic",
+      "right": "s",
+      "new": "ics"
+    },
+    {
+      "left": "ic",
+      "right": "t",
+      "new": "ict"
+    },
+    {
+      "left": "inclu",
+      "right": "ding",
+      "new": "including"
+    },
+    {
+      "left": "l",
+      "right": "a",
+      "new": "la"
+    },
+    {
+      "left": "l",
+      "right": "an",
+      "new": "lan"
+    },
+    {
+      "left": "li",
+      "right": "g",
+      "new": "lig"
+    },
+    {
+      "left": "m",
+      "right": "em",
+      "new": "mem"
+    },
+    {
+      "left": "m",
+      "right": "er",
+      "new": "mer"
+    },
+    {
+      "left": "ni",
+      "right": "qu",
+      "new": "niqu"
+    },
+    {
+      "left": "no",
+      "right": "w",
+      "new": "now"
+    },
+    {
+      "left": "o",
+      "right": "m",
+      "new": "om"
+    },
+    {
+      "left": "on",
+      "right": "e",
+      "new": "one"
+    },
+    {
+      "left": "o",
+      "right": "us",
+      "new": "ous"
+    },
+    {
+      "left": "par",
+      "right": "t",
+      "new": "part"
+    },
+    {
+      "left": "p",
+      "right": "on",
+      "new": "pon"
+    },
+    {
+      "left": "po",
+      "right": "s",
+      "new": "pos"
+    },
+    {
+      "left": "process",
+      "right": "ing",
+      "new": "processing"
+    },
+    {
+      "left": "re",
+      "right": "ad",
+      "new": "read"
+    },
+    {
+      "left": "res",
+      "right": "pon",
+      "new": "respon"
+    },
+    {
+      "left": "se",
+      "right": "qu",
+      "new": "sequ"
+    },
+    {
+      "left": "s",
+      "right": "ign",
+      "new": "sign"
+    },
+    {
+      "left": "str",
+      "right": "u",
+      "new": "stru"
+    },
+    {
+      "left": "stru",
+      "right": "ct",
+      "new": "struct"
+    },
+    {
+      "left": "tech",
+      "right": "niqu",
+      "new": "techniqu"
+    },
+    {
+      "left": "the",
+      "right": "ir",
+      "new": "their"
+    },
+    {
+      "left": "th",
+      "right": "es",
+      "new": "thes"
+    },
+    {
+      "left": "tre",
+      "right": "es",
+      "new": "trees"
+    },
+    {
+      "left": "us",
+      "right": "es",
+      "new": "uses"
+    },
+    {
+      "left": "v",
+      "right": "ector",
+      "new": "vector"
+    },
+    {
+      "left": "w",
+      "right": "as",
+      "new": "was"
+    },
+    {
+      "left": "writ",
+      "right": "e",
+      "new": "write"
+    },
+    {
+      "left": "ar",
+      "right": "d",
+      "new": "ard"
+    },
+    {
+      "left": "as",
+      "right": "e",
+      "new": "ase"
+    },
+    {
+      "left": "as",
+      "right": "s",
+      "new": "ass"
+    },
+    {
+      "left": "b",
+      "right": "al",
+      "new": "bal"
+    },
+    {
+      "left": "b",
+      "right": "re",
+      "new": "bre"
+    },
+    {
+      "left": "c",
+      "right": "ed",
+      "new": "ced"
+    },
+    {
+      "left": "ci",
+      "right": "ph",
+      "new": "ciph"
+    },
+    {
+      "left": "c",
+      "right": "l",
+      "new": "cl"
+    },
+    {
+      "left": "con",
+      "right": "f",
+      "new": "conf"
+    },
+    {
+      "left": "consist",
+      "right": "ency",
+      "new": "consistency"
+    },
+    {
+      "left": "dat",
+      "right": "ab",
+      "new": "datab"
+    },
+    {
+      "left": "d",
+      "right": "ur",
+      "new": "dur"
+    },
+    {
+      "left": "glo",
+      "right": "bal",
+      "new": "global"
+    },
+    {
+      "left": "g",
+      "right": "re",
+      "new": "gre"
+    },
+    {
+      "left": "gu",
+      "right": "age",
+      "new": "guage"
+    },
+    {
+      "left": "ic",
+      "right": "i",
+      "new": "ici"
+    },
+    {
+      "left": "il",
+      "right": "ar",
+      "new": "ilar"
+    },
+    {
+      "left": "inclu",
+      "right": "de",
+      "new": "include"
+    },
+    {
+      "left": "in",
+      "right": "formation",
+      "new": "information"
+    },
+    {
+      "left": "it",
+      "right": "ive",
+      "new": "itive"
+    },
+    {
+      "left": "iv",
+      "right": "acy",
+      "new": "ivacy"
+    },
+    {
+      "left": "iz",
+      "right": "ed",
+      "new": "ized"
+    },
+    {
+      "left": "k",
+      "right": "en",
+      "new": "ken"
+    },
+    {
+      "left": "ke",
+      "right": "y",
+      "new": "key"
+    },
+    {
+      "left": "k",
+      "right": "now",
+      "new": "know"
+    },
+    {
+      "left": "lan",
+      "right": "guage",
+      "new": "language"
+    },
+    {
+      "left": "ma",
+      "right": "king",
+      "new": "making"
+    },
+    {
+      "left": "m",
+      "right": "any",
+      "new": "many"
+    },
+    {
+      "left": "ma",
+      "right": "y",
+      "new": "may"
+    },
+    {
+      "left": "m",
+      "right": "ent",
+      "new": "ment"
+    },
+    {
+      "left": "me",
+      "right": "tho",
+      "new": "metho"
+    },
+    {
+      "left": "mod",
+      "right": "ern",
+      "new": "modern"
+    },
+    {
+      "left": "m",
+      "right": "ul",
+      "new": "mul"
+    },
+    {
+      "left": "mul",
+      "right": "ti",
+      "new": "multi"
+    },
+    {
+      "left": "n",
+      "right": "um",
+      "new": "num"
+    },
+    {
+      "left": "o",
+      "right": "re",
+      "new": "ore"
+    },
+    {
+      "left": "p",
+      "right": "e",
+      "new": "pe"
+    },
+    {
+      "left": "p",
+      "right": "ort",
+      "new": "port"
+    },
+    {
+      "left": "pr",
+      "right": "ivacy",
+      "new": "privacy"
+    },
+    {
+      "left": "pro",
+      "right": "v",
+      "new": "prov"
+    },
+    {
+      "left": "r",
+      "right": "an",
+      "new": "ran"
+    },
+    {
+      "left": "r",
+      "right": "igh",
+      "new": "righ"
+    },
+    {
+      "left": "sim",
+      "right": "ilar",
+      "new": "similar"
+    },
+    {
+      "left": "s",
+      "right": "ing",
+      "new": "sing"
+    },
+    {
+      "left": "sp",
+      "right": "ace",
+      "new": "space"
+    },
+    {
+      "left": "struct",
+      "right": "ure",
+      "new": "structure"
+    },
+    {
+      "left": "thes",
+      "right": "e",
+      "new": "these"
+    },
+    {
+      "left": "the",
+      "right": "y",
+      "new": "they"
+    },
+    {
+      "left": "ul",
+      "right": "ar",
+      "new": "ular"
+    },
+    {
+      "left": "wh",
+      "right": "ere",
+      "new": "where"
+    },
+    {
+      "left": "with",
+      "right": "out",
+      "new": "without"
+    },
+    {
+      "left": "ys",
+      "right": "is",
+      "new": "ysis"
+    },
+    {
+      "left": "2",
+      "right": "0",
+      "new": "20"
+    },
+    {
+      "left": "ail",
+      "right": "ability",
+      "new": "ailability"
+    },
+    {
+      "left": "al",
+      "right": "ly",
+      "new": "ally"
+    },
+    {
+      "left": "al",
+      "right": "u",
+      "new": "alu"
+    },
+    {
+      "left": "anal",
+      "right": "ysis",
+      "new": "analysis"
+    },
+    {
+      "left": "ap",
+      "right": "t",
+      "new": "apt"
+    },
+    {
+      "left": "ar",
+      "right": "o",
+      "new": "aro"
+    },
+    {
+      "left": "aro",
+      "right": "und",
+      "new": "around"
+    },
+    {
+      "left": "ar",
+      "right": "t",
+      "new": "art"
+    },
+    {
+      "left": "av",
+      "right": "ailability",
+      "new": "availability"
+    },
+    {
+      "left": "b",
+      "right": "ed",
+      "new": "bed"
+    },
+    {
+      "left": "bed",
+      "right": "ding",
+      "new": "bedding"
+    },
+    {
+      "left": "c",
+      "right": "all",
+      "new": "call"
+    },
+    {
+      "left": "cho",
+      "right": "ice",
+      "new": "choice"
+    },
+    {
+      "left": "ci",
+      "right": "al",
+      "new": "cial"
+    },
+    {
+      "left": "ci",
+      "right": "ent",
+      "new": "cient"
+    },
+    {
+      "left": "comp",
+      "right": "le",
+      "new": "comple"
+    },
+    {
+      "left": "comple",
+      "right": "x",
+      "new": "complex"
+    },
+    {
+      "left": "cont",
+      "right": "in",
+      "new": "contin"
+    },
+    {
+      "left": "contin",
+      "right": "u",
+      "new": "continu"
+    },
+    {
+      "left": "dis",
+      "right": "k",
+      "new": "disk"
+    },
+    {
+      "left": "d",
+      "right": "ist",
+      "new": "dist"
+    },
+    {
+      "left": "dist",
+      "right": "ri",
+      "new": "distri"
+    },
+    {
+      "left": "eff",
+      "right": "ect",
+      "new": "effect"
+    },
+    {
+      "left": "em",
+      "right": "ant",
+      "new": "emant"
+    },
+    {
+      "left": "em",
+      "right": "bedding",
+      "new": "embedding"
+    },
+    {
+      "left": "ent",
+      "right": "ial",
+      "new": "ential"
+    },
+    {
+      "left": "es",
+      "right": "s",
+      "new": "ess"
+    },
+    {
+      "left": "es",
+      "right": "t",
+      "new": "est"
+    },
+    {
+      "left": "f",
+      "right": "a",
+      "new": "fa"
+    },
+    {
+      "left": "f",
+      "right": "requ",
+      "new": "frequ"
+    },
+    {
+      "left": "hav",
+      "right": "e",
+      "new": "have"
+    },
+    {
+      "left": "ho",
+      "right": "w",
+      "new": "how"
+    },
+    {
+      "left": "h",
+      "right": "um",
+      "new": "hum"
+    },
+    {
+      "left": "hum",
+      "right": "an",
+      "new": "human"
+    },
+    {
+      "left": "il",
+      "right": "l",
+      "new": "ill"
+    },
+    {
+      "left": "in",
+      "right": "s",
+      "new": "ins"
+    },
+    {
+      "left": "is",
+      "right": "ed",
+      "new": "ised"
+    },
+    {
+      "left": "iv",
+      "right": "id",
+      "new": "ivid"
+    },
+    {
+      "left": "le",
+      "right": "vel",
+      "new": "level"
+    },
+    {
+      "left": "li",
+      "right": "fe",
+      "new": "life"
+    },
+    {
+      "left": "ma",
+      "right": "int",
+      "new": "maint"
+    },
+    {
+      "left": "mem",
+      "right": "ory",
+      "new": "memory"
+    },
+    {
+      "left": "metho",
+      "right": "ds",
+      "new": "methods"
+    },
+    {
+      "left": "model",
+      "right": "s",
+      "new": "models"
+    },
+    {
+      "left": "m",
+      "right": "u",
+      "new": "mu"
+    },
+    {
+      "left": "multi",
+      "right": "ple",
+      "new": "multiple"
+    },
+    {
+      "left": "n",
+      "right": "at",
+      "new": "nat"
+    },
+    {
+      "left": "num",
+      "right": "ber",
+      "new": "number"
+    },
+    {
+      "left": "pa",
+      "right": "tho",
+      "new": "patho"
+    },
+    {
+      "left": "patho",
+      "right": "g",
+      "new": "pathog"
+    },
+    {
+      "left": "per",
+      "right": "form",
+      "new": "perform"
+    },
+    {
+      "left": "per",
+      "right": "s",
+      "new": "pers"
+    },
+    {
+      "left": "per",
+      "right": "v",
+      "new": "perv"
+    },
+    {
+      "left": "perv",
+      "right": "ised",
+      "new": "pervised"
+    },
+    {
+      "left": "pres",
+      "right": "ent",
+      "new": "present"
+    },
+    {
+      "left": "repl",
+      "right": "ication",
+      "new": "replication"
+    },
+    {
+      "left": "requ",
+      "right": "ire",
+      "new": "require"
+    },
+    {
+      "left": "re",
+      "right": "str",
+      "new": "restr"
+    },
+    {
+      "left": "ro",
+      "right": "ss",
+      "new": "ross"
+    },
+    {
+      "left": "s",
+      "right": "emant",
+      "new": "semant"
+    },
+    {
+      "left": "so",
+      "right": "lar",
+      "new": "solar"
+    },
+    {
+      "left": "su",
+      "right": "pervised",
+      "new": "supervised"
+    },
+    {
+      "left": "t",
+      "right": "e",
+      "new": "te"
+    },
+    {
+      "left": "techniqu",
+      "right": "es",
+      "new": "techniques"
+    },
+    {
+      "left": "und",
+      "right": "er",
+      "new": "under"
+    },
+    {
+      "left": "u",
+      "right": "res",
+      "new": "ures"
+    },
+    {
+      "left": "u",
+      "right": "tion",
+      "new": "ution"
+    },
+    {
+      "left": "v",
+      "right": "ent",
+      "new": "vent"
+    },
+    {
+      "left": "v",
+      "right": "o",
+      "new": "vo"
+    },
+    {
+      "left": "wor",
+      "right": "ds",
+      "new": "words"
+    },
+    {
+      "left": "ac",
+      "right": "c",
+      "new": "acc"
+    },
+    {
+      "left": "ac",
+      "right": "k",
+      "new": "ack"
+    },
+    {
+      "left": "ac",
+      "right": "tion",
+      "new": "action"
+    },
+    {
+      "left": "a",
+      "right": "f",
+      "new": "af"
+    },
+    {
+      "left": "algorith",
+      "right": "m",
+      "new": "algorithm"
+    },
+    {
+      "left": "al",
+      "right": "ity",
+      "new": "ality"
+    },
+    {
+      "left": "a",
+      "right": "me",
+      "new": "ame"
+    },
+    {
+      "left": "art",
+      "right": "ific",
+      "new": "artific"
+    },
+    {
+      "left": "artific",
+      "right": "ial",
+      "new": "artificial"
+    },
+    {
+      "left": "at",
+      "right": "ed",
+      "new": "ated"
+    },
+    {
+      "left": "ate",
+      "right": "g",
+      "new": "ateg"
+    },
+    {
+      "left": "ateg",
+      "right": "ies",
+      "new": "ategies"
+    },
+    {
+      "left": "at",
+      "right": "ing",
+      "new": "ating"
+    },
+    {
+      "left": "at",
+      "right": "ures",
+      "new": "atures"
+    },
+    {
+      "left": "a",
+      "right": "u",
+      "new": "au"
+    },
+    {
+      "left": "b",
+      "right": "ec",
+      "new": "bec"
+    },
+    {
+      "left": "be",
+      "right": "tw",
+      "new": "betw"
+    },
+    {
+      "left": "betw",
+      "right": "e",
+      "new": "betwe"
+    },
+    {
+      "left": "betwe",
+      "right": "en",
+      "new": "between"
+    },
+    {
+      "left": "b",
+      "right": "i",
+      "new": "bi"
+    },
+    {
+      "left": "b",
+      "right": "le",
+      "new": "ble"
+    },
+    {
+      "left": "bo",
+      "right": "d",
+      "new": "bod"
+    },
+    {
+      "left": "bre",
+      "right": "a",
+      "new": "brea"
+    },
+    {
+      "left": "but",
+      "right": "ed",
+      "new": "buted"
+    },
+    {
+      "left": "c",
+      "right": "al",
+      "new": "cal"
+    },
+    {
+      "left": "call",
+      "right": "ed",
+      "new": "called"
+    },
+    {
+      "left": "ch",
+      "right": "an",
+      "new": "chan"
+    },
+    {
+      "left": "ciph",
+      "right": "er",
+      "new": "cipher"
+    },
+    {
+      "left": "comp",
+      "right": "ut",
+      "new": "comput"
+    },
+    {
+      "left": "cons",
+      "right": "ens",
+      "new": "consens"
+    },
+    {
+      "left": "consens",
+      "right": "us",
+      "new": "consensus"
+    },
+    {
+      "left": "c",
+      "right": "tion",
+      "new": "ction"
+    },
+    {
+      "left": "curren",
+      "right": "t",
+      "new": "current"
+    },
+    {
+      "left": "d",
+      "right": "b",
+      "new": "db"
+    },
+    {
+      "left": "distri",
+      "right": "buted",
+      "new": "distributed"
+    },
+    {
+      "left": "docum",
+      "right": "ent",
+      "new": "document"
+    },
+    {
+      "left": "dur",
+      "right": "ing",
+      "new": "during"
+    },
+    {
+      "left": "eff",
+      "right": "ici",
+      "new": "effici"
+    },
+    {
+      "left": "el",
+      "right": "l",
+      "new": "ell"
+    },
+    {
+      "left": "el",
+      "right": "lig",
+      "new": "ellig"
+    },
+    {
+      "left": "ellig",
+      "right": "ence",
+      "new": "elligence"
+    },
+    {
+      "left": "embedding",
+      "right": "s",
+      "new": "embeddings"
+    },
+    {
+      "left": "en",
+      "right": "se",
+      "new": "ense"
+    },
+    {
+      "left": "e",
+      "right": "p",
+      "new": "ep"
+    },
+    {
+      "left": "er",
+      "right": "ies",
+      "new": "eries"
+    },
+    {
+      "left": "er",
+      "right": "ing",
+      "new": "ering"
+    },
+    {
+      "left": "ex",
+      "right": "t",
+      "new": "ext"
+    },
+    {
+      "left": "f",
+      "right": "ication",
+      "new": "fication"
+    },
+    {
+      "left": "f",
+      "right": "il",
+      "new": "fil"
+    },
+    {
+      "left": "fil",
+      "right": "es",
+      "new": "files"
+    },
+    {
+      "left": "g",
+      "right": "er",
+      "new": "ger"
+    },
+    {
+      "left": "g",
+      "right": "es",
+      "new": "ges"
+    },
+    {
+      "left": "gro",
+      "right": "up",
+      "new": "group"
+    },
+    {
+      "left": "i",
+      "right": "a",
+      "new": "ia"
+    },
+    {
+      "left": "ic",
+      "right": "es",
+      "new": "ices"
+    },
+    {
+      "left": "i",
+      "right": "de",
+      "new": "ide"
+    },
+    {
+      "left": "iev",
+      "right": "al",
+      "new": "ieval"
+    },
+    {
+      "left": "immun",
+      "right": "ity",
+      "new": "immunity"
+    },
+    {
+      "left": "ind",
+      "right": "ivid",
+      "new": "individ"
+    },
+    {
+      "left": "individ",
+      "right": "ual",
+      "new": "individual"
+    },
+    {
+      "left": "int",
+      "right": "elligence",
+      "new": "intelligence"
+    },
+    {
+      "left": "int",
+      "right": "er",
+      "new": "inter"
+    },
+    {
+      "left": "it",
+      "right": "e",
+      "new": "ite"
+    },
+    {
+      "left": "ition",
+      "right": "s",
+      "new": "itions"
+    },
+    {
+      "left": "it",
+      "right": "t",
+      "new": "itt"
+    },
+    {
+      "left": "it",
+      "right": "ution",
+      "new": "itution"
+    },
+    {
+      "left": "iv",
+      "right": "es",
+      "new": "ives"
+    },
+    {
+      "left": "l",
+      "right": "ic",
+      "new": "lic"
+    },
+    {
+      "left": "li",
+      "right": "fication",
+      "new": "lification"
+    },
+    {
+      "left": "lo",
+      "right": "gy",
+      "new": "logy"
+    },
+    {
+      "left": "lu",
+      "right": "tion",
+      "new": "lution"
+    },
+    {
+      "left": "m",
+      "right": "ach",
+      "new": "mach"
+    },
+    {
+      "left": "m",
+      "right": "ed",
+      "new": "med"
+    },
+    {
+      "left": "m",
+      "right": "ents",
+      "new": "ments"
+    },
+    {
+      "left": "m",
+      "right": "mar",
+      "new": "mmar"
+    },
+    {
+      "left": "mo",
+      "right": "re",
+      "new": "more"
+    },
+    {
+      "left": "mu",
+      "right": "st",
+      "new": "must"
+    },
+    {
+      "left": "nat",
+      "right": "ural",
+      "new": "natural"
+    },
+    {
+      "left": "ne",
+      "right": "ural",
+      "new": "neural"
+    },
+    {
+      "left": "of",
+      "right": "ten",
+      "new": "often"
+    },
+    {
+      "left": "o",
+      "right": "id",
+      "new": "oid"
+    },
+    {
+      "left": "on",
+      "right": "al",
+      "new": "onal"
+    },
+    {
+      "left": "op",
+      "right": "t",
+      "new": "opt"
+    },
+    {
+      "left": "or",
+      "right": "d",
+      "new": "ord"
+    },
+    {
+      "left": "or",
+      "right": "s",
+      "new": "ors"
+    },
+    {
+      "left": "perform",
+      "right": "ance",
+      "new": "performance"
+    },
+    {
+      "left": "pers",
+      "right": "onal",
+      "new": "personal"
+    },
+    {
+      "left": "p",
+      "right": "lification",
+      "new": "plification"
+    },
+    {
+      "left": "pro",
+      "right": "tec",
+      "new": "protec"
+    },
+    {
+      "left": "p",
+      "right": "t",
+      "new": "pt"
+    },
+    {
+      "left": "qu",
+      "right": "ant",
+      "new": "quant"
+    },
+    {
+      "left": "re",
+      "right": "du",
+      "new": "redu"
+    },
+    {
+      "left": "reg",
+      "right": "ul",
+      "new": "regul"
+    },
+    {
+      "left": "re",
+      "right": "tr",
+      "new": "retr"
+    },
+    {
+      "left": "semant",
+      "right": "ic",
+      "new": "semantic"
+    },
+    {
+      "left": "sequ",
+      "right": "ential",
+      "new": "sequential"
+    },
+    {
+      "left": "sing",
+      "right": "le",
+      "new": "single"
+    },
+    {
+      "left": "s",
+      "right": "ion",
+      "new": "sion"
+    },
+    {
+      "left": "st",
+      "right": "itution",
+      "new": "stitution"
+    },
+    {
+      "left": "str",
+      "right": "ategies",
+      "new": "strategies"
+    },
+    {
+      "left": "sub",
+      "right": "stitution",
+      "new": "substitution"
+    },
+    {
+      "left": "su",
+      "right": "mmar",
+      "new": "summar"
+    },
+    {
+      "left": "t",
+      "right": "ect",
+      "new": "tect"
+    },
+    {
+      "left": "t",
+      "right": "er",
+      "new": "ter"
+    },
+    {
+      "left": "v",
+      "right": "acc",
+      "new": "vacc"
+    },
+    {
+      "left": "wh",
+      "right": "en",
+      "new": "when"
+    },
+    {
+      "left": "w",
+      "right": "ind",
+      "new": "wind"
+    },
+    {
+      "left": "wor",
+      "right": "ks",
+      "new": "works"
+    },
+    {
+      "left": "abl",
+      "right": "es",
+      "new": "ables"
+    },
+    {
+      "left": "ac",
+      "right": "ross",
+      "new": "across"
+    },
+    {
+      "left": "act",
+      "right": "ive",
+      "new": "active"
+    },
+    {
+      "left": "ad",
+      "right": "apt",
+      "new": "adapt"
+    },
+    {
+      "left": "adapt",
+      "right": "ive",
+      "new": "adaptive"
+    },
+    {
+      "left": "af",
+      "right": "f",
+      "new": "aff"
+    },
+    {
+      "left": "all",
+      "right": "eng",
+      "new": "alleng"
+    },
+    {
+      "left": "alleng",
+      "right": "es",
+      "new": "allenges"
+    },
+    {
+      "left": "al",
+      "right": "low",
+      "new": "allow"
+    },
+    {
+      "left": "am",
+      "right": "ent",
+      "new": "ament"
+    },
+    {
+      "left": "am",
+      "right": "plification",
+      "new": "amplification"
+    },
+    {
+      "left": "app",
+      "right": "li",
+      "new": "appli"
+    },
+    {
+      "left": "appro",
+      "right": "ach",
+      "new": "approach"
+    },
+    {
+      "left": "ar",
+      "right": "y",
+      "new": "ary"
+    },
+    {
+      "left": "ater",
+      "right": "restr",
+      "new": "aterrestr"
+    },
+    {
+      "left": "aterrestr",
+      "right": "ial",
+      "new": "aterrestrial"
+    },
+    {
+      "left": "at",
+      "right": "ic",
+      "new": "atic"
+    },
+    {
+      "left": "ation",
+      "right": "al",
+      "new": "ational"
+    },
+    {
+      "left": "au",
+      "right": "to",
+      "new": "auto"
+    },
+    {
+      "left": "a",
+      "right": "y",
+      "new": "ay"
+    },
+    {
+      "left": "b",
+      "right": "att",
+      "new": "batt"
+    },
+    {
+      "left": "be",
+      "right": "en",
+      "new": "been"
+    },
+    {
+      "left": "b",
+      "right": "io",
+      "new": "bio"
+    },
+    {
+      "left": "bod",
+      "right": "y",
+      "new": "body"
+    },
+    {
+      "left": "c",
+      "right": "ap",
+      "new": "cap"
+    },
+    {
+      "left": "ch",
+      "right": "allenges",
+      "new": "challenges"
+    },
+    {
+      "left": "ch",
+      "right": "r",
+      "new": "chr"
+    },
+    {
+      "left": "chr",
+      "right": "on",
+      "new": "chron"
+    },
+    {
+      "left": "chron",
+      "right": "ous",
+      "new": "chronous"
+    },
+    {
+      "left": "cl",
+      "right": "ass",
+      "new": "class"
+    },
+    {
+      "left": "co",
+      "right": "g",
+      "new": "cog"
+    },
+    {
+      "left": "cog",
+      "right": "n",
+      "new": "cogn"
+    },
+    {
+      "left": "col",
+      "right": "lec",
+      "new": "collec"
+    },
+    {
+      "left": "com",
+      "right": "b",
+      "new": "comb"
+    },
+    {
+      "left": "com",
+      "right": "m",
+      "new": "comm"
+    },
+    {
+      "left": "com",
+      "right": "mun",
+      "new": "commun"
+    },
+    {
+      "left": "comp",
+      "right": "action",
+      "new": "compaction"
+    },
+    {
+      "left": "continu",
+      "right": "es",
+      "new": "continues"
+    },
+    {
+      "left": "co",
+      "right": "st",
+      "new": "cost"
+    },
+    {
+      "left": "c",
+      "right": "re",
+      "new": "cre"
+    },
+    {
+      "left": "datab",
+      "right": "ase",
+      "new": "database"
+    },
+    {
+      "left": "dat",
+      "right": "es",
+      "new": "dates"
+    },
+    {
+      "left": "decision",
+      "right": "s",
+      "new": "decisions"
+    },
+    {
+      "left": "de",
+      "right": "ep",
+      "new": "deep"
+    },
+    {
+      "left": "de",
+      "right": "p",
+      "new": "dep"
+    },
+    {
+      "left": "de",
+      "right": "tect",
+      "new": "detect"
+    },
+    {
+      "left": "d",
+      "right": "pr",
+      "new": "dpr"
+    },
+    {
+      "left": "el",
+      "right": "d",
+      "new": "eld"
+    },
+    {
+      "left": "e",
+      "right": "lec",
+      "new": "elec"
+    },
+    {
+      "left": "elec",
+      "right": "tr",
+      "new": "electr"
+    },
+    {
+      "left": "el",
+      "right": "p",
+      "new": "elp"
+    },
+    {
+      "left": "en",
+      "right": "ces",
+      "new": "ences"
+    },
+    {
+      "left": "en",
+      "right": "d",
+      "new": "end"
+    },
+    {
+      "left": "ent",
+      "right": "ual",
+      "new": "entual"
+    },
+    {
+      "left": "er",
+      "right": "v",
+      "new": "erv"
+    },
+    {
+      "left": "ev",
+      "right": "entual",
+      "new": "eventual"
+    },
+    {
+      "left": "ever",
+      "right": "y",
+      "new": "every"
+    },
+    {
+      "left": "ex",
+      "right": "ist",
+      "new": "exist"
+    },
+    {
+      "left": "extr",
+      "right": "aterrestrial",
+      "new": "extraterrestrial"
+    },
+    {
+      "left": "fi",
+      "right": "eld",
+      "new": "field"
+    },
+    {
+      "left": "f",
+      "right": "ir",
+      "new": "fir"
+    },
+    {
+      "left": "fir",
+      "right": "st",
+      "new": "first"
+    },
+    {
+      "left": "frequ",
+      "right": "ency",
+      "new": "frequency"
+    },
+    {
+      "left": "f",
+      "right": "und",
+      "new": "fund"
+    },
+    {
+      "left": "fund",
+      "right": "ament",
+      "new": "fundament"
+    },
+    {
+      "left": "g",
+      "right": "dpr",
+      "new": "gdpr"
+    },
+    {
+      "left": "g",
+      "right": "ed",
+      "new": "ged"
+    },
+    {
+      "left": "gener",
+      "right": "ate",
+      "new": "generate"
+    },
+    {
+      "left": "g",
+      "right": "h",
+      "new": "gh"
+    },
+    {
+      "left": "gre",
+      "right": "en",
+      "new": "green"
+    },
+    {
+      "left": "h",
+      "right": "elp",
+      "new": "help"
+    },
+    {
+      "left": "h",
+      "right": "igh",
+      "new": "high"
+    },
+    {
+      "left": "id",
+      "right": "ely",
+      "new": "idely"
+    },
+    {
+      "left": "if",
+      "right": "f",
+      "new": "iff"
+    },
+    {
+      "left": "if",
+      "right": "ication",
+      "new": "ification"
+    },
+    {
+      "left": "i",
+      "right": "li",
+      "new": "ili"
+    },
+    {
+      "left": "il",
+      "right": "y",
+      "new": "ily"
+    },
+    {
+      "left": "in",
+      "right": "ation",
+      "new": "ination"
+    },
+    {
+      "left": "in",
+      "right": "ci",
+      "new": "inci"
+    },
+    {
+      "left": "ind",
+      "right": "ia",
+      "new": "india"
+    },
+    {
+      "left": "individual",
+      "right": "s",
+      "new": "individuals"
+    },
+    {
+      "left": "inf",
+      "right": "lu",
+      "new": "influ"
+    },
+    {
+      "left": "in",
+      "right": "n",
+      "new": "inn"
+    },
+    {
+      "left": "inn",
+      "right": "ate",
+      "new": "innate"
+    },
+    {
+      "left": "in",
+      "right": "to",
+      "new": "into"
+    },
+    {
+      "left": "is",
+      "right": "e",
+      "new": "ise"
+    },
+    {
+      "left": "ist",
+      "right": "ics",
+      "new": "istics"
+    },
+    {
+      "left": "it",
+      "right": "er",
+      "new": "iter"
+    },
+    {
+      "left": "it",
+      "right": "ies",
+      "new": "ities"
+    },
+    {
+      "left": "iz",
+      "right": "e",
+      "new": "ize"
+    },
+    {
+      "left": "ken",
+      "right": "ization",
+      "new": "kenization"
+    },
+    {
+      "left": "know",
+      "right": "n",
+      "new": "known"
+    },
+    {
+      "left": "l",
+      "right": "ab",
+      "new": "lab"
+    },
+    {
+      "left": "lar",
+      "right": "ge",
+      "new": "large"
+    },
+    {
+      "left": "la",
+      "right": "w",
+      "new": "law"
+    },
+    {
+      "left": "l",
+      "right": "d",
+      "new": "ld"
+    },
+    {
+      "left": "le",
+      "right": "ad",
+      "new": "lead"
+    },
+    {
+      "left": "le",
+      "right": "ct",
+      "new": "lect"
+    },
+    {
+      "left": "loc",
+      "right": "ks",
+      "new": "locks"
+    },
+    {
+      "left": "log",
+      "right": "ical",
+      "new": "logical"
+    },
+    {
+      "left": "ls",
+      "right": "m",
+      "new": "lsm"
+    },
+    {
+      "left": "mach",
+      "right": "ine",
+      "new": "machine"
+    },
+    {
+      "left": "ma",
+      "right": "in",
+      "new": "main"
+    },
+    {
+      "left": "ma",
+      "right": "ke",
+      "new": "make"
+    },
+    {
+      "left": "mo",
+      "right": "s",
+      "new": "mos"
+    },
+    {
+      "left": "n",
+      "right": "chronous",
+      "new": "nchronous"
+    },
+    {
+      "left": "net",
+      "right": "works",
+      "new": "networks"
+    },
+    {
+      "left": "n",
+      "right": "t",
+      "new": "nt"
+    },
+    {
+      "left": "on",
+      "right": "d",
+      "new": "ond"
+    },
+    {
+      "left": "o",
+      "right": "per",
+      "new": "oper"
+    },
+    {
+      "left": "or",
+      "right": "g",
+      "new": "org"
+    },
+    {
+      "left": "o",
+      "right": "s",
+      "new": "os"
+    },
+    {
+      "left": "pathog",
+      "right": "ens",
+      "new": "pathogens"
+    },
+    {
+      "left": "pl",
+      "right": "es",
+      "new": "ples"
+    },
+    {
+      "left": "pre",
+      "right": "d",
+      "new": "pred"
+    },
+    {
+      "left": "pre",
+      "right": "vent",
+      "new": "prevent"
+    },
+    {
+      "left": "pr",
+      "right": "inci",
+      "new": "princi"
+    },
+    {
+      "left": "pro",
+      "right": "du",
+      "new": "produ"
+    },
+    {
+      "left": "protec",
+      "right": "tion",
+      "new": "protection"
+    },
+    {
+      "left": "quant",
+      "right": "um",
+      "new": "quantum"
+    },
+    {
+      "left": "regul",
+      "right": "ation",
+      "new": "regulation"
+    },
+    {
+      "left": "respon",
+      "right": "se",
+      "new": "response"
+    },
+    {
+      "left": "retr",
+      "right": "ieval",
+      "new": "retrieval"
+    },
+    {
+      "left": "righ",
+      "right": "t",
+      "new": "right"
+    },
+    {
+      "left": "ro",
+      "right": "u",
+      "new": "rou"
+    },
+    {
+      "left": "rou",
+      "right": "gh",
+      "new": "rough"
+    },
+    {
+      "left": "s",
+      "right": "ec",
+      "new": "sec"
+    },
+    {
+      "left": "s",
+      "right": "ent",
+      "new": "sent"
+    },
+    {
+      "left": "s",
+      "right": "h",
+      "new": "sh"
+    },
+    {
+      "left": "so",
+      "right": "cial",
+      "new": "social"
+    },
+    {
+      "left": "sp",
+      "right": "ec",
+      "new": "spec"
+    },
+    {
+      "left": "st",
+      "right": "and",
+      "new": "stand"
+    },
+    {
+      "left": "st",
+      "right": "at",
+      "new": "stat"
+    },
+    {
+      "left": "str",
+      "right": "on",
+      "new": "stron"
+    },
+    {
+      "left": "s",
+      "right": "un",
+      "new": "sun"
+    },
+    {
+      "left": "su",
+      "right": "p",
+      "new": "sup"
+    },
+    {
+      "left": "tech",
+      "right": "no",
+      "new": "techno"
+    },
+    {
+      "left": "t",
+      "right": "em",
+      "new": "tem"
+    },
+    {
+      "left": "t",
+      "right": "ext",
+      "new": "text"
+    },
+    {
+      "left": "th",
+      "right": "an",
+      "new": "than"
+    },
+    {
+      "left": "th",
+      "right": "rough",
+      "new": "through"
+    },
+    {
+      "left": "t",
+      "right": "im",
+      "new": "tim"
+    },
+    {
+      "left": "to",
+      "right": "kenization",
+      "new": "tokenization"
+    },
+    {
+      "left": "tr",
+      "right": "aining",
+      "new": "training"
+    },
+    {
+      "left": "tre",
+      "right": "e",
+      "new": "tree"
+    },
+    {
+      "left": "t",
+      "right": "ur",
+      "new": "tur"
+    },
+    {
+      "left": "t",
+      "right": "yp",
+      "new": "typ"
+    },
+    {
+      "left": "v",
+      "right": "alu",
+      "new": "valu"
+    },
+    {
+      "left": "v",
+      "right": "ance",
+      "new": "vance"
+    },
+    {
+      "left": "v",
+      "right": "ers",
+      "new": "vers"
+    },
+    {
+      "left": "w",
+      "right": "ar",
+      "new": "war"
+    },
+    {
+      "left": "w",
+      "right": "er",
+      "new": "wer"
+    },
+    {
+      "left": "w",
+      "right": "idely",
+      "new": "widely"
+    },
+    {
+      "left": "wor",
+      "right": "ld",
+      "new": "world"
+    },
+    {
+      "left": "ab",
+      "right": "et",
+      "new": "abet"
+    },
+    {
+      "left": "ac",
+      "right": "cess",
+      "new": "access"
+    },
+    {
+      "left": "ac",
+      "right": "ent",
+      "new": "acent"
+    },
+    {
+      "left": "act",
+      "right": "iv",
+      "new": "activ"
+    },
+    {
+      "left": "ad",
+      "right": "vance",
+      "new": "advance"
+    },
+    {
+      "left": "aff",
+      "right": "ect",
+      "new": "affect"
+    },
+    {
+      "left": "ain",
+      "right": "ed",
+      "new": "ained"
+    },
+    {
+      "left": "al",
+      "right": "ph",
+      "new": "alph"
+    },
+    {
+      "left": "al",
+      "right": "s",
+      "new": "als"
+    },
+    {
+      "left": "an",
+      "right": "cient",
+      "new": "ancient"
+    },
+    {
+      "left": "an",
+      "right": "ization",
+      "new": "anization"
+    },
+    {
+      "left": "anization",
+      "right": "s",
+      "new": "anizations"
+    },
+    {
+      "left": "an",
+      "right": "n",
+      "new": "ann"
+    },
+    {
+      "left": "ant",
+      "right": "e",
+      "new": "ante"
+    },
+    {
+      "left": "appro",
+      "right": "x",
+      "new": "approx"
+    },
+    {
+      "left": "approx",
+      "right": "im",
+      "new": "approxim"
+    },
+    {
+      "left": "ar",
+      "right": "ante",
+      "new": "arante"
+    },
+    {
+      "left": "ar",
+      "right": "b",
+      "new": "arb"
+    },
+    {
+      "left": "as",
+      "right": "h",
+      "new": "ash"
+    },
+    {
+      "left": "at",
+      "right": "ely",
+      "new": "ately"
+    },
+    {
+      "left": "at",
+      "right": "ive",
+      "new": "ative"
+    },
+    {
+      "left": "at",
+      "right": "mos",
+      "new": "atmos"
+    },
+    {
+      "left": "atmos",
+      "right": "ph",
+      "new": "atmosph"
+    },
+    {
+      "left": "att",
+      "right": "ern",
+      "new": "attern"
+    },
+    {
+      "left": "a",
+      "right": "use",
+      "new": "ause"
+    },
+    {
+      "left": "av",
+      "right": "oid",
+      "new": "avoid"
+    },
+    {
+      "left": "b",
+      "right": "ar",
+      "new": "bar"
+    },
+    {
+      "left": "batt",
+      "right": "eries",
+      "new": "batteries"
+    },
+    {
+      "left": "bec",
+      "right": "ause",
+      "new": "because"
+    },
+    {
+      "left": "be",
+      "right": "y",
+      "new": "bey"
+    },
+    {
+      "left": "bey",
+      "right": "ond",
+      "new": "beyond"
+    },
+    {
+      "left": "bi",
+      "right": "ases",
+      "new": "biases"
+    },
+    {
+      "left": "brea",
+      "right": "king",
+      "new": "breaking"
+    },
+    {
+      "left": "ca",
+      "right": "es",
+      "new": "caes"
+    },
+    {
+      "left": "caes",
+      "right": "ar",
+      "new": "caesar"
+    },
+    {
+      "left": "cal",
+      "right": "i",
+      "new": "cali"
+    },
+    {
+      "left": "cali",
+      "right": "for",
+      "new": "califor"
+    },
+    {
+      "left": "califor",
+      "right": "ni",
+      "new": "californi"
+    },
+    {
+      "left": "californi",
+      "right": "a",
+      "new": "california"
+    },
+    {
+      "left": "ca",
+      "right": "us",
+      "new": "caus"
+    },
+    {
+      "left": "c",
+      "right": "c",
+      "new": "cc"
+    },
+    {
+      "left": "ce",
+      "right": "an",
+      "new": "cean"
+    },
+    {
+      "left": "cent",
+      "right": "ur",
+      "new": "centur"
+    },
+    {
+      "left": "chan",
+      "right": "ge",
+      "new": "change"
+    },
+    {
+      "left": "ci",
+      "right": "ence",
+      "new": "cience"
+    },
+    {
+      "left": "ci",
+      "right": "es",
+      "new": "cies"
+    },
+    {
+      "left": "c",
+      "right": "iv",
+      "new": "civ"
+    },
+    {
+      "left": "civ",
+      "right": "ili",
+      "new": "civili"
+    },
+    {
+      "left": "civili",
+      "right": "z",
+      "new": "civiliz"
+    },
+    {
+      "left": "civiliz",
+      "right": "ations",
+      "new": "civilizations"
+    },
+    {
+      "left": "cogn",
+      "right": "itive",
+      "new": "cognitive"
+    },
+    {
+      "left": "col",
+      "right": "lect",
+      "new": "collect"
+    },
+    {
+      "left": "collec",
+      "right": "tions",
+      "new": "collections"
+    },
+    {
+      "left": "comm",
+      "right": "on",
+      "new": "common"
+    },
+    {
+      "left": "comp",
+      "right": "on",
+      "new": "compon"
+    },
+    {
+      "left": "compon",
+      "right": "ent",
+      "new": "component"
+    },
+    {
+      "left": "comput",
+      "right": "ers",
+      "new": "computers"
+    },
+    {
+      "left": "conf",
+      "right": "ir",
+      "new": "confir"
+    },
+    {
+      "left": "consist",
+      "right": "ent",
+      "new": "consistent"
+    },
+    {
+      "left": "cont",
+      "right": "ro",
+      "new": "contro"
+    },
+    {
+      "left": "contro",
+      "right": "l",
+      "new": "control"
+    },
+    {
+      "left": "co",
+      "right": "p",
+      "new": "cop"
+    },
+    {
+      "left": "co",
+      "right": "re",
+      "new": "core"
+    },
+    {
+      "left": "co",
+      "right": "ver",
+      "new": "cover"
+    },
+    {
+      "left": "cr",
+      "right": "ash",
+      "new": "crash"
+    },
+    {
+      "left": "cre",
+      "right": "ate",
+      "new": "create"
+    },
+    {
+      "left": "cr",
+      "right": "i",
+      "new": "cri"
+    },
+    {
+      "left": "datab",
+      "right": "ases",
+      "new": "databases"
+    },
+    {
+      "left": "d",
+      "right": "ay",
+      "new": "day"
+    },
+    {
+      "left": "d",
+      "right": "ense",
+      "new": "dense"
+    },
+    {
+      "left": "des",
+      "right": "ign",
+      "new": "design"
+    },
+    {
+      "left": "design",
+      "right": "ed",
+      "new": "designed"
+    },
+    {
+      "left": "des",
+      "right": "p",
+      "new": "desp"
+    },
+    {
+      "left": "desp",
+      "right": "ite",
+      "new": "despite"
+    },
+    {
+      "left": "develop",
+      "right": "ing",
+      "new": "developing"
+    },
+    {
+      "left": "d",
+      "right": "ig",
+      "new": "dig"
+    },
+    {
+      "left": "dig",
+      "right": "it",
+      "new": "digit"
+    },
+    {
+      "left": "digit",
+      "right": "al",
+      "new": "digital"
+    },
+    {
+      "left": "dis",
+      "right": "e",
+      "new": "dise"
+    },
+    {
+      "left": "docum",
+      "right": "ents",
+      "new": "documents"
+    },
+    {
+      "left": "ear",
+      "right": "th",
+      "new": "earth"
+    },
+    {
+      "left": "electr",
+      "right": "ic",
+      "new": "electric"
+    },
+    {
+      "left": "electric",
+      "right": "ity",
+      "new": "electricity"
+    },
+    {
+      "left": "el",
+      "right": "es",
+      "new": "eles"
+    },
+    {
+      "left": "en",
+      "right": "cies",
+      "new": "encies"
+    },
+    {
+      "left": "ens",
+      "right": "ion",
+      "new": "ension"
+    },
+    {
+      "left": "er",
+      "right": "ance",
+      "new": "erance"
+    },
+    {
+      "left": "ere",
+      "right": "nt",
+      "new": "erent"
+    },
+    {
+      "left": "er",
+      "right": "y",
+      "new": "ery"
+    },
+    {
+      "left": "e",
+      "right": "u",
+      "new": "eu"
+    },
+    {
+      "left": "eu",
+      "right": "ro",
+      "new": "euro"
+    },
+    {
+      "left": "ev",
+      "right": "en",
+      "new": "even"
+    },
+    {
+      "left": "ev",
+      "right": "ents",
+      "new": "events"
+    },
+    {
+      "left": "ex",
+      "right": "pl",
+      "new": "expl"
+    },
+    {
+      "left": "extr",
+      "right": "active",
+      "new": "extractive"
+    },
+    {
+      "left": "f",
+      "right": "ace",
+      "new": "face"
+    },
+    {
+      "left": "f",
+      "right": "ind",
+      "new": "find"
+    },
+    {
+      "left": "f",
+      "right": "o",
+      "new": "fo"
+    },
+    {
+      "left": "f",
+      "right": "ore",
+      "new": "fore"
+    },
+    {
+      "left": "f",
+      "right": "ra",
+      "new": "fra"
+    },
+    {
+      "left": "fra",
+      "right": "me",
+      "new": "frame"
+    },
+    {
+      "left": "f",
+      "right": "ul",
+      "new": "ful"
+    },
+    {
+      "left": "f",
+      "right": "un",
+      "new": "fun"
+    },
+    {
+      "left": "fundament",
+      "right": "ally",
+      "new": "fundamentally"
+    },
+    {
+      "left": "g",
+      "right": "ain",
+      "new": "gain"
+    },
+    {
+      "left": "ge",
+      "right": "ther",
+      "new": "gether"
+    },
+    {
+      "left": "g",
+      "right": "o",
+      "new": "go"
+    },
+    {
+      "left": "green",
+      "right": "ho",
+      "new": "greenho"
+    },
+    {
+      "left": "greenho",
+      "right": "use",
+      "new": "greenhouse"
+    },
+    {
+      "left": "gr",
+      "right": "id",
+      "new": "grid"
+    },
+    {
+      "left": "gu",
+      "right": "arante",
+      "new": "guarante"
+    },
+    {
+      "left": "has",
+      "right": "h",
+      "new": "hash"
+    },
+    {
+      "left": "he",
+      "right": "av",
+      "new": "heav"
+    },
+    {
+      "left": "h",
+      "right": "ist",
+      "new": "hist"
+    },
+    {
+      "left": "h",
+      "right": "t",
+      "new": "ht"
+    },
+    {
+      "left": "h",
+      "right": "y",
+      "new": "hy"
+    },
+    {
+      "left": "ic",
+      "right": "ate",
+      "new": "icate"
+    },
+    {
+      "left": "ication",
+      "right": "s",
+      "new": "ications"
+    },
+    {
+      "left": "ict",
+      "right": "ing",
+      "new": "icting"
+    },
+    {
+      "left": "iev",
+      "right": "ed",
+      "new": "ieved"
+    },
+    {
+      "left": "i",
+      "right": "le",
+      "new": "ile"
+    },
+    {
+      "left": "im",
+      "right": "it",
+      "new": "imit"
+    },
+    {
+      "left": "imit",
+      "right": "ation",
+      "new": "imitation"
+    },
+    {
+      "left": "im",
+      "right": "port",
+      "new": "import"
+    },
+    {
+      "left": "import",
+      "right": "ant",
+      "new": "important"
+    },
+    {
+      "left": "im",
+      "right": "prov",
+      "new": "improv"
+    },
+    {
+      "left": "in",
+      "right": "ce",
+      "new": "ince"
+    },
+    {
+      "left": "inc",
+      "right": "re",
+      "new": "incre"
+    },
+    {
+      "left": "in",
+      "right": "im",
+      "new": "inim"
+    },
+    {
+      "left": "int",
+      "right": "ro",
+      "new": "intro"
+    },
+    {
+      "left": "intro",
+      "right": "du",
+      "new": "introdu"
+    },
+    {
+      "left": "int",
+      "right": "s",
+      "new": "ints"
+    },
+    {
+      "left": "io",
+      "right": "d",
+      "new": "iod"
+    },
+    {
+      "left": "is",
+      "right": "su",
+      "new": "issu"
+    },
+    {
+      "left": "j",
+      "right": "ud",
+      "new": "jud"
+    },
+    {
+      "left": "k",
+      "right": "ill",
+      "new": "kill"
+    },
+    {
+      "left": "l",
+      "right": "am",
+      "new": "lam"
+    },
+    {
+      "left": "l",
+      "right": "at",
+      "new": "lat"
+    },
+    {
+      "left": "law",
+      "right": "s",
+      "new": "laws"
+    },
+    {
+      "left": "l",
+      "right": "erance",
+      "new": "lerance"
+    },
+    {
+      "left": "l",
+      "right": "ess",
+      "new": "less"
+    },
+    {
+      "left": "lig",
+      "right": "ht",
+      "new": "light"
+    },
+    {
+      "left": "l",
+      "right": "imitation",
+      "new": "limitation"
+    },
+    {
+      "left": "lo",
+      "right": "ss",
+      "new": "loss"
+    },
+    {
+      "left": "l",
+      "right": "t",
+      "new": "lt"
+    },
+    {
+      "left": "maint",
+      "right": "aining",
+      "new": "maintaining"
+    },
+    {
+      "left": "m",
+      "right": "an",
+      "new": "man"
+    },
+    {
+      "left": "ma",
+      "right": "the",
+      "new": "mathe"
+    },
+    {
+      "left": "mathe",
+      "right": "mat",
+      "new": "mathemat"
+    },
+    {
+      "left": "me",
+      "right": "an",
+      "new": "mean"
+    },
+    {
+      "left": "me",
+      "right": "tr",
+      "new": "metr"
+    },
+    {
+      "left": "metr",
+      "right": "ics",
+      "new": "metrics"
+    },
+    {
+      "left": "m",
+      "right": "inim",
+      "new": "minim"
+    },
+    {
+      "left": "ne",
+      "right": "ed",
+      "new": "need"
+    },
+    {
+      "left": "net",
+      "right": "work",
+      "new": "network"
+    },
+    {
+      "left": "no",
+      "right": "t",
+      "new": "not"
+    },
+    {
+      "left": "n",
+      "right": "ud",
+      "new": "nud"
+    },
+    {
+      "left": "nud",
+      "right": "ge",
+      "new": "nudge"
+    },
+    {
+      "left": "o",
+      "right": "cean",
+      "new": "ocean"
+    },
+    {
+      "left": "of",
+      "right": "f",
+      "new": "off"
+    },
+    {
+      "left": "op",
+      "right": "le",
+      "new": "ople"
+    },
+    {
+      "left": "op",
+      "right": "tions",
+      "new": "options"
+    },
+    {
+      "left": "org",
+      "right": "anizations",
+      "new": "organizations"
+    },
+    {
+      "left": "ort",
+      "right": "ed",
+      "new": "orted"
+    },
+    {
+      "left": "o",
+      "right": "ther",
+      "new": "other"
+    },
+    {
+      "left": "p",
+      "right": "attern",
+      "new": "pattern"
+    },
+    {
+      "left": "pe",
+      "right": "ople",
+      "new": "people"
+    },
+    {
+      "left": "per",
+      "right": "atures",
+      "new": "peratures"
+    },
+    {
+      "left": "per",
+      "right": "iod",
+      "new": "period"
+    },
+    {
+      "left": "po",
+      "right": "st",
+      "new": "post"
+    },
+    {
+      "left": "po",
+      "right": "wer",
+      "new": "power"
+    },
+    {
+      "left": "pr",
+      "right": "im",
+      "new": "prim"
+    },
+    {
+      "left": "pro",
+      "right": "b",
+      "new": "prob"
+    },
+    {
+      "left": "produ",
+      "right": "ce",
+      "new": "produce"
+    },
+    {
+      "left": "prov",
+      "right": "id",
+      "new": "provid"
+    },
+    {
+      "left": "p",
+      "right": "ur",
+      "new": "pur"
+    },
+    {
+      "left": "qu",
+      "right": "ery",
+      "new": "query"
+    },
+    {
+      "left": "ran",
+      "right": "king",
+      "new": "ranking"
+    },
+    {
+      "left": "re",
+      "right": "c",
+      "new": "rec"
+    },
+    {
+      "left": "reg",
+      "right": "res",
+      "new": "regres"
+    },
+    {
+      "left": "regres",
+      "right": "sion",
+      "new": "regression"
+    },
+    {
+      "left": "re",
+      "right": "le",
+      "new": "rele"
+    },
+    {
+      "left": "re",
+      "right": "present",
+      "new": "represent"
+    },
+    {
+      "left": "require",
+      "right": "ments",
+      "new": "requirements"
+    },
+    {
+      "left": "re",
+      "right": "search",
+      "new": "research"
+    },
+    {
+      "left": "righ",
+      "right": "ts",
+      "new": "rights"
+    },
+    {
+      "left": "r",
+      "right": "is",
+      "new": "ris"
+    },
+    {
+      "left": "s",
+      "right": "ame",
+      "new": "same"
+    },
+    {
+      "left": "s",
+      "right": "cience",
+      "new": "science"
+    },
+    {
+      "left": "s",
+      "right": "cient",
+      "new": "scient"
+    },
+    {
+      "left": "se",
+      "right": "a",
+      "new": "sea"
+    },
+    {
+      "left": "se",
+      "right": "e",
+      "new": "see"
+    },
+    {
+      "left": "sim",
+      "right": "ple",
+      "new": "simple"
+    },
+    {
+      "left": "s",
+      "right": "ince",
+      "new": "since"
+    },
+    {
+      "left": "s",
+      "right": "ize",
+      "new": "size"
+    },
+    {
+      "left": "s",
+      "right": "k",
+      "new": "sk"
+    },
+    {
+      "left": "s",
+      "right": "orted",
+      "new": "sorted"
+    },
+    {
+      "left": "su",
+      "right": "it",
+      "new": "suit"
+    },
+    {
+      "left": "summar",
+      "right": "ization",
+      "new": "summarization"
+    },
+    {
+      "left": "su",
+      "right": "res",
+      "new": "sures"
+    },
+    {
+      "left": "system",
+      "right": "atic",
+      "new": "systematic"
+    },
+    {
+      "left": "t",
+      "right": "as",
+      "new": "tas"
+    },
+    {
+      "left": "t",
+      "right": "eles",
+      "new": "teles"
+    },
+    {
+      "left": "tem",
+      "right": "peratures",
+      "new": "temperatures"
+    },
+    {
+      "left": "the",
+      "right": "m",
+      "new": "them"
+    },
+    {
+      "left": "the",
+      "right": "ore",
+      "new": "theore"
+    },
+    {
+      "left": "the",
+      "right": "ory",
+      "new": "theory"
+    },
+    {
+      "left": "th",
+      "right": "in",
+      "new": "thin"
+    },
+    {
+      "left": "tim",
+      "right": "e",
+      "new": "time"
+    },
+    {
+      "left": "t",
+      "right": "issu",
+      "new": "tissu"
+    },
+    {
+      "left": "to",
+      "right": "gether",
+      "new": "together"
+    },
+    {
+      "left": "to",
+      "right": "lerance",
+      "new": "tolerance"
+    },
+    {
+      "left": "to",
+      "right": "o",
+      "new": "too"
+    },
+    {
+      "left": "trans",
+      "right": "form",
+      "new": "transform"
+    },
+    {
+      "left": "t",
+      "right": "ter",
+      "new": "tter"
+    },
+    {
+      "left": "tw",
+      "right": "o",
+      "new": "two"
+    },
+    {
+      "left": "ul",
+      "right": "t",
+      "new": "ult"
+    },
+    {
+      "left": "under",
+      "right": "stand",
+      "new": "understand"
+    },
+    {
+      "left": "un",
+      "right": "its",
+      "new": "units"
+    },
+    {
+      "left": "un",
+      "right": "t",
+      "new": "unt"
+    },
+    {
+      "left": "vacc",
+      "right": "ines",
+      "new": "vaccines"
+    },
+    {
+      "left": "v",
+      "right": "e",
+      "new": "ve"
+    },
+    {
+      "left": "vector",
+      "right": "s",
+      "new": "vectors"
+    },
+    {
+      "left": "v",
+      "right": "ir",
+      "new": "vir"
+    },
+    {
+      "left": "vo",
+      "right": "lution",
+      "new": "volution"
+    },
+    {
+      "left": "w",
+      "right": "al",
+      "new": "wal"
+    },
+    {
+      "left": "w",
+      "right": "e",
+      "new": "we"
+    },
+    {
+      "left": "w",
+      "right": "ell",
+      "new": "well"
+    },
+    {
+      "left": "wh",
+      "right": "ile",
+      "new": "while"
+    },
+    {
+      "left": "with",
+      "right": "in",
+      "new": "within"
+    },
+    {
+      "left": "writ",
+      "right": "es",
+      "new": "writes"
+    },
+    {
+      "left": "writ",
+      "right": "ten",
+      "new": "written"
+    },
+    {
+      "left": "1",
+      "right": "9",
+      "new": "19"
+    },
+    {
+      "left": "20",
+      "right": "1",
+      "new": "201"
+    },
+    {
+      "left": "20",
+      "right": "2",
+      "new": "202"
+    },
+    {
+      "left": "2",
+      "right": "5",
+      "new": "25"
+    },
+    {
+      "left": "8",
+      "right": "5",
+      "new": "85"
+    },
+    {
+      "left": "abl",
+      "right": "is",
+      "new": "ablis"
+    },
+    {
+      "left": "ablis",
+      "right": "h",
+      "new": "ablish"
+    },
+    {
+      "left": "ab",
+      "right": "ly",
+      "new": "ably"
+    },
+    {
+      "left": "ab",
+      "right": "ular",
+      "new": "abular"
+    },
+    {
+      "left": "abular",
+      "right": "y",
+      "new": "abulary"
+    },
+    {
+      "left": "ach",
+      "right": "ed",
+      "new": "ached"
+    },
+    {
+      "left": "ac",
+      "right": "ks",
+      "new": "acks"
+    },
+    {
+      "left": "act",
+      "right": "er",
+      "new": "acter"
+    },
+    {
+      "left": "act",
+      "right": "ice",
+      "new": "actice"
+    },
+    {
+      "left": "a",
+      "right": "de",
+      "new": "ade"
+    },
+    {
+      "left": "ad",
+      "right": "es",
+      "new": "ades"
+    },
+    {
+      "left": "ad",
+      "right": "o",
+      "new": "ado"
+    },
+    {
+      "left": "ad",
+      "right": "opt",
+      "new": "adopt"
+    },
+    {
+      "left": "ado",
+      "right": "x",
+      "new": "adox"
+    },
+    {
+      "left": "ad",
+      "right": "s",
+      "new": "ads"
+    },
+    {
+      "left": "affect",
+      "right": "s",
+      "new": "affects"
+    },
+    {
+      "left": "a",
+      "right": "gain",
+      "new": "again"
+    },
+    {
+      "left": "again",
+      "right": "st",
+      "new": "against"
+    },
+    {
+      "left": "a",
+      "right": "h",
+      "new": "ah"
+    },
+    {
+      "left": "a",
+      "right": "he",
+      "new": "ahe"
+    },
+    {
+      "left": "ahe",
+      "right": "ad",
+      "new": "ahead"
+    },
+    {
+      "left": "ah",
+      "right": "n",
+      "new": "ahn"
+    },
+    {
+      "left": "ahn",
+      "right": "em",
+      "new": "ahnem"
+    },
+    {
+      "left": "ahnem",
+      "right": "an",
+      "new": "ahneman"
+    },
+    {
+      "left": "a",
+      "right": "is",
+      "new": "ais"
+    },
+    {
+      "left": "ais",
+      "right": "s",
+      "new": "aiss"
+    },
+    {
+      "left": "aiss",
+      "right": "ance",
+      "new": "aissance"
+    },
+    {
+      "left": "al",
+      "right": "e",
+      "new": "ale"
+    },
+    {
+      "left": "all",
+      "right": "er",
+      "new": "aller"
+    },
+    {
+      "left": "alph",
+      "right": "abet",
+      "new": "alphabet"
+    },
+    {
+      "left": "al",
+      "right": "so",
+      "new": "also"
+    },
+    {
+      "left": "al",
+      "right": "t",
+      "new": "alt"
+    },
+    {
+      "left": "alt",
+      "right": "ern",
+      "new": "altern"
+    },
+    {
+      "left": "alu",
+      "right": "ation",
+      "new": "aluation"
+    },
+    {
+      "left": "am",
+      "right": "ples",
+      "new": "amples"
+    },
+    {
+      "left": "anal",
+      "right": "y",
+      "new": "analy"
+    },
+    {
+      "left": "an",
+      "right": "ch",
+      "new": "anch"
+    },
+    {
+      "left": "anch",
+      "right": "or",
+      "new": "anchor"
+    },
+    {
+      "left": "and",
+      "right": "le",
+      "new": "andle"
+    },
+    {
+      "left": "and",
+      "right": "om",
+      "new": "andom"
+    },
+    {
+      "left": "and",
+      "right": "s",
+      "new": "ands"
+    },
+    {
+      "left": "an",
+      "right": "i",
+      "new": "ani"
+    },
+    {
+      "left": "an",
+      "right": "k",
+      "new": "ank"
+    },
+    {
+      "left": "ann",
+      "right": "ing",
+      "new": "anning"
+    },
+    {
+      "left": "ant",
+      "right": "ly",
+      "new": "antly"
+    },
+    {
+      "left": "ant",
+      "right": "s",
+      "new": "ants"
+    },
+    {
+      "left": "app",
+      "right": "ear",
+      "new": "appear"
+    },
+    {
+      "left": "ap",
+      "right": "pl",
+      "new": "appl"
+    },
+    {
+      "left": "appl",
+      "right": "ications",
+      "new": "applications"
+    },
+    {
+      "left": "appli",
+      "right": "ed",
+      "new": "applied"
+    },
+    {
+      "left": "appli",
+      "right": "es",
+      "new": "applies"
+    },
+    {
+      "left": "approach",
+      "right": "es",
+      "new": "approaches"
+    },
+    {
+      "left": "approxim",
+      "right": "ately",
+      "new": "approximately"
+    },
+    {
+      "left": "ap",
+      "right": "s",
+      "new": "aps"
+    },
+    {
+      "left": "apt",
+      "right": "ure",
+      "new": "apture"
+    },
+    {
+      "left": "arb",
+      "right": "on",
+      "new": "arbon"
+    },
+    {
+      "left": "arch",
+      "right": "it",
+      "new": "archit"
+    },
+    {
+      "left": "archit",
+      "right": "ect",
+      "new": "architect"
+    },
+    {
+      "left": "architect",
+      "right": "ure",
+      "new": "architecture"
+    },
+    {
+      "left": "are",
+      "right": "d",
+      "new": "ared"
+    },
+    {
+      "left": "ar",
+      "right": "ge",
+      "new": "arge"
+    },
+    {
+      "left": "arge",
+      "right": "t",
+      "new": "arget"
+    },
+    {
+      "left": "ar",
+      "right": "ily",
+      "new": "arily"
+    },
+    {
+      "left": "ar",
+      "right": "m",
+      "new": "arm"
+    },
+    {
+      "left": "as",
+      "right": "y",
+      "new": "asy"
+    },
+    {
+      "left": "asy",
+      "right": "nchronous",
+      "new": "asynchronous"
+    },
+    {
+      "left": "at",
+      "right": "is",
+      "new": "atis"
+    },
+    {
+      "left": "atmosph",
+      "right": "ere",
+      "new": "atmosphere"
+    },
+    {
+      "left": "att",
+      "right": "acks",
+      "new": "attacks"
+    },
+    {
+      "left": "auto",
+      "right": "immune",
+      "new": "autoimmune"
+    },
+    {
+      "left": "auto",
+      "right": "mat",
+      "new": "automat"
+    },
+    {
+      "left": "a",
+      "right": "w",
+      "new": "aw"
+    },
+    {
+      "left": "b",
+      "right": "ack",
+      "new": "back"
+    },
+    {
+      "left": "bar",
+      "right": "ri",
+      "new": "barri"
+    },
+    {
+      "left": "barri",
+      "right": "ers",
+      "new": "barriers"
+    },
+    {
+      "left": "bec",
+      "right": "o",
+      "new": "beco"
+    },
+    {
+      "left": "beco",
+      "right": "me",
+      "new": "become"
+    },
+    {
+      "left": "be",
+      "right": "fore",
+      "new": "before"
+    },
+    {
+      "left": "be",
+      "right": "hav",
+      "new": "behav"
+    },
+    {
+      "left": "behav",
+      "right": "i",
+      "new": "behavi"
+    },
+    {
+      "left": "behavi",
+      "right": "or",
+      "new": "behavior"
+    },
+    {
+      "left": "behavior",
+      "right": "al",
+      "new": "behavioral"
+    },
+    {
+      "left": "be",
+      "right": "ing",
+      "new": "being"
+    },
+    {
+      "left": "b",
+      "right": "el",
+      "new": "bel"
+    },
+    {
+      "left": "b",
+      "right": "en",
+      "new": "ben"
+    },
+    {
+      "left": "be",
+      "right": "tter",
+      "new": "better"
+    },
+    {
+      "left": "bi",
+      "right": "as",
+      "new": "bias"
+    },
+    {
+      "left": "bio",
+      "right": "logical",
+      "new": "biological"
+    },
+    {
+      "left": "b",
+      "right": "lic",
+      "new": "blic"
+    },
+    {
+      "left": "b",
+      "right": "m",
+      "new": "bm"
+    },
+    {
+      "left": "bm",
+      "right": "25",
+      "new": "bm25"
+    },
+    {
+      "left": "bo",
+      "right": "und",
+      "new": "bound"
+    },
+    {
+      "left": "b",
+      "right": "pe",
+      "new": "bpe"
+    },
+    {
+      "left": "b",
+      "right": "ra",
+      "new": "bra"
+    },
+    {
+      "left": "bra",
+      "right": "z",
+      "new": "braz"
+    },
+    {
+      "left": "braz",
+      "right": "il",
+      "new": "brazil"
+    },
+    {
+      "left": "brea",
+      "right": "k",
+      "new": "break"
+    },
+    {
+      "left": "b",
+      "right": "ro",
+      "new": "bro"
+    },
+    {
+      "left": "bro",
+      "right": "ken",
+      "new": "broken"
+    },
+    {
+      "left": "c",
+      "right": "apture",
+      "new": "capture"
+    },
+    {
+      "left": "c",
+      "right": "arbon",
+      "new": "carbon"
+    },
+    {
+      "left": "c",
+      "right": "ass",
+      "new": "cass"
+    },
+    {
+      "left": "caus",
+      "right": "ing",
+      "new": "causing"
+    },
+    {
+      "left": "c",
+      "right": "cess",
+      "new": "ccess"
+    },
+    {
+      "left": "ce",
+      "right": "ives",
+      "new": "ceives"
+    },
+    {
+      "left": "cent",
+      "right": "r",
+      "new": "centr"
+    },
+    {
+      "left": "centur",
+      "right": "y",
+      "new": "century"
+    },
+    {
+      "left": "ce",
+      "right": "pt",
+      "new": "cept"
+    },
+    {
+      "left": "ch",
+      "right": "ar",
+      "new": "char"
+    },
+    {
+      "left": "ch",
+      "right": "em",
+      "new": "chem"
+    },
+    {
+      "left": "ch",
+      "right": "iff",
+      "new": "chiff"
+    },
+    {
+      "left": "cho",
+      "right": "ices",
+      "new": "choices"
+    },
+    {
+      "left": "cho",
+      "right": "logy",
+      "new": "chology"
+    },
+    {
+      "left": "ciph",
+      "right": "ers",
+      "new": "ciphers"
+    },
+    {
+      "left": "c",
+      "right": "k",
+      "new": "ck"
+    },
+    {
+      "left": "class",
+      "right": "ification",
+      "new": "classification"
+    },
+    {
+      "left": "cl",
+      "right": "im",
+      "new": "clim"
+    },
+    {
+      "left": "clim",
+      "right": "ate",
+      "new": "climate"
+    },
+    {
+      "left": "c",
+      "right": "lo",
+      "new": "clo"
+    },
+    {
+      "left": "c",
+      "right": "locks",
+      "new": "clocks"
+    },
+    {
+      "left": "commun",
+      "right": "ication",
+      "new": "communication"
+    },
+    {
+      "left": "con",
+      "right": "curren",
+      "new": "concurren"
+    },
+    {
+      "left": "concurren",
+      "right": "cy",
+      "new": "concurrency"
+    },
+    {
+      "left": "con",
+      "right": "current",
+      "new": "concurrent"
+    },
+    {
+      "left": "con",
+      "right": "d",
+      "new": "cond"
+    },
+    {
+      "left": "cond",
+      "right": "itions",
+      "new": "conditions"
+    },
+    {
+      "left": "conf",
+      "right": "l",
+      "new": "confl"
+    },
+    {
+      "left": "conf",
+      "right": "lic",
+      "new": "conflic"
+    },
+    {
+      "left": "confl",
+      "right": "ict",
+      "new": "conflict"
+    },
+    {
+      "left": "conflic",
+      "right": "ts",
+      "new": "conflicts"
+    },
+    {
+      "left": "cons",
+      "right": "ent",
+      "new": "consent"
+    },
+    {
+      "left": "con",
+      "right": "su",
+      "new": "consu"
+    },
+    {
+      "left": "cont",
+      "right": "ain",
+      "new": "contain"
+    },
+    {
+      "left": "continu",
+      "right": "ous",
+      "new": "continuous"
+    },
+    {
+      "left": "con",
+      "right": "ver",
+      "new": "conver"
+    },
+    {
+      "left": "co",
+      "right": "ord",
+      "new": "coord"
+    },
+    {
+      "left": "cop",
+      "right": "es",
+      "new": "copes"
+    },
+    {
+      "left": "cover",
+      "right": "y",
+      "new": "covery"
+    },
+    {
+      "left": "cr",
+      "right": "ater",
+      "new": "crater"
+    },
+    {
+      "left": "cr",
+      "right": "it",
+      "new": "crit"
+    },
+    {
+      "left": "crit",
+      "right": "ical",
+      "new": "critical"
+    },
+    {
+      "left": "c",
+      "right": "ross",
+      "new": "cross"
+    },
+    {
+      "left": "cr",
+      "right": "u",
+      "new": "cru"
+    },
+    {
+      "left": "cryp",
+      "right": "t",
+      "new": "crypt"
+    },
+    {
+      "left": "cryptograph",
+      "right": "ic",
+      "new": "cryptographic"
+    },
+    {
+      "left": "c",
+      "right": "tions",
+      "new": "ctions"
+    },
+    {
+      "left": "curren",
+      "right": "ce",
+      "new": "currence"
+    },
+    {
+      "left": "dat",
+      "right": "acent",
+      "new": "datacent"
+    },
+    {
+      "left": "dec",
+      "right": "ades",
+      "new": "decades"
+    },
+    {
+      "left": "de",
+      "right": "f",
+      "new": "def"
+    },
+    {
+      "left": "d",
+      "right": "el",
+      "new": "del"
+    },
+    {
+      "left": "de",
+      "right": "le",
+      "new": "dele"
+    },
+    {
+      "left": "dep",
+      "right": "end",
+      "new": "depend"
+    },
+    {
+      "left": "depend",
+      "right": "ent",
+      "new": "dependent"
+    },
+    {
+      "left": "des",
+      "right": "ire",
+      "new": "desire"
+    },
+    {
+      "left": "de",
+      "right": "v",
+      "new": "dev"
+    },
+    {
+      "left": "develop",
+      "right": "ed",
+      "new": "developed"
+    },
+    {
+      "left": "develop",
+      "right": "ment",
+      "new": "development"
+    },
+    {
+      "left": "d",
+      "right": "iff",
+      "new": "diff"
+    },
+    {
+      "left": "diff",
+      "right": "erent",
+      "new": "different"
+    },
+    {
+      "left": "d",
+      "right": "im",
+      "new": "dim"
+    },
+    {
+      "left": "dim",
+      "right": "ension",
+      "new": "dimension"
+    },
+    {
+      "left": "dimension",
+      "right": "ality",
+      "new": "dimensionality"
+    },
+    {
+      "left": "d",
+      "right": "io",
+      "new": "dio"
+    },
+    {
+      "left": "dio",
+      "right": "x",
+      "new": "diox"
+    },
+    {
+      "left": "diox",
+      "right": "ide",
+      "new": "dioxide"
+    },
+    {
+      "left": "dis",
+      "right": "c",
+      "new": "disc"
+    },
+    {
+      "left": "dise",
+      "right": "ases",
+      "new": "diseases"
+    },
+    {
+      "left": "d",
+      "right": "iv",
+      "new": "div"
+    },
+    {
+      "left": "div",
+      "right": "er",
+      "new": "diver"
+    },
+    {
+      "left": "d",
+      "right": "o",
+      "new": "do"
+    },
+    {
+      "left": "d",
+      "right": "r",
+      "new": "dr"
+    },
+    {
+      "left": "dr",
+      "right": "am",
+      "new": "dram"
+    },
+    {
+      "left": "d",
+      "right": "ro",
+      "new": "dro"
+    },
+    {
+      "left": "dur",
+      "right": "ability",
+      "new": "durability"
+    },
+    {
+      "left": "e",
+      "right": "ach",
+      "new": "each"
+    },
+    {
+      "left": "ear",
+      "right": "ly",
+      "new": "early"
+    },
+    {
+      "left": "ear",
+      "right": "s",
+      "new": "ears"
+    },
+    {
+      "left": "ec",
+      "right": "on",
+      "new": "econ"
+    },
+    {
+      "left": "econ",
+      "right": "om",
+      "new": "econom"
+    },
+    {
+      "left": "ect",
+      "right": "ed",
+      "new": "ected"
+    },
+    {
+      "left": "ec",
+      "right": "tion",
+      "new": "ection"
+    },
+    {
+      "left": "effect",
+      "right": "ive",
+      "new": "effective"
+    },
+    {
+      "left": "effici",
+      "right": "encies",
+      "new": "efficiencies"
+    },
+    {
+      "left": "effici",
+      "right": "ent",
+      "new": "efficient"
+    },
+    {
+      "left": "ef",
+      "right": "for",
+      "new": "effor"
+    },
+    {
+      "left": "effor",
+      "right": "t",
+      "new": "effort"
+    },
+    {
+      "left": "el",
+      "right": "ed",
+      "new": "eled"
+    },
+    {
+      "left": "el",
+      "right": "s",
+      "new": "els"
+    },
+    {
+      "left": "em",
+      "right": "o",
+      "new": "emo"
+    },
+    {
+      "left": "en",
+      "right": "abl",
+      "new": "enabl"
+    },
+    {
+      "left": "en",
+      "right": "ables",
+      "new": "enables"
+    },
+    {
+      "left": "en",
+      "right": "ced",
+      "new": "enced"
+    },
+    {
+      "left": "en",
+      "right": "ed",
+      "new": "ened"
+    },
+    {
+      "left": "ens",
+      "right": "itive",
+      "new": "ensitive"
+    },
+    {
+      "left": "ens",
+      "right": "ive",
+      "new": "ensive"
+    },
+    {
+      "left": "ent",
+      "right": "if",
+      "new": "entif"
+    },
+    {
+      "left": "ent",
+      "right": "ire",
+      "new": "entire"
+    },
+    {
+      "left": "e",
+      "right": "qu",
+      "new": "equ"
+    },
+    {
+      "left": "er",
+      "right": "able",
+      "new": "erable"
+    },
+    {
+      "left": "er",
+      "right": "o",
+      "new": "ero"
+    },
+    {
+      "left": "er",
+      "right": "r",
+      "new": "err"
+    },
+    {
+      "left": "est",
+      "right": "ablish",
+      "new": "establish"
+    },
+    {
+      "left": "ev",
+      "right": "aluation",
+      "new": "evaluation"
+    },
+    {
+      "left": "ev",
+      "right": "id",
+      "new": "evid"
+    },
+    {
+      "left": "evid",
+      "right": "ence",
+      "new": "evidence"
+    },
+    {
+      "left": "expl",
+      "right": "or",
+      "new": "explor"
+    },
+    {
+      "left": "explor",
+      "right": "ation",
+      "new": "exploration"
+    },
+    {
+      "left": "f",
+      "right": "ac",
+      "new": "fac"
+    },
+    {
+      "left": "f",
+      "right": "ail",
+      "new": "fail"
+    },
+    {
+      "left": "f",
+      "right": "all",
+      "new": "fall"
+    },
+    {
+      "left": "fa",
+      "right": "mo",
+      "new": "famo"
+    },
+    {
+      "left": "famo",
+      "right": "us",
+      "new": "famous"
+    },
+    {
+      "left": "famous",
+      "right": "ly",
+      "new": "famously"
+    },
+    {
+      "left": "fa",
+      "right": "st",
+      "new": "fast"
+    },
+    {
+      "left": "fa",
+      "right": "ult",
+      "new": "fault"
+    },
+    {
+      "left": "fe",
+      "right": "el",
+      "new": "feel"
+    },
+    {
+      "left": "f",
+      "right": "er",
+      "new": "fer"
+    },
+    {
+      "left": "f",
+      "right": "in",
+      "new": "fin"
+    },
+    {
+      "left": "f",
+      "right": "itt",
+      "new": "fitt"
+    },
+    {
+      "left": "fitt",
+      "right": "ing",
+      "new": "fitting"
+    },
+    {
+      "left": "f",
+      "right": "oc",
+      "new": "foc"
+    },
+    {
+      "left": "fo",
+      "right": "ss",
+      "new": "foss"
+    },
+    {
+      "left": "foss",
+      "right": "il",
+      "new": "fossil"
+    },
+    {
+      "left": "frame",
+      "right": "work",
+      "new": "framework"
+    },
+    {
+      "left": "frequ",
+      "right": "ent",
+      "new": "frequent"
+    },
+    {
+      "left": "f",
+      "right": "u",
+      "new": "fu"
+    },
+    {
+      "left": "gener",
+      "right": "ation",
+      "new": "generation"
+    },
+    {
+      "left": "g",
+      "right": "ing",
+      "new": "ging"
+    },
+    {
+      "left": "gr",
+      "right": "ained",
+      "new": "grained"
+    },
+    {
+      "left": "gro",
+      "right": "und",
+      "new": "ground"
+    },
+    {
+      "left": "gro",
+      "right": "w",
+      "new": "grow"
+    },
+    {
+      "left": "guarante",
+      "right": "es",
+      "new": "guarantees"
+    },
+    {
+      "left": "h",
+      "right": "an",
+      "new": "han"
+    },
+    {
+      "left": "h",
+      "right": "andle",
+      "new": "handle"
+    },
+    {
+      "left": "h",
+      "right": "arm",
+      "new": "harm"
+    },
+    {
+      "left": "hav",
+      "right": "ing",
+      "new": "having"
+    },
+    {
+      "left": "heav",
+      "right": "y",
+      "new": "heavy"
+    },
+    {
+      "left": "h",
+      "right": "i",
+      "new": "hi"
+    },
+    {
+      "left": "high",
+      "right": "er",
+      "new": "higher"
+    },
+    {
+      "left": "hist",
+      "right": "ory",
+      "new": "history"
+    },
+    {
+      "left": "how",
+      "right": "ever",
+      "new": "however"
+    },
+    {
+      "left": "hy",
+      "right": "dro",
+      "new": "hydro"
+    },
+    {
+      "left": "i",
+      "right": "ate",
+      "new": "iate"
+    },
+    {
+      "left": "i",
+      "right": "ble",
+      "new": "ible"
+    },
+    {
+      "left": "ic",
+      "right": "ular",
+      "new": "icular"
+    },
+    {
+      "left": "id",
+      "right": "entif",
+      "new": "identif"
+    },
+    {
+      "left": "ig",
+      "right": "ate",
+      "new": "igate"
+    },
+    {
+      "left": "igh",
+      "right": "t",
+      "new": "ight"
+    },
+    {
+      "left": "ig",
+      "right": "in",
+      "new": "igin"
+    },
+    {
+      "left": "immun",
+      "right": "o",
+      "new": "immuno"
+    },
+    {
+      "left": "in",
+      "right": "ate",
+      "new": "inate"
+    },
+    {
+      "left": "incre",
+      "right": "ased",
+      "new": "increased"
+    },
+    {
+      "left": "ind",
+      "right": "icate",
+      "new": "indicate"
+    },
+    {
+      "left": "ind",
+      "right": "u",
+      "new": "indu"
+    },
+    {
+      "left": "indu",
+      "right": "str",
+      "new": "industr"
+    },
+    {
+      "left": "inf",
+      "right": "ected",
+      "new": "infected"
+    },
+    {
+      "left": "inf",
+      "right": "lam",
+      "new": "inflam"
+    },
+    {
+      "left": "influ",
+      "right": "enced",
+      "new": "influenced"
+    },
+    {
+      "left": "in",
+      "right": "it",
+      "new": "init"
+    },
+    {
+      "left": "init",
+      "right": "ial",
+      "new": "initial"
+    },
+    {
+      "left": "in",
+      "right": "str",
+      "new": "instr"
+    },
+    {
+      "left": "instr",
+      "right": "um",
+      "new": "instrum"
+    },
+    {
+      "left": "instrum",
+      "right": "ents",
+      "new": "instruments"
+    },
+    {
+      "left": "inter",
+      "right": "net",
+      "new": "internet"
+    },
+    {
+      "left": "inter",
+      "right": "pre",
+      "new": "interpre"
+    },
+    {
+      "left": "interpre",
+      "right": "t",
+      "new": "interpret"
+    },
+    {
+      "left": "in",
+      "right": "v",
+      "new": "inv"
+    },
+    {
+      "left": "ion",
+      "right": "s",
+      "new": "ions"
+    },
+    {
+      "left": "ir",
+      "right": "ing",
+      "new": "iring"
+    },
+    {
+      "left": "ist",
+      "right": "a",
+      "new": "ista"
+    },
+    {
+      "left": "ist",
+      "right": "s",
+      "new": "ists"
+    },
+    {
+      "left": "it",
+      "right": "es",
+      "new": "ites"
+    },
+    {
+      "left": "iv",
+      "right": "ely",
+      "new": "ively"
+    },
+    {
+      "left": "j",
+      "right": "u",
+      "new": "ju"
+    },
+    {
+      "left": "jud",
+      "right": "g",
+      "new": "judg"
+    },
+    {
+      "left": "ju",
+      "right": "li",
+      "new": "juli"
+    },
+    {
+      "left": "juli",
+      "right": "us",
+      "new": "julius"
+    },
+    {
+      "left": "j",
+      "right": "up",
+      "new": "jup"
+    },
+    {
+      "left": "jup",
+      "right": "iter",
+      "new": "jupiter"
+    },
+    {
+      "left": "k",
+      "right": "able",
+      "new": "kable"
+    },
+    {
+      "left": "k",
+      "right": "ahneman",
+      "new": "kahneman"
+    },
+    {
+      "left": "key",
+      "right": "word",
+      "new": "keyword"
+    },
+    {
+      "left": "know",
+      "right": "l",
+      "new": "knowl"
+    },
+    {
+      "left": "knowl",
+      "right": "ed",
+      "new": "knowled"
+    },
+    {
+      "left": "lab",
+      "right": "eled",
+      "new": "labeled"
+    },
+    {
+      "left": "lab",
+      "right": "or",
+      "new": "labor"
+    },
+    {
+      "left": "lat",
+      "right": "ency",
+      "new": "latency"
+    },
+    {
+      "left": "l",
+      "right": "ation",
+      "new": "lation"
+    },
+    {
+      "left": "lead",
+      "right": "ing",
+      "new": "leading"
+    },
+    {
+      "left": "level",
+      "right": "s",
+      "new": "levels"
+    },
+    {
+      "left": "lo",
+      "right": "ads",
+      "new": "loads"
+    },
+    {
+      "left": "loc",
+      "right": "king",
+      "new": "locking"
+    },
+    {
+      "left": "low",
+      "right": "er",
+      "new": "lower"
+    },
+    {
+      "left": "lo",
+      "right": "y",
+      "new": "loy"
+    },
+    {
+      "left": "l",
+      "right": "v",
+      "new": "lv"
+    },
+    {
+      "left": "maint",
+      "right": "ain",
+      "new": "maintain"
+    },
+    {
+      "left": "m",
+      "right": "aller",
+      "new": "maller"
+    },
+    {
+      "left": "mar",
+      "right": "kable",
+      "new": "markable"
+    },
+    {
+      "left": "mathemat",
+      "right": "ical",
+      "new": "mathematical"
+    },
+    {
+      "left": "m",
+      "right": "ation",
+      "new": "mation"
+    },
+    {
+      "left": "mat",
+      "right": "r",
+      "new": "matr"
+    },
+    {
+      "left": "matr",
+      "right": "ices",
+      "new": "matrices"
+    },
+    {
+      "left": "mean",
+      "right": "ing",
+      "new": "meaning"
+    },
+    {
+      "left": "me",
+      "right": "ans",
+      "new": "means"
+    },
+    {
+      "left": "mer",
+      "right": "ge",
+      "new": "merge"
+    },
+    {
+      "left": "mer",
+      "right": "ges",
+      "new": "merges"
+    },
+    {
+      "left": "me",
+      "right": "than",
+      "new": "methan"
+    },
+    {
+      "left": "methan",
+      "right": "e",
+      "new": "methane"
+    },
+    {
+      "left": "m",
+      "right": "i",
+      "new": "mi"
+    },
+    {
+      "left": "m",
+      "right": "ic",
+      "new": "mic"
+    },
+    {
+      "left": "m",
+      "right": "ight",
+      "new": "might"
+    },
+    {
+      "left": "m",
+      "right": "is",
+      "new": "mis"
+    },
+    {
+      "left": "m",
+      "right": "ut",
+      "new": "mut"
+    },
+    {
+      "left": "n",
+      "right": "ess",
+      "new": "ness"
+    },
+    {
+      "left": "new",
+      "right": "able",
+      "new": "newable"
+    },
+    {
+      "left": "n",
+      "right": "n",
+      "new": "nn"
+    },
+    {
+      "left": "nn",
+      "right": "s",
+      "new": "nns"
+    },
+    {
+      "left": "no",
+      "right": "des",
+      "new": "nodes"
+    },
+    {
+      "left": "oc",
+      "right": "abulary",
+      "new": "ocabulary"
+    },
+    {
+      "left": "oc",
+      "right": "currence",
+      "new": "occurrence"
+    },
+    {
+      "left": "off",
+      "right": "s",
+      "new": "offs"
+    },
+    {
+      "left": "o",
+      "right": "lution",
+      "new": "olution"
+    },
+    {
+      "left": "or",
+      "right": "igin",
+      "new": "origin"
+    },
+    {
+      "left": "o",
+      "right": "v",
+      "new": "ov"
+    },
+    {
+      "left": "over",
+      "right": "fitting",
+      "new": "overfitting"
+    },
+    {
+      "left": "pa",
+      "right": "ir",
+      "new": "pair"
+    },
+    {
+      "left": "par",
+      "right": "adox",
+      "new": "paradox"
+    },
+    {
+      "left": "part",
+      "right": "icular",
+      "new": "particular"
+    },
+    {
+      "left": "part",
+      "right": "ition",
+      "new": "partition"
+    },
+    {
+      "left": "part",
+      "right": "itions",
+      "new": "partitions"
+    },
+    {
+      "left": "pathog",
+      "right": "en",
+      "new": "pathogen"
+    },
+    {
+      "left": "pattern",
+      "right": "s",
+      "new": "patterns"
+    },
+    {
+      "left": "pa",
+      "right": "x",
+      "new": "pax"
+    },
+    {
+      "left": "pax",
+      "right": "os",
+      "new": "paxos"
+    },
+    {
+      "left": "period",
+      "right": "ically",
+      "new": "periodically"
+    },
+    {
+      "left": "ph",
+      "right": "i",
+      "new": "phi"
+    },
+    {
+      "left": "po",
+      "right": "ints",
+      "new": "points"
+    },
+    {
+      "left": "p",
+      "right": "or",
+      "new": "por"
+    },
+    {
+      "left": "po",
+      "right": "se",
+      "new": "pose"
+    },
+    {
+      "left": "pos",
+      "right": "es",
+      "new": "poses"
+    },
+    {
+      "left": "pos",
+      "right": "ition",
+      "new": "position"
+    },
+    {
+      "left": "pr",
+      "right": "actice",
+      "new": "practice"
+    },
+    {
+      "left": "pred",
+      "right": "icting",
+      "new": "predicting"
+    },
+    {
+      "left": "pres",
+      "right": "erv",
+      "new": "preserv"
+    },
+    {
+      "left": "pres",
+      "right": "s",
+      "new": "press"
+    },
+    {
+      "left": "pres",
+      "right": "sures",
+      "new": "pressures"
+    },
+    {
+      "left": "prim",
+      "right": "ary",
+      "new": "primary"
+    },
+    {
+      "left": "princi",
+      "right": "ples",
+      "new": "principles"
+    },
+    {
+      "left": "prob",
+      "right": "ability",
+      "new": "probability"
+    },
+    {
+      "left": "pro",
+      "right": "te",
+      "new": "prote"
+    },
+    {
+      "left": "provid",
+      "right": "es",
+      "new": "provides"
+    },
+    {
+      "left": "p",
+      "right": "sy",
+      "new": "psy"
+    },
+    {
+      "left": "psy",
+      "right": "chology",
+      "new": "psychology"
+    },
+    {
+      "left": "p",
+      "right": "u",
+      "new": "pu"
+    },
+    {
+      "left": "pu",
+      "right": "blic",
+      "new": "public"
+    },
+    {
+      "left": "pur",
+      "right": "pose",
+      "new": "purpose"
+    },
+    {
+      "left": "q",
+      "right": "l",
+      "new": "ql"
+    },
+    {
+      "left": "qu",
+      "right": "ared",
+      "new": "quared"
+    },
+    {
+      "left": "r",
+      "right": "andom",
+      "new": "random"
+    },
+    {
+      "left": "ran",
+      "right": "ge",
+      "new": "range"
+    },
+    {
+      "left": "re",
+      "right": "ceives",
+      "new": "receives"
+    },
+    {
+      "left": "re",
+      "right": "cent",
+      "new": "recent"
+    },
+    {
+      "left": "rec",
+      "right": "ord",
+      "new": "record"
+    },
+    {
+      "left": "re",
+      "right": "ct",
+      "new": "rect"
+    },
+    {
+      "left": "redu",
+      "right": "ction",
+      "new": "reduction"
+    },
+    {
+      "left": "reg",
+      "right": "ard",
+      "new": "regard"
+    },
+    {
+      "left": "re",
+      "right": "l",
+      "new": "rel"
+    },
+    {
+      "left": "rele",
+      "right": "v",
+      "new": "relev"
+    },
+    {
+      "left": "relev",
+      "right": "ant",
+      "new": "relevant"
+    },
+    {
+      "left": "re",
+      "right": "li",
+      "new": "reli"
+    },
+    {
+      "left": "re",
+      "right": "main",
+      "new": "remain"
+    },
+    {
+      "left": "re",
+      "right": "markable",
+      "new": "remarkable"
+    },
+    {
+      "left": "ren",
+      "right": "aissance",
+      "new": "renaissance"
+    },
+    {
+      "left": "re",
+      "right": "newable",
+      "new": "renewable"
+    },
+    {
+      "left": "repl",
+      "right": "ic",
+      "new": "replic"
+    },
+    {
+      "left": "res",
+      "right": "ist",
+      "new": "resist"
+    },
+    {
+      "left": "res",
+      "right": "olution",
+      "new": "resolution"
+    },
+    {
+      "left": "respon",
+      "right": "d",
+      "new": "respond"
+    },
+    {
+      "left": "respon",
+      "right": "s",
+      "new": "respons"
+    },
+    {
+      "left": "re",
+      "right": "volution",
+      "new": "revolution"
+    },
+    {
+      "left": "revolution",
+      "right": "ized",
+      "new": "revolutionized"
+    },
+    {
+      "left": "ro",
+      "right": "ph",
+      "new": "roph"
+    },
+    {
+      "left": "s",
+      "right": "atis",
+      "new": "satis"
+    },
+    {
+      "left": "s",
+      "right": "can",
+      "new": "scan"
+    },
+    {
+      "left": "scient",
+      "right": "ists",
+      "new": "scientists"
+    },
+    {
+      "left": "s",
+      "right": "core",
+      "new": "score"
+    },
+    {
+      "left": "sec",
+      "right": "ure",
+      "new": "secure"
+    },
+    {
+      "left": "s",
+      "right": "ensitive",
+      "new": "sensitive"
+    },
+    {
+      "left": "sent",
+      "right": "ences",
+      "new": "sentences"
+    },
+    {
+      "left": "s",
+      "right": "erv",
+      "new": "serv"
+    },
+    {
+      "left": "sh",
+      "right": "are",
+      "new": "share"
+    },
+    {
+      "left": "sign",
+      "right": "als",
+      "new": "signals"
+    },
+    {
+      "left": "sign",
+      "right": "ific",
+      "new": "signific"
+    },
+    {
+      "left": "sign",
+      "right": "s",
+      "new": "signs"
+    },
+    {
+      "left": "s",
+      "right": "maller",
+      "new": "smaller"
+    },
+    {
+      "left": "so",
+      "right": "me",
+      "new": "some"
+    },
+    {
+      "left": "s",
+      "right": "op",
+      "new": "sop"
+    },
+    {
+      "left": "spec",
+      "right": "ific",
+      "new": "specific"
+    },
+    {
+      "left": "s",
+      "right": "pl",
+      "new": "spl"
+    },
+    {
+      "left": "s",
+      "right": "quared",
+      "new": "squared"
+    },
+    {
+      "left": "st",
+      "right": "ate",
+      "new": "state"
+    },
+    {
+      "left": "stat",
+      "right": "es",
+      "new": "states"
+    },
+    {
+      "left": "stat",
+      "right": "istics",
+      "new": "statistics"
+    },
+    {
+      "left": "st",
+      "right": "im",
+      "new": "stim"
+    },
+    {
+      "left": "stron",
+      "right": "g",
+      "new": "strong"
+    },
+    {
+      "left": "stron",
+      "right": "ger",
+      "new": "stronger"
+    },
+    {
+      "left": "structure",
+      "right": "d",
+      "new": "structured"
+    },
+    {
+      "left": "st",
+      "right": "s",
+      "new": "sts"
+    },
+    {
+      "left": "st",
+      "right": "ud",
+      "new": "stud"
+    },
+    {
+      "left": "stud",
+      "right": "y",
+      "new": "study"
+    },
+    {
+      "left": "sub",
+      "right": "word",
+      "new": "subword"
+    },
+    {
+      "left": "su",
+      "right": "ccess",
+      "new": "success"
+    },
+    {
+      "left": "suit",
+      "right": "able",
+      "new": "suitable"
+    },
+    {
+      "left": "summar",
+      "right": "y",
+      "new": "summary"
+    },
+    {
+      "left": "sun",
+      "right": "light",
+      "new": "sunlight"
+    },
+    {
+      "left": "sup",
+      "right": "port",
+      "new": "support"
+    },
+    {
+      "left": "sup",
+      "right": "press",
+      "new": "suppress"
+    },
+    {
+      "left": "su",
+      "right": "re",
+      "new": "sure"
+    },
+    {
+      "left": "sy",
+      "right": "nchronous",
+      "new": "synchronous"
+    },
+    {
+      "left": "t",
+      "right": "able",
+      "new": "table"
+    },
+    {
+      "left": "t",
+      "right": "arget",
+      "new": "target"
+    },
+    {
+      "left": "tas",
+      "right": "ks",
+      "new": "tasks"
+    },
+    {
+      "left": "techniqu",
+      "right": "e",
+      "new": "technique"
+    },
+    {
+      "left": "techno",
+      "right": "logy",
+      "new": "technology"
+    },
+    {
+      "left": "teles",
+      "right": "copes",
+      "new": "telescopes"
+    },
+    {
+      "left": "theore",
+      "right": "m",
+      "new": "theorem"
+    },
+    {
+      "left": "thin",
+      "right": "king",
+      "new": "thinking"
+    },
+    {
+      "left": "th",
+      "right": "re",
+      "new": "thre"
+    },
+    {
+      "left": "tissu",
+      "right": "es",
+      "new": "tissues"
+    },
+    {
+      "left": "to",
+      "right": "day",
+      "new": "today"
+    },
+    {
+      "left": "tr",
+      "right": "ad",
+      "new": "trad"
+    },
+    {
+      "left": "trans",
+      "right": "formation",
+      "new": "transformation"
+    },
+    {
+      "left": "trans",
+      "right": "ition",
+      "new": "transition"
+    },
+    {
+      "left": "tur",
+      "right": "b",
+      "new": "turb"
+    },
+    {
+      "left": "typ",
+      "right": "ically",
+      "new": "typically"
+    },
+    {
+      "left": "un",
+      "right": "supervised",
+      "new": "unsupervised"
+    },
+    {
+      "left": "up",
+      "right": "dates",
+      "new": "updates"
+    },
+    {
+      "left": "us",
+      "right": "ers",
+      "new": "users"
+    },
+    {
+      "left": "vacc",
+      "right": "ination",
+      "new": "vaccination"
+    },
+    {
+      "left": "valu",
+      "right": "e",
+      "new": "value"
+    },
+    {
+      "left": "valu",
+      "right": "es",
+      "new": "values"
+    },
+    {
+      "left": "v",
+      "right": "ar",
+      "new": "var"
+    },
+    {
+      "left": "vers",
+      "right": "ion",
+      "new": "version"
+    },
+    {
+      "left": "v",
+      "right": "ocabulary",
+      "new": "vocabulary"
+    },
+    {
+      "left": "wh",
+      "right": "at",
+      "new": "what"
+    },
+    {
+      "left": "w",
+      "right": "ide",
+      "new": "wide"
+    },
+    {
+      "left": "work",
+      "right": "loads",
+      "new": "workloads"
+    },
+    {
+      "left": "y",
+      "right": "ears",
+      "new": "years"
+    }
+  ],
+  "vocab": {
+    "\"": 32,
+    "#": 41,
+    "%": 11,
+    "'": 40,
+    "(": 39,
+    ")": 28,
+    "+": 12,
+    ",": 26,
+    "-": 50,
+    ".": 21,
+    "0": 5,
+    "1": 31,
+    "19": 1010,
+    "2": 37,
+    "20": 445,
+    "201": 1011,
+    "202": 1012,
+    "25": 1013,
+    "3": 46,
+    "4": 36,
+    "5": 38,
+    "6": 20,
+    "7": 27,
+    "8": 13,
+    "85": 1014,
+    "9": 6,
+    ":": 2,
+    ";": 7,
+    "a": 9,
+    "ab": 88,
+    "abet": 778,
+    "abil": 258,
+    "ability": 259,
+    "abl": 341,
+    "able": 186,
+    "ables": 624,
+    "ablis": 1015,
+    "ablish": 1016,
+    "ably": 1017,
+    "abular": 1018,
+    "abulary": 1019,
+    "ac": 76,
+    "acc": 516,
+    "access": 779,
+    "ace": 273,
+    "acent": 780,
+    "ach": 199,
+    "ached": 1020,
+    "ack": 517,
+    "acks": 1021,
+    "across": 625,
+    "act": 187,
+    "acter": 1022,
+    "actice": 1023,
+    "action": 518,
+    "activ": 781,
+    "active": 626,
+    "acy": 342,
+    "ad": 110,
+    "adapt": 627,
+    "adaptive": 628,
+    "ade": 1024,
+    "ades": 1025,
+    "ado": 1026,
+    "adopt": 1027,
+    "adox": 1028,
+    "ads": 1029,
+    "advance": 782,
+    "af": 519,
+    "aff": 629,
+    "affect": 783,
+    "affects": 1030,
+    "again": 1031,
+    "against": 1032,
+    "age": 156,
+    "ah": 1033,
+    "ahe": 1034,
+    "ahead": 1035,
+    "ahn": 1036,
+    "ahnem": 1037,
+    "ahneman": 1038,
+    "ail": 343,
+    "ailability": 446,
+    "ain": 167,
+    "ained": 784,
+    "aining": 344,
+    "ais": 1039,
+    "aiss": 1040,
+    "aissance": 1041,
+    "al": 61,
+    "ale": 1042,
+    "algor": 230,
+    "algorith": 231,
+    "algorithm": 520,
+    "algorithms": 315,
+    "ality": 521,
+    "all": 188,
+    "alleng": 630,
+    "allenges": 631,
+    "aller": 1043,
+    "allow": 632,
+    "ally": 447,
+    "alph": 785,
+    "alphabet": 1044,
+    "als": 786,
+    "also": 1045,
+    "alt": 1046,
+    "altern": 1047,
+    "alu": 448,
+    "aluation": 1048,
+    "am": 168,
+    "ame": 522,
+    "ament": 633,
+    "amples": 1049,
+    "amplification": 634,
+    "an": 56,
+    "anal": 345,
+    "analy": 1050,
+    "analysis": 449,
+    "ance": 217,
+    "anch": 1051,
+    "anchor": 1052,
+    "ancient": 787,
+    "and": 70,
+    "andle": 1053,
+    "andom": 1054,
+    "ands": 1055,
+    "ani": 1056,
+    "anization": 788,
+    "anizations": 789,
+    "ank": 1057,
+    "ann": 790,
+    "anning": 1058,
+    "ans": 200,
+    "ant": 140,
+    "ante": 791,
+    "antly": 1059,
+    "ants": 1060,
+    "any": 260,
+    "ap": 102,
+    "aph": 244,
+    "app": 316,
+    "appear": 1061,
+    "appl": 1062,
+    "appli": 635,
+    "applications": 1063,
+    "applied": 1064,
+    "applies": 1065,
+    "appro": 346,
+    "approach": 636,
+    "approaches": 1066,
+    "approx": 792,
+    "approxim": 793,
+    "approximately": 1067,
+    "aps": 1068,
+    "apt": 450,
+    "apture": 1069,
+    "ar": 66,
+    "arante": 794,
+    "arb": 795,
+    "arbon": 1070,
+    "arch": 189,
+    "archit": 1071,
+    "architect": 1072,
+    "architecture": 1073,
+    "ard": 393,
+    "are": 137,
+    "ared": 1074,
+    "arge": 1075,
+    "arget": 1076,
+    "arily": 1077,
+    "arm": 1078,
+    "arn": 190,
+    "aro": 451,
+    "around": 452,
+    "art": 453,
+    "artific": 523,
+    "artificial": 524,
+    "ary": 637,
+    "as": 77,
+    "ase": 394,
+    "ased": 299,
+    "ases": 317,
+    "ash": 796,
+    "ass": 395,
+    "asy": 1079,
+    "asynchronous": 1080,
+    "at": 55,
+    "ate": 113,
+    "ated": 525,
+    "ateg": 526,
+    "ategies": 527,
+    "ately": 797,
+    "ater": 318,
+    "aterrestr": 638,
+    "aterrestrial": 639,
+    "atic": 640,
+    "ating": 528,
+    "ation": 81,
+    "ational": 641,
+    "ations": 347,
+    "atis": 1081,
+    "ative": 798,
+    "atmos": 799,
+    "atmosph": 800,
+    "atmosphere": 1082,
+    "att": 218,
+    "attacks": 1083,
+    "attern": 801,
+    "atures": 529,
+    "au": 530,
+    "ause": 802,
+    "auto": 642,
+    "autoimmune": 1084,
+    "automat": 1085,
+    "av": 144,
+    "availability": 454,
+    "avoid": 803,
+    "aw": 1086,
+    "ay": 643,
+    "b": 44,
+    "back": 1087,
+    "bal": 396,
+    "bar": 804,
+    "barri": 1088,
+    "barriers": 1089,
+    "based": 348,
+    "batt": 644,
+    "batteries": 805,
+    "be": 145,
+    "bec": 531,
+    "because": 806,
+    "beco": 1090,
+    "become": 1091,
+    "bed": 455,
+    "bedding": 456,
+    "been": 645,
+    "before": 1092,
+    "behav": 1093,
+    "behavi": 1094,
+    "behavior": 1095,
+    "behavioral": 1096,
+    "being": 1097,
+    "bel": 1098,
+    "ben": 1099,
+    "ber": 319,
+    "better": 1100,
+    "betw": 532,
+    "betwe": 533,
+    "between": 534,
+    "bey": 807,
+    "beyond": 808,
+    "bi": 535,
+    "bias": 1101,
+    "biases": 809,
+    "bio": 646,
+    "biological": 1102,
+    "ble": 536,
+    "blic": 1103,
+    "bm": 1104,
+    "bm25": 1105,
+    "bo": 274,
+    "bod": 537,
+    "body": 647,
+    "bound": 1106,
+    "bpe": 1107,
+    "bra": 1108,
+    "braz": 1109,
+    "brazil": 1110,
+    "bre": 397,
+    "brea": 538,
+    "break": 1111,
+    "breaking": 810,
+    "bro": 1112,
+    "broken": 1113,
+    "but": 201,
+    "buted": 539,
+    "by": 153,
+    "c": 22,
+    "ca": 349,
+    "caes": 811,
+    "caesar": 812,
+    "cal": 540,
+    "cali": 813,
+    "califor": 814,
+    "californi": 815,
+    "california": 816,
+    "call": 457,
+    "called": 541,
+    "can": 202,
+    "cap": 648,
+    "capture": 1114,
+    "carbon": 1115,
+    "cass": 1116,
+    "caus": 817,
+    "causing": 1117,
+    "cc": 818,
+    "ccess": 1118,
+    "ce": 100,
+    "cean": 819,
+    "ced": 398,
+    "ceives": 1119,
+    "cel": 203,
+    "cells": 232,
+    "cent": 350,
+    "centr": 1120,
+    "centur": 820,
+    "century": 1121,
+    "cept": 1122,
+    "ces": 146,
+    "cess": 169,
+    "ch": 94,
+    "challenges": 649,
+    "chan": 542,
+    "change": 821,
+    "char": 1123,
+    "chem": 1124,
+    "chiff": 1125,
+    "cho": 275,
+    "choice": 458,
+    "choices": 1126,
+    "chology": 1127,
+    "chr": 650,
+    "chron": 651,
+    "chronous": 652,
+    "ci": 130,
+    "cial": 459,
+    "cience": 822,
+    "cient": 460,
+    "cies": 823,
+    "ciph": 399,
+    "cipher": 543,
+    "ciphers": 1128,
+    "civ": 824,
+    "civili": 825,
+    "civiliz": 826,
+    "civilizations": 827,
+    "ck": 1129,
+    "cl": 400,
+    "class": 653,
+    "classification": 1130,
+    "clim": 1131,
+    "climate": 1132,
+    "clo": 1133,
+    "clocks": 1134,
+    "co": 82,
+    "cog": 654,
+    "cogn": 655,
+    "cognitive": 828,
+    "col": 351,
+    "collec": 656,
+    "collect": 829,
+    "collections": 830,
+    "com": 114,
+    "comb": 657,
+    "comm": 658,
+    "common": 831,
+    "commun": 659,
+    "communication": 1135,
+    "comp": 157,
+    "compaction": 660,
+    "comple": 461,
+    "complex": 462,
+    "compon": 832,
+    "component": 833,
+    "comput": 544,
+    "computers": 834,
+    "con": 90,
+    "concurren": 1136,
+    "concurrency": 1137,
+    "concurrent": 1138,
+    "cond": 1139,
+    "conditions": 1140,
+    "conf": 401,
+    "confir": 835,
+    "confl": 1141,
+    "conflic": 1142,
+    "conflict": 1143,
+    "conflicts": 1144,
+    "cons": 177,
+    "consens": 545,
+    "consensus": 546,
+    "consent": 1145,
+    "consist": 276,
+    "consistency": 402,
+    "consistent": 836,
+    "consu": 1146,
+    "cont": 261,
+    "contain": 1147,
+    "contin": 463,
+    "continu": 464,
+    "continues": 661,
+    "continuous": 1148,
+    "contro": 837,
+    "control": 838,
+    "conver": 1149,
+    "coord": 1150,
+    "cop": 839,
+    "copes": 1151,
+    "core": 840,
+    "cost": 662,
+    "cover": 841,
+    "covery": 1152,
+    "cr": 138,
+    "crash": 842,
+    "crater": 1153,
+    "cre": 663,
+    "create": 843,
+    "cri": 844,
+    "crit": 1154,
+    "critical": 1155,
+    "cross": 1156,
+    "cru": 1157,
+    "cryp": 219,
+    "crypt": 1158,
+    "crypto": 262,
+    "cryptograph": 263,
+    "cryptographic": 1159,
+    "cryptography": 300,
+    "ct": 204,
+    "ction": 547,
+    "ctions": 1160,
+    "cur": 277,
+    "curren": 320,
+    "currence": 1161,
+    "current": 548,
+    "cy": 178,
+    "d": 15,
+    "dat": 95,
+    "data": 115,
+    "datab": 403,
+    "database": 664,
+    "databases": 845,
+    "datacent": 1162,
+    "dates": 665,
+    "day": 846,
+    "db": 549,
+    "de": 101,
+    "dec": 205,
+    "decades": 1163,
+    "decision": 278,
+    "decisions": 666,
+    "deep": 667,
+    "def": 1164,
+    "del": 1165,
+    "dele": 1166,
+    "dense": 847,
+    "dep": 668,
+    "depend": 1167,
+    "dependent": 1168,
+    "des": 245,
+    "design": 848,
+    "designed": 849,
+    "desire": 1169,
+    "desp": 850,
+    "despite": 851,
+    "detect": 669,
+    "dev": 1170,
+    "devel": 352,
+    "develop": 353,
+    "developed": 1171,
+    "developing": 852,
+    "development": 1172,
+    "diff": 1173,
+    "different": 1174,
+    "dig": 853,
+    "digit": 854,
+    "digital": 855,
+    "dim": 1175,
+    "dimension": 1176,
+    "dimensionality": 1177,
+    "ding": 220,
+    "dio": 1178,
+    "diox": 1179,
+    "dioxide": 1180,
+    "dis": 191,
+    "disc": 1181,
+    "dise": 856,
+    "diseases": 1182,
+    "disk": 465,
+    "dist": 466,
+    "distri": 467,
+    "distributed": 550,
+    "div": 1183,
+    "diver": 1184,
+    "do": 1185,
+    "doc": 354,
+    "docum": 355,
+    "document": 551,
+    "documents": 857,
+    "dpr": 670,
+    "dr": 1186,
+    "dram": 1187,
+    "dro": 1188,
+    "ds": 179,
+    "du": 233,
+    "dur": 404,
+    "durability": 1189,
+    "during": 552,
+    "e": 14,
+    "each": 1190,
+    "ear": 279,
+    "early": 1191,
+    "ears": 1192,
+    "earth": 858,
+    "ec": 79,
+    "econ": 1193,
+    "econom": 1194,
+    "ect": 139,
+    "ected": 1195,
+    "ection": 1196,
+    "ector": 321,
+    "ed": 67,
+    "ef": 192,
+    "eff": 264,
+    "effect": 468,
+    "effective": 1197,
+    "effici": 553,
+    "efficiencies": 1198,
+    "efficient": 1199,
+    "effor": 1200,
+    "effort": 1201,
+    "el": 78,
+    "eld": 671,
+    "elec": 672,
+    "electr": 673,
+    "electric": 859,
+    "electricity": 860,
+    "eled": 1202,
+    "eles": 861,
+    "ell": 554,
+    "ellig": 555,
+    "elligence": 556,
+    "elp": 674,
+    "els": 1203,
+    "ely": 301,
+    "em": 83,
+    "emant": 469,
+    "embedding": 470,
+    "embeddings": 557,
+    "emo": 1204,
+    "en": 57,
+    "enabl": 1205,
+    "enables": 1206,
+    "ence": 234,
+    "enced": 1207,
+    "ences": 675,
+    "encies": 862,
+    "ency": 221,
+    "end": 676,
+    "ened": 1208,
+    "ener": 180,
+    "energy": 280,
+    "eng": 235,
+    "engines": 356,
+    "ens": 170,
+    "ense": 558,
+    "ension": 863,
+    "ensitive": 1209,
+    "ensive": 1210,
+    "ent": 75,
+    "ential": 471,
+    "entif": 1211,
+    "entire": 1212,
+    "ents": 206,
+    "entual": 677,
+    "ep": 559,
+    "equ": 1213,
+    "er": 58,
+    "erable": 1214,
+    "erance": 864,
+    "ere": 207,
+    "erent": 865,
+    "eries": 560,
+    "ering": 561,
+    "ern": 246,
+    "ero": 1215,
+    "err": 1216,
+    "ers": 147,
+    "erv": 678,
+    "ery": 866,
+    "es": 59,
+    "ess": 472,
+    "est": 473,
+    "establish": 1217,
+    "et": 322,
+    "eu": 867,
+    "euro": 868,
+    "ev": 126,
+    "evaluation": 1218,
+    "even": 869,
+    "events": 870,
+    "eventual": 679,
+    "ever": 323,
+    "every": 680,
+    "evid": 1219,
+    "evidence": 1220,
+    "ex": 131,
+    "exist": 681,
+    "expl": 871,
+    "explor": 1221,
+    "exploration": 1222,
+    "ext": 562,
+    "extr": 357,
+    "extractive": 872,
+    "extraterrestrial": 682,
+    "f": 25,
+    "fa": 474,
+    "fac": 1223,
+    "face": 873,
+    "fail": 1224,
+    "fall": 1225,
+    "famo": 1226,
+    "famous": 1227,
+    "famously": 1228,
+    "fast": 1229,
+    "fault": 1230,
+    "fe": 281,
+    "feel": 1231,
+    "fer": 1232,
+    "fi": 358,
+    "fication": 563,
+    "field": 683,
+    "fil": 564,
+    "files": 565,
+    "fin": 1233,
+    "find": 874,
+    "fir": 684,
+    "first": 685,
+    "fitt": 1234,
+    "fitting": 1235,
+    "fo": 875,
+    "foc": 1236,
+    "for": 84,
+    "fore": 876,
+    "form": 171,
+    "formation": 324,
+    "foss": 1237,
+    "fossil": 1238,
+    "fra": 877,
+    "frame": 878,
+    "framework": 1239,
+    "frequ": 475,
+    "frequency": 686,
+    "frequent": 1240,
+    "fro": 208,
+    "from": 209,
+    "fu": 1241,
+    "ful": 879,
+    "fun": 880,
+    "fund": 687,
+    "fundament": 688,
+    "fundamentally": 881,
+    "g": 45,
+    "gain": 882,
+    "gdpr": 689,
+    "ge": 104,
+    "ged": 690,
+    "gener": 359,
+    "generate": 691,
+    "generation": 1242,
+    "ger": 566,
+    "ges": 567,
+    "gether": 883,
+    "gh": 692,
+    "ging": 1243,
+    "glo": 360,
+    "global": 405,
+    "go": 884,
+    "gor": 222,
+    "gr": 160,
+    "grained": 1244,
+    "graph": 247,
+    "gre": 406,
+    "green": 693,
+    "greenho": 885,
+    "greenhouse": 886,
+    "grid": 887,
+    "gro": 325,
+    "ground": 1245,
+    "group": 568,
+    "grow": 1246,
+    "gu": 302,
+    "guage": 407,
+    "guarante": 888,
+    "guarantees": 1247,
+    "gy": 210,
+    "h": 34,
+    "han": 1248,
+    "handle": 1249,
+    "harm": 1250,
+    "has": 223,
+    "hash": 889,
+    "hav": 303,
+    "have": 476,
+    "having": 1251,
+    "he": 304,
+    "heav": 890,
+    "heavy": 1252,
+    "help": 694,
+    "hi": 1253,
+    "high": 695,
+    "higher": 1254,
+    "hist": 891,
+    "history": 1255,
+    "ho": 282,
+    "how": 477,
+    "however": 1256,
+    "ht": 892,
+    "hum": 478,
+    "human": 479,
+    "hy": 893,
+    "hydro": 1257,
+    "i": 16,
+    "ia": 569,
+    "ial": 166,
+    "iate": 1258,
+    "ible": 1259,
+    "ic": 68,
+    "ical": 161,
+    "ically": 361,
+    "icate": 894,
+    "ication": 172,
+    "ications": 895,
+    "ice": 265,
+    "ices": 570,
+    "ich": 305,
+    "ici": 408,
+    "ics": 362,
+    "ict": 363,
+    "icting": 896,
+    "icular": 1260,
+    "id": 123,
+    "ide": 571,
+    "idely": 696,
+    "identif": 1261,
+    "ies": 162,
+    "iev": 326,
+    "ieval": 572,
+    "ieved": 897,
+    "if": 133,
+    "iff": 697,
+    "ific": 306,
+    "ification": 698,
+    "ig": 116,
+    "igate": 1262,
+    "igh": 236,
+    "ight": 1263,
+    "igin": 1264,
+    "ign": 248,
+    "il": 96,
+    "ilar": 409,
+    "ile": 898,
+    "ili": 699,
+    "ill": 480,
+    "ily": 700,
+    "im": 86,
+    "imit": 899,
+    "imitation": 900,
+    "immun": 181,
+    "immune": 283,
+    "immunity": 573,
+    "immuno": 1265,
+    "import": 901,
+    "important": 902,
+    "improv": 903,
+    "in": 51,
+    "inate": 1266,
+    "ination": 701,
+    "inc": 182,
+    "ince": 904,
+    "inci": 702,
+    "inclu": 224,
+    "include": 410,
+    "including": 364,
+    "incre": 905,
+    "increased": 1267,
+    "ind": 148,
+    "india": 703,
+    "indicate": 1268,
+    "individ": 574,
+    "individual": 575,
+    "individuals": 704,
+    "indu": 1269,
+    "industr": 1270,
+    "ine": 327,
+    "ines": 225,
+    "inf": 284,
+    "infected": 1271,
+    "inflam": 1272,
+    "influ": 705,
+    "influenced": 1273,
+    "information": 411,
+    "ing": 65,
+    "inim": 906,
+    "init": 1274,
+    "initial": 1275,
+    "inn": 706,
+    "innate": 707,
+    "ins": 481,
+    "instr": 1276,
+    "instrum": 1277,
+    "instruments": 1278,
+    "int": 141,
+    "intelligence": 576,
+    "inter": 577,
+    "internet": 1279,
+    "interpre": 1280,
+    "interpret": 1281,
+    "into": 708,
+    "intro": 907,
+    "introdu": 908,
+    "ints": 909,
+    "inv": 1282,
+    "io": 249,
+    "iod": 910,
+    "ion": 63,
+    "ions": 1283,
+    "ir": 154,
+    "ire": 285,
+    "iring": 1284,
+    "is": 73,
+    "ise": 709,
+    "ised": 482,
+    "ision": 266,
+    "issu": 911,
+    "ist": 118,
+    "ista": 1285,
+    "istics": 710,
+    "ists": 1286,
+    "it": 69,
+    "ite": 578,
+    "iter": 711,
+    "ites": 1287,
+    "ith": 112,
+    "ities": 712,
+    "ition": 250,
+    "itions": 579,
+    "itive": 412,
+    "its": 307,
+    "itt": 580,
+    "itution": 581,
+    "ity": 128,
+    "iv": 91,
+    "ivacy": 413,
+    "ive": 150,
+    "ively": 1288,
+    "ives": 582,
+    "ivid": 483,
+    "iz": 151,
+    "ization": 251,
+    "ize": 713,
+    "ized": 414,
+    "j": 47,
+    "ju": 1289,
+    "jud": 912,
+    "judg": 1290,
+    "juli": 1291,
+    "julius": 1292,
+    "jup": 1293,
+    "jupiter": 1294,
+    "k": 4,
+    "kable": 1295,
+    "kahneman": 1296,
+    "ke": 117,
+    "ken": 415,
+    "kenization": 714,
+    "key": 416,
+    "keyword": 1297,
+    "kill": 913,
+    "king": 183,
+    "know": 417,
+    "knowl": 1298,
+    "knowled": 1299,
+    "known": 715,
+    "ks": 211,
+    "l": 30,
+    "la": 365,
+    "lab": 716,
+    "labeled": 1300,
+    "labor": 1301,
+    "lam": 914,
+    "lan": 366,
+    "language": 418,
+    "lar": 308,
+    "large": 717,
+    "lat": 915,
+    "latency": 1302,
+    "lation": 1303,
+    "law": 718,
+    "laws": 916,
+    "ld": 719,
+    "le": 74,
+    "lead": 720,
+    "leading": 1304,
+    "learn": 193,
+    "learning": 286,
+    "lec": 328,
+    "lect": 721,
+    "lerance": 917,
+    "less": 918,
+    "level": 484,
+    "levels": 1305,
+    "li": 89,
+    "lic": 583,
+    "life": 485,
+    "lification": 584,
+    "lig": 367,
+    "light": 919,
+    "like": 173,
+    "limitation": 920,
+    "lo": 92,
+    "loads": 1306,
+    "loc": 287,
+    "locking": 1307,
+    "locks": 722,
+    "log": 288,
+    "logical": 723,
+    "logy": 585,
+    "loss": 921,
+    "low": 329,
+    "lower": 1308,
+    "loy": 1309,
+    "ls": 174,
+    "lsm": 724,
+    "lt": 922,
+    "lu": 149,
+    "lution": 586,
+    "lv": 1310,
+    "ly": 106,
+    "m": 42,
+    "ma": 119,
+    "mach": 587,
+    "machine": 725,
+    "main": 726,
+    "maint": 486,
+    "maintain": 1311,
+    "maintaining": 923,
+    "make": 727,
+    "making": 419,
+    "maller": 1312,
+    "man": 924,
+    "many": 420,
+    "mar": 309,
+    "markable": 1313,
+    "mat": 330,
+    "mathe": 925,
+    "mathemat": 926,
+    "mathematical": 1314,
+    "mation": 1315,
+    "matr": 1316,
+    "matrices": 1317,
+    "may": 421,
+    "me": 129,
+    "mean": 927,
+    "meaning": 1318,
+    "means": 1319,
+    "med": 588,
+    "mem": 368,
+    "memory": 487,
+    "ment": 422,
+    "ments": 589,
+    "mer": 369,
+    "merge": 1320,
+    "merges": 1321,
+    "methan": 1322,
+    "methane": 1323,
+    "metho": 423,
+    "methods": 488,
+    "metr": 928,
+    "metrics": 929,
+    "mi": 1324,
+    "mic": 1325,
+    "might": 1326,
+    "minim": 930,
+    "mis": 1327,
+    "mmar": 590,
+    "mo": 105,
+    "mod": 184,
+    "model": 331,
+    "models": 489,
+    "modern": 424,
+    "more": 591,
+    "mos": 728,
+    "most": 267,
+    "ms": 212,
+    "mu": 490,
+    "mul": 425,
+    "multi": 426,
+    "multiple": 491,
+    "mun": 163,
+    "must": 592,
+    "mut": 1328,
+    "n": 17,
+    "nat": 492,
+    "natural": 593,
+    "nchronous": 729,
+    "ne": 127,
+    "need": 931,
+    "ness": 1329,
+    "net": 332,
+    "network": 932,
+    "networks": 730,
+    "neural": 594,
+    "new": 333,
+    "newable": 1330,
+    "ni": 289,
+    "niqu": 370,
+    "nn": 1331,
+    "nns": 1332,
+    "no": 155,
+    "nodes": 1333,
+    "not": 933,
+    "now": 371,
+    "nt": 731,
+    "nud": 934,
+    "nudge": 935,
+    "num": 427,
+    "number": 493,
+    "o": 23,
+    "oc": 226,
+    "ocabulary": 1334,
+    "occurrence": 1335,
+    "ocean": 936,
+    "of": 80,
+    "off": 937,
+    "offs": 1336,
+    "often": 595,
+    "oid": 596,
+    "olution": 1337,
+    "om": 372,
+    "on": 54,
+    "onal": 597,
+    "ond": 732,
+    "one": 373,
+    "op": 142,
+    "oper": 733,
+    "ople": 938,
+    "opt": 598,
+    "options": 939,
+    "or": 60,
+    "orage": 237,
+    "ord": 599,
+    "ore": 428,
+    "org": 734,
+    "organizations": 940,
+    "origin": 1338,
+    "ors": 600,
+    "ort": 290,
+    "orted": 941,
+    "ory": 252,
+    "os": 735,
+    "other": 942,
+    "ous": 374,
+    "out": 310,
+    "ov": 1339,
+    "over": 334,
+    "overfitting": 1340,
+    "p": 24,
+    "pa": 227,
+    "pair": 1341,
+    "par": 213,
+    "paradox": 1342,
+    "part": 375,
+    "particular": 1343,
+    "partition": 1344,
+    "partitions": 1345,
+    "patho": 494,
+    "pathog": 495,
+    "pathogen": 1346,
+    "pathogens": 736,
+    "pattern": 943,
+    "patterns": 1347,
+    "pax": 1348,
+    "paxos": 1349,
+    "pe": 429,
+    "people": 944,
+    "per": 124,
+    "peratures": 945,
+    "perform": 496,
+    "performance": 601,
+    "period": 946,
+    "periodically": 1350,
+    "pers": 497,
+    "personal": 602,
+    "perv": 498,
+    "pervised": 499,
+    "ph": 164,
+    "phi": 1351,
+    "pl": 165,
+    "ple": 253,
+    "ples": 737,
+    "plification": 603,
+    "po": 152,
+    "points": 1352,
+    "pon": 376,
+    "por": 1353,
+    "port": 430,
+    "pos": 377,
+    "pose": 1354,
+    "poses": 1355,
+    "position": 1356,
+    "post": 947,
+    "power": 948,
+    "pr": 158,
+    "practice": 1357,
+    "pre": 214,
+    "pred": 738,
+    "predicting": 1358,
+    "pres": 254,
+    "present": 500,
+    "preserv": 1359,
+    "press": 1360,
+    "pressures": 1361,
+    "prevent": 739,
+    "prim": 949,
+    "primary": 1362,
+    "princi": 740,
+    "principles": 1363,
+    "privacy": 431,
+    "pro": 93,
+    "prob": 950,
+    "probability": 1364,
+    "process": 228,
+    "processing": 378,
+    "produ": 741,
+    "produce": 951,
+    "prote": 1365,
+    "protec": 604,
+    "protection": 742,
+    "prov": 432,
+    "provid": 952,
+    "provides": 1366,
+    "psy": 1367,
+    "psychology": 1368,
+    "pt": 605,
+    "pu": 1369,
+    "public": 1370,
+    "pur": 953,
+    "purpose": 1371,
+    "q": 1,
+    "ql": 1372,
+    "qu": 98,
+    "quant": 606,
+    "quantum": 743,
+    "quared": 1373,
+    "query": 954,
+    "r": 49,
+    "ra": 335,
+    "ran": 433,
+    "random": 1374,
+    "range": 1375,
+    "ranking": 955,
+    "re": 52,
+    "read": 379,
+    "rec": 956,
+    "receives": 1376,
+    "recent": 1377,
+    "record": 1378,
+    "rect": 1379,
+    "redu": 607,
+    "reduction": 1380,
+    "reg": 268,
+    "regard": 1381,
+    "regres": 957,
+    "regression": 958,
+    "regul": 608,
+    "regulation": 744,
+    "rel": 1382,
+    "rele": 959,
+    "relev": 1383,
+    "relevant": 1384,
+    "reli": 1385,
+    "remain": 1386,
+    "remarkable": 1387,
+    "ren": 291,
+    "renaissance": 1388,
+    "renewable": 1389,
+    "repl": 336,
+    "replic": 1390,
+    "replication": 501,
+    "represent": 960,
+    "requ": 229,
+    "require": 502,
+    "requirements": 961,
+    "res": 107,
+    "research": 962,
+    "resist": 1391,
+    "resolution": 1392,
+    "respon": 380,
+    "respond": 1393,
+    "respons": 1394,
+    "response": 745,
+    "restr": 503,
+    "retr": 609,
+    "retrieval": 746,
+    "revolution": 1395,
+    "revolutionized": 1396,
+    "ri": 337,
+    "righ": 434,
+    "right": 747,
+    "rights": 963,
+    "ris": 964,
+    "rit": 194,
+    "ro": 72,
+    "roph": 1397,
+    "ross": 504,
+    "rou": 748,
+    "rough": 749,
+    "s": 29,
+    "same": 965,
+    "satis": 1398,
+    "scan": 1399,
+    "science": 966,
+    "scient": 967,
+    "scientists": 1400,
+    "score": 1401,
+    "se": 99,
+    "sea": 968,
+    "search": 238,
+    "sec": 750,
+    "secure": 1402,
+    "see": 969,
+    "semant": 505,
+    "semantic": 610,
+    "sensitive": 1403,
+    "sent": 751,
+    "sentences": 1404,
+    "sequ": 381,
+    "sequential": 611,
+    "serv": 1405,
+    "sh": 752,
+    "share": 1406,
+    "sign": 382,
+    "signals": 1407,
+    "signific": 1408,
+    "signs": 1409,
+    "sim": 255,
+    "similar": 435,
+    "simple": 970,
+    "since": 971,
+    "sing": 436,
+    "single": 612,
+    "sion": 613,
+    "size": 972,
+    "sk": 973,
+    "smaller": 1410,
+    "so": 195,
+    "social": 753,
+    "solar": 506,
+    "some": 1411,
+    "sop": 1412,
+    "sorted": 974,
+    "sp": 256,
+    "space": 437,
+    "spec": 754,
+    "specific": 1413,
+    "spl": 1414,
+    "squared": 1415,
+    "ss": 257,
+    "st": 62,
+    "stand": 755,
+    "stat": 756,
+    "state": 1416,
+    "states": 1417,
+    "statistics": 1418,
+    "stem": 120,
+    "stim": 1419,
+    "stitution": 614,
+    "storage": 239,
+    "str": 132,
+    "strategies": 615,
+    "stron": 757,
+    "strong": 1420,
+    "stronger": 1421,
+    "stru": 383,
+    "struct": 384,
+    "structure": 438,
+    "structured": 1422,
+    "sts": 1423,
+    "stud": 1424,
+    "study": 1425,
+    "su": 103,
+    "sub": 292,
+    "substitution": 616,
+    "subword": 1426,
+    "success": 1427,
+    "suit": 975,
+    "suitable": 1428,
+    "summar": 617,
+    "summarization": 976,
+    "summary": 1429,
+    "sun": 758,
+    "sunlight": 1430,
+    "sup": 759,
+    "supervised": 507,
+    "support": 1431,
+    "suppress": 1432,
+    "sure": 1433,
+    "sures": 977,
+    "sy": 111,
+    "synchronous": 1434,
+    "system": 121,
+    "systematic": 978,
+    "systems": 196,
+    "t": 33,
+    "table": 1435,
+    "target": 1436,
+    "tas": 979,
+    "tasks": 1437,
+    "te": 508,
+    "tec": 197,
+    "tech": 269,
+    "techniqu": 385,
+    "technique": 1438,
+    "techniques": 509,
+    "techno": 760,
+    "technology": 1439,
+    "tect": 618,
+    "teles": 980,
+    "telescopes": 1440,
+    "tem": 761,
+    "temperatures": 981,
+    "ten": 311,
+    "ter": 619,
+    "text": 762,
+    "th": 53,
+    "than": 763,
+    "that": 143,
+    "the": 64,
+    "their": 386,
+    "them": 982,
+    "theore": 983,
+    "theorem": 1441,
+    "theory": 984,
+    "ther": 338,
+    "thes": 387,
+    "these": 439,
+    "they": 440,
+    "thin": 985,
+    "thinking": 1442,
+    "this": 293,
+    "tho": 240,
+    "thre": 1443,
+    "through": 764,
+    "ti": 294,
+    "tim": 765,
+    "time": 986,
+    "tion": 97,
+    "tions": 215,
+    "tissu": 987,
+    "tissues": 1444,
+    "to": 71,
+    "today": 1445,
+    "together": 988,
+    "tokenization": 766,
+    "tolerance": 989,
+    "too": 990,
+    "tr": 108,
+    "trad": 1446,
+    "training": 767,
+    "trans": 270,
+    "transform": 991,
+    "transformation": 1447,
+    "transition": 1448,
+    "tre": 241,
+    "tree": 768,
+    "trees": 388,
+    "ts": 295,
+    "tter": 992,
+    "tur": 769,
+    "turb": 1449,
+    "tw": 312,
+    "two": 993,
+    "typ": 770,
+    "typically": 1450,
+    "u": 43,
+    "ual": 296,
+    "ud": 339,
+    "ul": 134,
+    "ular": 441,
+    "ult": 994,
+    "um": 135,
+    "un": 85,
+    "und": 175,
+    "under": 510,
+    "understand": 995,
+    "units": 996,
+    "unsupervised": 1451,
+    "unt": 997,
+    "up": 242,
+    "updates": 1452,
+    "ur": 109,
+    "ural": 313,
+    "ure": 198,
+    "ures": 511,
+    "us": 87,
+    "use": 271,
+    "used": 272,
+    "users": 1453,
+    "uses": 389,
+    "ut": 125,
+    "ution": 512,
+    "v": 10,
+    "vacc": 620,
+    "vaccination": 1454,
+    "vaccines": 998,
+    "valu": 771,
+    "value": 1455,
+    "values": 1456,
+    "vance": 772,
+    "var": 1457,
+    "ve": 999,
+    "vector": 390,
+    "vectors": 1000,
+    "vel": 243,
+    "vent": 513,
+    "ver": 185,
+    "vers": 773,
+    "version": 1458,
+    "vir": 1001,
+    "vo": 514,
+    "vocabulary": 1459,
+    "volution": 1002,
+    "w": 19,
+    "wal": 1003,
+    "war": 774,
+    "was": 391,
+    "we": 1004,
+    "well": 1005,
+    "wer": 775,
+    "wh": 136,
+    "what": 1460,
+    "when": 621,
+    "where": 442,
+    "which": 340,
+    "while": 1006,
+    "wide": 1461,
+    "widely": 776,
+    "wind": 622,
+    "with": 159,
+    "within": 1007,
+    "without": 443,
+    "wor": 122,
+    "word": 297,
+    "words": 515,
+    "work": 314,
+    "workloads": 1462,
+    "works": 623,
+    "world": 777,
+    "writ": 216,
+    "write": 392,
+    "writes": 1008,
+    "written": 1009,
+    "x": 0,
+    "y": 18,
+    "years": 1463,
+    "yp": 176,
+    "ys": 298,
+    "ysis": 444,
+    "z": 35,
+    "è": 3,
+    "é": 8,
+    "—": 48
+  },
+  "inv_vocab": {
+    "0": "x",
+    "1": "q",
+    "10": "v",
+    "100": "ce",
+    "1000": "vectors",
+    "1001": "vir",
+    "1002": "volution",
+    "1003": "wal",
+    "1004": "we",
+    "1005": "well",
+    "1006": "while",
+    "1007": "within",
+    "1008": "writes",
+    "1009": "written",
+    "101": "de",
+    "1010": "19",
+    "1011": "201",
+    "1012": "202",
+    "1013": "25",
+    "1014": "85",
+    "1015": "ablis",
+    "1016": "ablish",
+    "1017": "ably",
+    "1018": "abular",
+    "1019": "abulary",
+    "102": "ap",
+    "1020": "ached",
+    "1021": "acks",
+    "1022": "acter",
+    "1023": "actice",
+    "1024": "ade",
+    "1025": "ades",
+    "1026": "ado",
+    "1027": "adopt",
+    "1028": "adox",
+    "1029": "ads",
+    "103": "su",
+    "1030": "affects",
+    "1031": "again",
+    "1032": "against",
+    "1033": "ah",
+    "1034": "ahe",
+    "1035": "ahead",
+    "1036": "ahn",
+    "1037": "ahnem",
+    "1038": "ahneman",
+    "1039": "ais",
+    "104": "ge",
+    "1040": "aiss",
+    "1041": "aissance",
+    "1042": "ale",
+    "1043": "aller",
+    "1044": "alphabet",
+    "1045": "also",
+    "1046": "alt",
+    "1047": "altern",
+    "1048": "aluation",
+    "1049": "amples",
+    "105": "mo",
+    "1050": "analy",
+    "1051": "anch",
+    "1052": "anchor",
+    "1053": "andle",
+    "1054": "andom",
+    "1055": "ands",
+    "1056": "ani",
+    "1057": "ank",
+    "1058": "anning",
+    "1059": "antly",
+    "106": "ly",
+    "1060": "ants",
+    "1061": "appear",
+    "1062": "appl",
+    "1063": "applications",
+    "1064": "applied",
+    "1065": "applies",
+    "1066": "approaches",
+    "1067": "approximately",
+    "1068": "aps",
+    "1069": "apture",
+    "107": "res",
+    "1070": "arbon",
+    "1071": "archit",
+    "1072": "architect",
+    "1073": "architecture",
+    "1074": "ared",
+    "1075": "arge",
+    "1076": "arget",
+    "1077": "arily",
+    "1078": "arm",
+    "1079": "asy",
+    "108": "tr",
+    "1080": "asynchronous",
+    "1081": "atis",
+    "1082": "atmosphere",
+    "1083": "attacks",
+    "1084": "autoimmune",
+    "1085": "automat",
+    "1086": "aw",
+    "1087": "back",
+    "1088": "barri",
+    "1089": "barriers",
+    "109": "ur",
+    "1090": "beco",
+    "1091": "become",
+    "1092": "before",
+    "1093": "behav",
+    "1094": "behavi",
+    "1095": "behavior",
+    "1096": "behavioral",
+    "1097": "being",
+    "1098": "bel",
+    "1099": "ben",
+    "11": "%",
+    "110": "ad",
+    "1100": "better",
+    "1101": "bias",
+    "1102": "biological",
+    "1103": "blic",
+    "1104": "bm",
+    "1105": "bm25",
+    "1106": "bound",
+    "1107": "bpe",
+    "1108": "bra",
+    "1109": "braz",
+    "111": "sy",
+    "1110": "brazil",
+    "1111": "break",
+    "1112": "bro",
+    "1113": "broken",
+    "1114": "capture",
+    "1115": "carbon",
+    "1116": "cass",
+    "1117": "causing",
+    "1118": "ccess",
+    "1119": "ceives",
+    "112": "ith",
+    "1120": "centr",
+    "1121": "century",
+    "1122": "cept",
+    "1123": "char",
+    "1124": "chem",
+    "1125": "chiff",
+    "1126": "choices",
+    "1127": "chology",
+    "1128": "ciphers",
+    "1129": "ck",
+    "113": "ate",
+    "1130": "classification",
+    "1131": "clim",
+    "1132": "climate",
+    "1133": "clo",
+    "1134": "clocks",
+    "1135": "communication",
+    "1136": "concurren",
+    "1137": "concurrency",
+    "1138": "concurrent",
+    "1139": "cond",
+    "114": "com",
+    "1140": "conditions",
+    "1141": "confl",
+    "1142": "conflic",
+    "1143": "conflict",
+    "1144": "conflicts",
+    "1145": "consent",
+    "1146": "consu",
+    "1147": "contain",
+    "1148": "continuous",
+    "1149": "conver",
+    "115": "data",
+    "1150": "coord",
+    "1151": "copes",
+    "1152": "covery",
+    "1153": "crater",
+    "1154": "crit",
+    "1155": "critical",
+    "1156": "cross",
+    "1157": "cru",
+    "1158": "crypt",
+    "1159": "cryptographic",
+    "116": "ig",
+    "1160": "ctions",
+    "1161": "currence",
+    "1162": "datacent",
+    "1163": "decades",
+    "1164": "def",
+    "1165": "del",
+    "1166": "dele",
+    "1167": "depend",
+    "1168": "dependent",
+    "1169": "desire",
+    "117": "ke",
+    "1170": "dev",
+    "1171": "developed",
+    "1172": "development",
+    "1173": "diff",
+    "1174": "different",
+    "1175": "dim",
+    "1176": "dimension",
+    "1177": "dimensionality",
+    "1178": "dio",
+    "1179": "diox",
+    "118": "ist",
+    "1180": "dioxide",
+    "1181": "disc",
+    "1182": "diseases",
+    "1183": "div",
+    "1184": "diver",
+    "1185": "do",
+    "1186": "dr",
+    "1187": "dram",
+    "1188": "dro",
+    "1189": "durability",
+    "119": "ma",
+    "1190": "each",
+    "1191": "early",
+    "1192": "ears",
+    "1193": "econ",
+    "1194": "econom",
+    "1195": "ected",
+    "1196": "ection",
+    "1197": "effective",
+    "1198": "efficiencies",
+    "1199": "efficient",
+    "12": "+",
+    "120": "stem",
+    "1200": "effor",
+    "1201": "effort",
+    "1202": "eled",
+    "1203": "els",
+    "1204": "emo",
+    "1205": "enabl",
+    "1206": "enables",
+    "1207": "enced",
+    "1208": "ened",
+    "1209": "ensitive",
+    "121": "system",
+    "1210": "ensive",
+    "1211": "entif",
+    "1212": "entire",
+    "1213": "equ",
+    "1214": "erable",
+    "1215": "ero",
+    "1216": "err",
+    "1217": "establish",
+    "1218": "evaluation",
+    "1219": "evid",
+    "122": "wor",
+    "1220": "evidence",
+    "1221": "explor",
+    "1222": "exploration",
+    "1223": "fac",
+    "1224": "fail",
+    "1225": "fall",
+    "1226": "famo",
+    "1227": "famous",
+    "1228": "famously",
+    "1229": "fast",
+    "123": "id",
+    "1230": "fault",
+    "1231": "feel",
+    "1232": "fer",
+    "1233": "fin",
+    "1234": "fitt",
+    "1235": "fitting",
+    "1236": "foc",
+    "1237": "foss",
+    "1238": "fossil",
+    "1239": "framework",
+    "124": "per",
+    "1240": "frequent",
+    "1241": "fu",
+    "1242": "generation",
+    "1243": "ging",
+    "1244": "grained",
+    "1245": "ground",
+    "1246": "grow",
+    "1247": "guarantees",
+    "1248": "han",
+    "1249": "handle",
+    "125": "ut",
+    "1250": "harm",
+    "1251": "having",
+    "1252": "heavy",
+    "1253": "hi",
+    "1254": "higher",
+    "1255": "history",
+    "1256": "however",
+    "1257": "hydro",
+    "1258": "iate",
+    "1259": "ible",
+    "126": "ev",
+    "1260": "icular",
+    "1261": "identif",
+    "1262": "igate",
+    "1263": "ight",
+    "1264": "igin",
+    "1265": "immuno",
+    "1266": "inate",
+    "1267": "increased",
+    "1268": "indicate",
+    "1269": "indu",
+    "127": "ne",
+    "1270": "industr",
+    "1271": "infected",
+    "1272": "inflam",
+    "1273": "influenced",
+    "1274": "init",
+    "1275": "initial",
+    "1276": "instr",
+    "1277": "instrum",
+    "1278": "instruments",
+    "1279": "internet",
+    "128": "ity",
+    "1280": "interpre",
+    "1281": "interpret",
+    "1282": "inv",
+    "1283": "ions",
+    "1284": "iring",
+    "1285": "ista",
+    "1286": "ists",
+    "1287": "ites",
+    "1288": "ively",
+    "1289": "ju",
+    "129": "me",
+    "1290": "judg",
+    "1291": "juli",
+    "1292": "julius",
+    "1293": "jup",
+    "1294": "jupiter",
+    "1295": "kable",
+    "1296": "kahneman",
+    "1297": "keyword",
+    "1298": "knowl",
+    "1299": "knowled",
+    "13": "8",
+    "130": "ci",
+    "1300": "labeled",
+    "1301": "labor",
+    "1302": "latency",
+    "1303": "lation",
+    "1304": "leading",
+    "1305": "levels",
+    "1306": "loads",
+    "1307": "locking",
+    "1308": "lower",
+    "1309": "loy",
+    "131": "ex",
+    "1310": "lv",
+    "1311": "maintain",
+    "1312": "maller",
+    "1313": "markable",
+    "1314": "mathematical",
+    "1315": "mation",
+    "1316": "matr",
+    "1317": "matrices",
+    "1318": "meaning",
+    "1319": "means",
+    "132": "str",
+    "1320": "merge",
+    "1321": "merges",
+    "1322": "methan",
+    "1323": "methane",
+    "1324": "mi",
+    "1325": "mic",
+    "1326": "might",
+    "1327": "mis",
+    "1328": "mut",
+    "1329": "ness",
+    "133": "if",
+    "1330": "newable",
+    "1331": "nn",
+    "1332": "nns",
+    "1333": "nodes",
+    "1334": "ocabulary",
+    "1335": "occurrence",
+    "1336": "offs",
+    "1337": "olution",
+    "1338": "origin",
+    "1339": "ov",
+    "134": "ul",
+    "1340": "overfitting",
+    "1341": "pair",
+    "1342": "paradox",
+    "1343": "particular",
+    "1344": "partition",
+    "1345": "partitions",
+    "1346": "pathogen",
+    "1347": "patterns",
+    "1348": "pax",
+    "1349": "paxos",
+    "135": "um",
+    "1350": "periodically",
+    "1351": "phi",
+    "1352": "points",
+    "1353": "por",
+    "1354": "pose",
+    "1355": "poses",
+    "1356": "position",
+    "1357": "practice",
+    "1358": "predicting",
+    "1359": "preserv",
+    "136": "wh",
+    "1360": "press",
+    "1361": "pressures",
+    "1362": "primary",
+    "1363": "principles",
+    "1364": "probability",
+    "1365": "prote",
+    "1366": "provides",
+    "1367": "psy",
+    "1368": "psychology",
+    "1369": "pu",
+    "137": "are",
+    "1370": "public",
+    "1371": "purpose",
+    "1372": "ql",
+    "1373": "quared",
+    "1374": "random",
+    "1375": "range",
+    "1376": "receives",
+    "1377": "recent",
+    "1378": "record",
+    "1379": "rect",
+    "138": "cr",
+    "1380": "reduction",
+    "1381": "regard",
+    "1382": "rel",
+    "1383": "relev",
+    "1384": "relevant",
+    "1385": "reli",
+    "1386": "remain",
+    "1387": "remarkable",
+    "1388": "renaissance",
+    "1389": "renewable",
+    "139": "ect",
+    "1390": "replic",
+    "1391": "resist",
+    "1392": "resolution",
+    "1393": "respond",
+    "1394": "respons",
+    "1395": "revolution",
+    "1396": "revolutionized",
+    "1397": "roph",
+    "1398": "satis",
+    "1399": "scan",
+    "14": "e",
+    "140": "ant",
+    "1400": "scientists",
+    "1401": "score",
+    "1402": "secure",
+    "1403": "sensitive",
+    "1404": "sentences",
+    "1405": "serv",
+    "1406": "share",
+    "1407": "signals",
+    "1408": "signific",
+    "1409": "signs",
+    "141": "int",
+    "1410": "smaller",
+    "1411": "some",
+    "1412": "sop",
+    "1413": "specific",
+    "1414": "spl",
+    "1415": "squared",
+    "1416": "state",
+    "1417": "states",
+    "1418": "statistics",
+    "1419": "stim",
+    "142": "op",
+    "1420": "strong",
+    "1421": "stronger",
+    "1422": "structured",
+    "1423": "sts",
+    "1424": "stud",
+    "1425": "study",
+    "1426": "subword",
+    "1427": "success",
+    "1428": "suitable",
+    "1429": "summary",
+    "143": "that",
+    "1430": "sunlight",
+    "1431": "support",
+    "1432": "suppress",
+    "1433": "sure",
+    "1434": "synchronous",
+    "1435": "table",
+    "1436": "target",
+    "1437": "tasks",
+    "1438": "technique",
+    "1439": "technology",
+    "144": "av",
+    "1440": "telescopes",
+    "1441": "theorem",
+    "1442": "thinking",
+    "1443": "thre",
+    "1444": "tissues",
+    "1445": "today",
+    "1446": "trad",
+    "1447": "transformation",
+    "1448": "transition",
+    "1449": "turb",
+    "145": "be",
+    "1450": "typically",
+    "1451": "unsupervised",
+    "1452": "updates",
+    "1453": "users",
+    "1454": "vaccination",
+    "1455": "value",
+    "1456": "values",
+    "1457": "var",
+    "1458": "version",
+    "1459": "vocabulary",
+    "146": "ces",
+    "1460": "what",
+    "1461": "wide",
+    "1462": "workloads",
+    "1463": "years",
+    "147": "ers",
+    "148": "ind",
+    "149": "lu",
+    "15": "d",
+    "150": "ive",
+    "151": "iz",
+    "152": "po",
+    "153": "by",
+    "154": "ir",
+    "155": "no",
+    "156": "age",
+    "157": "comp",
+    "158": "pr",
+    "159": "with",
+    "16": "i",
+    "160": "gr",
+    "161": "ical",
+    "162": "ies",
+    "163": "mun",
+    "164": "ph",
+    "165": "pl",
+    "166": "ial",
+    "167": "ain",
+    "168": "am",
+    "169": "cess",
+    "17": "n",
+    "170": "ens",
+    "171": "form",
+    "172": "ication",
+    "173": "like",
+    "174": "ls",
+    "175": "und",
+    "176": "yp",
+    "177": "cons",
+    "178": "cy",
+    "179": "ds",
+    "18": "y",
+    "180": "ener",
+    "181": "immun",
+    "182": "inc",
+    "183": "king",
+    "184": "mod",
+    "185": "ver",
+    "186": "able",
+    "187": "act",
+    "188": "all",
+    "189": "arch",
+    "19": "w",
+    "190": "arn",
+    "191": "dis",
+    "192": "ef",
+    "193": "learn",
+    "194": "rit",
+    "195": "so",
+    "196": "systems",
+    "197": "tec",
+    "198": "ure",
+    "199": "ach",
+    "2": ":",
+    "20": "6",
+    "200": "ans",
+    "201": "but",
+    "202": "can",
+    "203": "cel",
+    "204": "ct",
+    "205": "dec",
+    "206": "ents",
+    "207": "ere",
+    "208": "fro",
+    "209": "from",
+    "21": ".",
+    "210": "gy",
+    "211": "ks",
+    "212": "ms",
+    "213": "par",
+    "214": "pre",
+    "215": "tions",
+    "216": "writ",
+    "217": "ance",
+    "218": "att",
+    "219": "cryp",
+    "22": "c",
+    "220": "ding",
+    "221": "ency",
+    "222": "gor",
+    "223": "has",
+    "224": "inclu",
+    "225": "ines",
+    "226": "oc",
+    "227": "pa",
+    "228": "process",
+    "229": "requ",
+    "23": "o",
+    "230": "algor",
+    "231": "algorith",
+    "232": "cells",
+    "233": "du",
+    "234": "ence",
+    "235": "eng",
+    "236": "igh",
+    "237": "orage",
+    "238": "search",
+    "239": "storage",
+    "24": "p",
+    "240": "tho",
+    "241": "tre",
+    "242": "up",
+    "243": "vel",
+    "244": "aph",
+    "245": "des",
+    "246": "ern",
+    "247": "graph",
+    "248": "ign",
+    "249": "io",
+    "25": "f",
+    "250": "ition",
+    "251": "ization",
+    "252": "ory",
+    "253": "ple",
+    "254": "pres",
+    "255": "sim",
+    "256": "sp",
+    "257": "ss",
+    "258": "abil",
+    "259": "ability",
+    "26": ",",
+    "260": "any",
+    "261": "cont",
+    "262": "crypto",
+    "263": "cryptograph",
+    "264": "eff",
+    "265": "ice",
+    "266": "ision",
+    "267": "most",
+    "268": "reg",
+    "269": "tech",
+    "27": "7",
+    "270": "trans",
+    "271": "use",
+    "272": "used",
+    "273": "ace",
+    "274": "bo",
+    "275": "cho",
+    "276": "consist",
+    "277": "cur",
+    "278": "decision",
+    "279": "ear",
+    "28": ")",
+    "280": "energy",
+    "281": "fe",
+    "282": "ho",
+    "283": "immune",
+    "284": "inf",
+    "285": "ire",
+    "286": "learning",
+    "287": "loc",
+    "288": "log",
+    "289": "ni",
+    "29": "s",
+    "290": "ort",
+    "291": "ren",
+    "292": "sub",
+    "293": "this",
+    "294": "ti",
+    "295": "ts",
+    "296": "ual",
+    "297": "word",
+    "298": "ys",
+    "299": "ased",
+    "3": "è",
+    "30": "l",
+    "300": "cryptography",
+    "301": "ely",
+    "302": "gu",
+    "303": "hav",
+    "304": "he",
+    "305": "ich",
+    "306": "ific",
+    "307": "its",
+    "308": "lar",
+    "309": "mar",
+    "31": "1",
+    "310": "out",
+    "311": "ten",
+    "312": "tw",
+    "313": "ural",
+    "314": "work",
+    "315": "algorithms",
+    "316": "app",
+    "317": "ases",
+    "318": "ater",
+    "319": "ber",
+    "32": "\"",
+    "320": "curren",
+    "321": "ector",
+    "322": "et",
+    "323": "ever",
+    "324": "formation",
+    "325": "gro",
+    "326": "iev",
+    "327": "ine",
+    "328": "lec",
+    "329": "low",
+    "33": "t",
+    "330": "mat",
+    "331": "model",
+    "332": "net",
+    "333": "new",
+    "334": "over",
+    "335": "ra",
+    "336": "repl",
+    "337": "ri",
+    "338": "ther",
+    "339": "ud",
+    "34": "h",
+    "340": "which",
+    "341": "abl",
+    "342": "acy",
+    "343": "ail",
+    "344": "aining",
+    "345": "anal",
+    "346": "appro",
+    "347": "ations",
+    "348": "based",
+    "349": "ca",
+    "35": "z",
+    "350": "cent",
+    "351": "col",
+    "352": "devel",
+    "353": "develop",
+    "354": "doc",
+    "355": "docum",
+    "356": "engines",
+    "357": "extr",
+    "358": "fi",
+    "359": "gener",
+    "36": "4",
+    "360": "glo",
+    "361": "ically",
+    "362": "ics",
+    "363": "ict",
+    "364": "including",
+    "365": "la",
+    "366": "lan",
+    "367": "lig",
+    "368": "mem",
+    "369": "mer",
+    "37": "2",
+    "370": "niqu",
+    "371": "now",
+    "372": "om",
+    "373": "one",
+    "374": "ous",
+    "375": "part",
+    "376": "pon",
+    "377": "pos",
+    "378": "processing",
+    "379": "read",
+    "38": "5",
+    "380": "respon",
+    "381": "sequ",
+    "382": "sign",
+    "383": "stru",
+    "384": "struct",
+    "385": "techniqu",
+    "386": "their",
+    "387": "thes",
+    "388": "trees",
+    "389": "uses",
+    "39": "(",
+    "390": "vector",
+    "391": "was",
+    "392": "write",
+    "393": "ard",
+    "394": "ase",
+    "395": "ass",
+    "396": "bal",
+    "397": "bre",
+    "398": "ced",
+    "399": "ciph",
+    "4": "k",
+    "40": "'",
+    "400": "cl",
+    "401": "conf",
+    "402": "consistency",
+    "403": "datab",
+    "404": "dur",
+    "405": "global",
+    "406": "gre",
+    "407": "guage",
+    "408": "ici",
+    "409": "ilar",
+    "41": "#",
+    "410": "include",
+    "411": "information",
+    "412": "itive",
+    "413": "ivacy",
+    "414": "ized",
+    "415": "ken",
+    "416": "key",
+    "417": "know",
+    "418": "language",
+    "419": "making",
+    "42": "m",
+    "420": "many",
+    "421": "may",
+    "422": "ment",
+    "423": "metho",
+    "424": "modern",
+    "425": "mul",
+    "426": "multi",
+    "427": "num",
+    "428": "ore",
+    "429": "pe",
+    "43": "u",
+    "430": "port",
+    "431": "privacy",
+    "432": "prov",
+    "433": "ran",
+    "434": "righ",
+    "435": "similar",
+    "436": "sing",
+    "437": "space",
+    "438": "structure",
+    "439": "these",
+    "44": "b",
+    "440": "they",
+    "441": "ular",
+    "442": "where",
+    "443": "without",
+    "444": "ysis",
+    "445": "20",
+    "446": "ailability",
+    "447": "ally",
+    "448": "alu",
+    "449": "analysis",
+    "45": "g",
+    "450": "apt",
+    "451": "aro",
+    "452": "around",
+    "453": "art",
+    "454": "availability",
+    "455": "bed",
+    "456": "bedding",
+    "457": "call",
+    "458": "choice",
+    "459": "cial",
+    "46": "3",
+    "460": "cient",
+    "461": "comple",
+    "462": "complex",
+    "463": "contin",
+    "464": "continu",
+    "465": "disk",
+    "466": "dist",
+    "467": "distri",
+    "468": "effect",
+    "469": "emant",
+    "47": "j",
+    "470": "embedding",
+    "471": "ential",
+    "472": "ess",
+    "473": "est",
+    "474": "fa",
+    "475": "frequ",
+    "476": "have",
+    "477": "how",
+    "478": "hum",
+    "479": "human",
+    "48": "—",
+    "480": "ill",
+    "481": "ins",
+    "482": "ised",
+    "483": "ivid",
+    "484": "level",
+    "485": "life",
+    "486": "maint",
+    "487": "memory",
+    "488": "methods",
+    "489": "models",
+    "49": "r",
+    "490": "mu",
+    "491": "multiple",
+    "492": "nat",
+    "493": "number",
+    "494": "patho",
+    "495": "pathog",
+    "496": "perform",
+    "497": "pers",
+    "498": "perv",
+    "499": "pervised",
+    "5": "0",
+    "50": "-",
+    "500": "present",
+    "501": "replication",
+    "502": "require",
+    "503": "restr",
+    "504": "ross",
+    "505": "semant",
+    "506": "solar",
+    "507": "supervised",
+    "508": "te",
+    "509": "techniques",
+    "51": "in",
+    "510": "under",
+    "511": "ures",
+    "512": "ution",
+    "513": "vent",
+    "514": "vo",
+    "515": "words",
+    "516": "acc",
+    "517": "ack",
+    "518": "action",
+    "519": "af",
+    "52": "re",
+    "520": "algorithm",
+    "521": "ality",
+    "522": "ame",
+    "523": "artific",
+    "524": "artificial",
+    "525": "ated",
+    "526": "ateg",
+    "527": "ategies",
+    "528": "ating",
+    "529": "atures",
+    "53": "th",
+    "530": "au",
+    "531": "bec",
+    "532": "betw",
+    "533": "betwe",
+    "534": "between",
+    "535": "bi",
+    "536": "ble",
+    "537": "bod",
+    "538": "brea",
+    "539": "buted",
+    "54": "on",
+    "540": "cal",
+    "541": "called",
+    "542": "chan",
+    "543": "cipher",
+    "544": "comput",
+    "545": "consens",
+    "546": "consensus",
+    "547": "ction",
+    "548": "current",
+    "549": "db",
+    "55": "at",
+    "550": "distributed",
+    "551": "document",
+    "552": "during",
+    "553": "effici",
+    "554": "ell",
+    "555": "ellig",
+    "556": "elligence",
+    "557": "embeddings",
+    "558": "ense",
+    "559": "ep",
+    "56": "an",
+    "560": "eries",
+    "561": "ering",
+    "562": "ext",
+    "563": "fication",
+    "564": "fil",
+    "565": "files",
+    "566": "ger",
+    "567": "ges",
+    "568": "group",
+    "569": "ia",
+    "57": "en",
+    "570": "ices",
+    "571": "ide",
+    "572": "ieval",
+    "573": "immunity",
+    "574": "individ",
+    "575": "individual",
+    "576": "intelligence",
+    "577": "inter",
+    "578": "ite",
+    "579": "itions",
+    "58": "er",
+    "580": "itt",
+    "581": "itution",
+    "582": "ives",
+    "583": "lic",
+    "584": "lification",
+    "585": "logy",
+    "586": "lution",
+    "587": "mach",
+    "588": "med",
+    "589": "ments",
+    "59": "es",
+    "590": "mmar",
+    "591": "more",
+    "592": "must",
+    "593": "natural",
+    "594": "neural",
+    "595": "often",
+    "596": "oid",
+    "597": "onal",
+    "598": "opt",
+    "599": "ord",
+    "6": "9",
+    "60": "or",
+    "600": "ors",
+    "601": "performance",
+    "602": "personal",
+    "603": "plification",
+    "604": "protec",
+    "605": "pt",
+    "606": "quant",
+    "607": "redu",
+    "608": "regul",
+    "609": "retr",
+    "61": "al",
+    "610": "semantic",
+    "611": "sequential",
+    "612": "single",
+    "613": "sion",
+    "614": "stitution",
+    "615": "strategies",
+    "616": "substitution",
+    "617": "summar",
+    "618": "tect",
+    "619": "ter",
+    "62": "st",
+    "620": "vacc",
+    "621": "when",
+    "622": "wind",
+    "623": "works",
+    "624": "ables",
+    "625": "across",
+    "626": "active",
+    "627": "adapt",
+    "628": "adaptive",
+    "629": "aff",
+    "63": "ion",
+    "630": "alleng",
+    "631": "allenges",
+    "632": "allow",
+    "633": "ament",
+    "634": "amplification",
+    "635": "appli",
+    "636": "approach",
+    "637": "ary",
+    "638": "aterrestr",
+    "639": "aterrestrial",
+    "64": "the",
+    "640": "atic",
+    "641": "ational",
+    "642": "auto",
+    "643": "ay",
+    "644": "batt",
+    "645": "been",
+    "646": "bio",
+    "647": "body",
+    "648": "cap",
+    "649": "challenges",
+    "65": "ing",
+    "650": "chr",
+    "651": "chron",
+    "652": "chronous",
+    "653": "class",
+    "654": "cog",
+    "655": "cogn",
+    "656": "collec",
+    "657": "comb",
+    "658": "comm",
+    "659": "commun",
+    "66": "ar",
+    "660": "compaction",
+    "661": "continues",
+    "662": "cost",
+    "663": "cre",
+    "664": "database",
+    "665": "dates",
+    "666": "decisions",
+    "667": "deep",
+    "668": "dep",
+    "669": "detect",
+    "67": "ed",
+    "670": "dpr",
+    "671": "eld",
+    "672": "elec",
+    "673": "electr",
+    "674": "elp",
+    "675": "ences",
+    "676": "end",
+    "677": "entual",
+    "678": "erv",
+    "679": "eventual",
+    "68": "ic",
+    "680": "every",
+    "681": "exist",
+    "682": "extraterrestrial",
+    "683": "field",
+    "684": "fir",
+    "685": "first",
+    "686": "frequency",
+    "687": "fund",
+    "688": "fundament",
+    "689": "gdpr",
+    "69": "it",
+    "690": "ged",
+    "691": "generate",
+    "692": "gh",
+    "693": "green",
+    "694": "help",
+    "695": "high",
+    "696": "idely",
+    "697": "iff",
+    "698": "ification",
+    "699": "ili",
+    "7": ";",
+    "70": "and",
+    "700": "ily",
+    "701": "ination",
+    "702": "inci",
+    "703": "india",
+    "704": "individuals",
+    "705": "influ",
+    "706": "inn",
+    "707": "innate",
+    "708": "into",
+    "709": "ise",
+    "71": "to",
+    "710": "istics",
+    "711": "iter",
+    "712": "ities",
+    "713": "ize",
+    "714": "kenization",
+    "715": "known",
+    "716": "lab",
+    "717": "large",
+    "718": "law",
+    "719": "ld",
+    "72": "ro",
+    "720": "lead",
+    "721": "lect",
+    "722": "locks",
+    "723": "logical",
+    "724": "lsm",
+    "725": "machine",
+    "726": "main",
+    "727": "make",
+    "728": "mos",
+    "729": "nchronous",
+    "73": "is",
+    "730": "networks",
+    "731": "nt",
+    "732": "ond",
+    "733": "oper",
+    "734": "org",
+    "735": "os",
+    "736": "pathogens",
+    "737": "ples",
+    "738": "pred",
+    "739": "prevent",
+    "74": "le",
+    "740": "princi",
+    "741": "produ",
+    "742": "protection",
+    "743": "quantum",
+    "744": "regulation",
+    "745": "response",
+    "746": "retrieval",
+    "747": "right",
+    "748": "rou",
+    "749": "rough",
+    "75": "ent",
+    "750": "sec",
+    "751": "sent",
+    "752": "sh",
+    "753": "social",
+    "754": "spec",
+    "755": "stand",
+    "756": "stat",
+    "757": "stron",
+    "758": "sun",
+    "759": "sup",
+    "76": "ac",
+    "760": "techno",
+    "761": "tem",
+    "762": "text",
+    "763": "than",
+    "764": "through",
+    "765": "tim",
+    "766": "tokenization",
+    "767": "training",
+    "768": "tree",
+    "769": "tur",
+    "77": "as",
+    "770": "typ",
+    "771": "valu",
+    "772": "vance",
+    "773": "vers",
+    "774": "war",
+    "775": "wer",
+    "776": "widely",
+    "777": "world",
+    "778": "abet",
+    "779": "access",
+    "78": "el",
+    "780": "acent",
+    "781": "activ",
+    "782": "advance",
+    "783": "affect",
+    "784": "ained",
+    "785": "alph",
+    "786": "als",
+    "787": "ancient",
+    "788": "anization",
+    "789": "anizations",
+    "79": "ec",
+    "790": "ann",
+    "791": "ante",
+    "792": "approx",
+    "793": "approxim",
+    "794": "arante",
+    "795": "arb",
+    "796": "ash",
+    "797": "ately",
+    "798": "ative",
+    "799": "atmos",
+    "8": "é",
+    "80": "of",
+    "800": "atmosph",
+    "801": "attern",
+    "802": "ause",
+    "803": "avoid",
+    "804": "bar",
+    "805": "batteries",
+    "806": "because",
+    "807": "bey",
+    "808": "beyond",
+    "809": "biases",
+    "81": "ation",
+    "810": "breaking",
+    "811": "caes",
+    "812": "caesar",
+    "813": "cali",
+    "814": "califor",
+    "815": "californi",
+    "816": "california",
+    "817": "caus",
+    "818": "cc",
+    "819": "cean",
+    "82": "co",
+    "820": "centur",
+    "821": "change",
+    "822": "cience",
+    "823": "cies",
+    "824": "civ",
+    "825": "civili",
+    "826": "civiliz",
+    "827": "civilizations",
+    "828": "cognitive",
+    "829": "collect",
+    "83": "em",
+    "830": "collections",
+    "831": "common",
+    "832": "compon",
+    "833": "component",
+    "834": "computers",
+    "835": "confir",
+    "836": "consistent",
+    "837": "contro",
+    "838": "control",
+    "839": "cop",
+    "84": "for",
+    "840": "core",
+    "841": "cover",
+    "842": "crash",
+    "843": "create",
+    "844": "cri",
+    "845": "databases",
+    "846": "day",
+    "847": "dense",
+    "848": "design",
+    "849": "designed",
+    "85": "un",
+    "850": "desp",
+    "851": "despite",
+    "852": "developing",
+    "853": "dig",
+    "854": "digit",
+    "855": "digital",
+    "856": "dise",
+    "857": "documents",
+    "858": "earth",
+    "859": "electric",
+    "86": "im",
+    "860": "electricity",
+    "861": "eles",
+    "862": "encies",
+    "863": "ension",
+    "864": "erance",
+    "865": "erent",
+    "866": "ery",
+    "867": "eu",
+    "868": "euro",
+    "869": "even",
+    "87": "us",
+    "870": "events",
+    "871": "expl",
+    "872": "extractive",
+    "873": "face",
+    "874": "find",
+    "875": "fo",
+    "876": "fore",
+    "877": "fra",
+    "878": "frame",
+    "879": "ful",
+    "88": "ab",
+    "880": "fun",
+    "881": "fundamentally",
+    "882": "gain",
+    "883": "gether",
+    "884": "go",
+    "885": "greenho",
+    "886": "greenhouse",
+    "887": "grid",
+    "888": "guarante",
+    "889": "hash",
+    "89": "li",
+    "890": "heav",
+    "891": "hist",
+    "892": "ht",
+    "893": "hy",
+    "894": "icate",
+    "895": "ications",
+    "896": "icting",
+    "897": "ieved",
+    "898": "ile",
+    "899": "imit",
+    "9": "a",
+    "90": "con",
+    "900": "imitation",
+    "901": "import",
+    "902": "important",
+    "903": "improv",
+    "904": "ince",
+    "905": "incre",
+    "906": "inim",
+    "907": "intro",
+    "908": "introdu",
+    "909": "ints",
+    "91": "iv",
+    "910": "iod",
+    "911": "issu",
+    "912": "jud",
+    "913": "kill",
+    "914": "lam",
+    "915": "lat",
+    "916": "laws",
+    "917": "lerance",
+    "918": "less",
+    "919": "light",
+    "92": "lo",
+    "920": "limitation",
+    "921": "loss",
+    "922": "lt",
+    "923": "maintaining",
+    "924": "man",
+    "925": "mathe",
+    "926": "mathemat",
+    "927": "mean",
+    "928": "metr",
+    "929": "metrics",
+    "93": "pro",
+    "930": "minim",
+    "931": "need",
+    "932": "network",
+    "933": "not",
+    "934": "nud",
+    "935": "nudge",
+    "936": "ocean",
+    "937": "off",
+    "938": "ople",
+    "939": "options",
+    "94": "ch",
+    "940": "organizations",
+    "941": "orted",
+    "942": "other",
+    "943": "pattern",
+    "944": "people",
+    "945": "peratures",
+    "946": "period",
+    "947": "post",
+    "948": "power",
+    "949": "prim",
+    "95": "dat",
+    "950": "prob",
+    "951": "produce",
+    "952": "provid",
+    "953": "pur",
+    "954": "query",
+    "955": "ranking",
+    "956": "rec",
+    "957": "regres",
+    "958": "regression",
+    "959": "rele",
+    "96": "il",
+    "960": "represent",
+    "961": "requirements",
+    "962": "research",
+    "963": "rights",
+    "964": "ris",
+    "965": "same",
+    "966": "science",
+    "967": "scient",
+    "968": "sea",
+    "969": "see",
+    "97": "tion",
+    "970": "simple",
+    "971": "since",
+    "972": "size",
+    "973": "sk",
+    "974": "sorted",
+    "975": "suit",
+    "976": "summarization",
+    "977": "sures",
+    "978": "systematic",
+    "979": "tas",
+    "98": "qu",
+    "980": "teles",
+    "981": "temperatures",
+    "982": "them",
+    "983": "theore",
+    "984": "theory",
+    "985": "thin",
+    "986": "time",
+    "987": "tissu",
+    "988": "together",
+    "989": "tolerance",
+    "99": "se",
+    "990": "too",
+    "991": "transform",
+    "992": "tter",
+    "993": "two",
+    "994": "ult",
+    "995": "understand",
+    "996": "units",
+    "997": "unt",
+    "998": "vaccines",
+    "999": "ve"
+  },
+  "next_id": 1464,
+  "config": {
+    "num_merges": 8000,
+    "min_frequency": 2
+  }
+}
