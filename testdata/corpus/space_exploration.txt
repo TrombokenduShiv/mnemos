@@ -1,0 +1,13 @@
+Space Exploration and the Search for Life
+
+The search for extraterrestrial life is one of the most compelling questions in science. Modern space exploration combines robotic missions, space telescopes, and laboratory analysis to investigate whether life exists beyond Earth.
+
+Mars has been a primary target for astrobiology. The Perseverance rover, which landed in Jezero Crater in 2021, is collecting rock samples that may contain signs of ancient microbial life. The crater was once a lake, making it a promising location for preserved biosignatures.
+
+Europa, one of Jupiter's moons, harbors a global ocean beneath its icy surface. The tidal heating from Jupiter's gravity keeps this ocean liquid and may create conditions similar to deep-sea hydrothermal vents on Earth, where life thrives without sunlight.
+
+The James Webb Space Telescope has opened new possibilities for studying exoplanet atmospheres. By analyzing the light that passes through a planet's atmosphere during transit, scientists can detect molecules like water vapor, carbon dioxide, and methane that might indicate habitability or biological activity.
+
+The Drake equation provides a framework for estimating the number of communicative civilizations in our galaxy, but many of its parameters remain highly uncertain. The Fermi paradox — the apparent contradiction between the high probability of extraterrestrial civilizations and the lack of evidence for them — continues to generate debate among scientists and philosophers.
+
+SETI, the Search for Extraterrestrial Intelligence, uses radio telescopes and optical instruments to scan the sky for signals that might indicate technological civilizations. Despite decades of searching, no confirmed extraterrestrial signal has been detected, but the search continues with ever more sensitive instruments.
